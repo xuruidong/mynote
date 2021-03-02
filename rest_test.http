@@ -1,0 +1,43 @@
+POST http://10.0.110.34:10250
+content-type: application/json
+
+{
+    "cmdId": "1",
+	"cmd": "cmd.run",
+	"args":[ "ls"],
+	"minions": ["10.0.110.34"],
+    "reportUrl": "http://172.16.3.16:8080"
+}
+###
+POST http://10.0.110.34:10250
+content-type: application/json
+
+{
+    "cmdId": "1",
+	"cmd":   "send_file",
+	"src" :  "http://172.16.3.16:8000/udp_sender.go",
+ 	"dest" : "/home/xurd/udp_sender.go",
+	"minions": ["10.0.110.34"],
+    "reportUrl": "http://172.16.3.16:8080",
+    "autorun":"/usr/bin/who"
+}
+
+###
+POST http://10.0.110.34:10250
+content-type: application/json
+
+{
+    "cmdId": "12",
+	"cmd":   "runcmds",
+	"args": [
+		{
+			"fun": "salt_fun",
+			"arg": [],
+			"timeout":10
+		}
+	],
+	"minions": ["10.0.110.34"],
+	"reportType": "async",
+    "reportUrl": "http://172.16.3.16:8080",
+    
+}
