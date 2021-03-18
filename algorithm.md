@@ -19,13 +19,18 @@
 [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
 
 
+### 辅助栈、队列
+[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
 
+### 二分
+排序的数组，或者部分有序
 
 
 
 ---
 
 ## 链表
+注意边界，空，单节点， 尾部  
 快慢指针
 
 ### 单向链表
@@ -74,4 +79,126 @@ HASH表解法: 两种方法
 #### 爬楼梯问题
 无法暴力求解  
 递归：
-动态规划：
+动态规划：  
+
+----
+
+[自顶向下的编程方式](https://markhneedham.com/blog/2008/09/15/clean-code-book-review/)
+[自顶向下编程的 LeetCode 例题](https://leetcode-cn.com/problems/valid-palindrome/)
+栈，双指针
+
+
+## 第03课丨01数组、链表、跳表的基本实现和特性  
+[Linked List 的标准实现代码](https://www.geeksforgeeks.org/implementing-a-linked-list-in-java-using-class/)  
+[LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)  
+[跳跃表、为啥 Redis 使用跳表（Skip List）而不是使用 Red-Black？](https://www.zhihu.com/question/20202931)  
+
+两数之和题目： https://leetcode-cn.com/problems/two-sum/
+Array 实战题目
+    • https://leetcode-cn.com/problems/container-with-most-water/
+    • https://leetcode-cn.com/problems/move-zeroes/
+    • https://leetcode.com/problems/climbing-stairs/
+    • https://leetcode-cn.com/problems/3sum/ (高频老题）
+Linked List 实战题目
+    • https://leetcode.com/problems/reverse-linked-list/
+* [两两交换链表中的节点](https://leetcode.com/problems/swap-nodes-in-pairs)  递归、迭代  
+* [环形链表](https://leetcode.com/problems/linked-list-cycle)  
+* [环形链表2](https://leetcode.com/problems/linked-list-cycle-ii)  
+    你是否可以使用 O(1) 空间解决此题？  
+    两种方法 
+    • https://leetcode.com/problems/reverse-nodes-in-k-group/
+课后作业
+    • https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+    • https://leetcode-cn.com/problems/rotate-array/
+    • https://leetcode-cn.com/problems/merge-two-sorted-lists/
+    • https://leetcode-cn.com/problems/merge-sorted-array/
+    • https://leetcode-cn.com/problems/two-sum/
+    • https://leetcode-cn.com/problems/move-zeroes/
+    • https://leetcode-cn.com/problems/plus-one/
+
+
+## 第04课丨01栈和队列的实现与特性
+    • [Java 的 PriorityQueue 文档](https://docs.oracle.com/javase/10/docs/api/java/util/PriorityQueue.html)
+    • [Java 的 Stack 源码](http://developer.classpath.org/doc/java/util/Stack-source.html)
+    • [Java 的 Queue 源码](http://fuseyism.com/classpath/doc/java/util/Queue-source.html)
+    • [Python 的 heapq](http://docs.python.org/2/library/heapq.html)
+    • [高性能的 container 库](http://docs.python.org/2/library/collections.html)
+
+
+预习题目
+    • https://leetcode-cn.com/problems/valid-parentheses/
+    • https://leetcode-cn.com/problems/min-stack/
+实战题目
+    • https://leetcode-cn.com/problems/largest-rectangle-in-histogram
+    • https://leetcode-cn.com/problems/sliding-window-maximum
+课后作业
+    • 用 add first 或 add last 这套新的 API 改写 Deque 的代码
+    • 分析 Queue 和 Priority Queue 的源码
+    • https://leetcode.com/problems/design-circular-deque
+    • https://leetcode.com/problems/trapping-rain-water/
+
+第05课丨01哈希表、映射、集合的实现与特性
+实战题目 / 课后作业
+    • https://leetcode-cn.com/problems/valid-anagram/description/
+    • https://leetcode-cn.com/problems/group-anagrams/
+    • https://leetcode-cn.com/problems/two-sum/description/
+参考链接
+    • [养成收藏精选代码的习惯（示例）](http://shimo.im/docs/R6g9WJV89QkHrDhr)
+
+
+第06课丨01树、二叉树、二叉搜索树的实现和特性
+[二叉搜索树 Demo](https://visualgo.net/zh/bst?slide=1) 
+
+实战题目 / 课后作业
+    • https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+    • https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+    • https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
+    • https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/
+    • https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
+
+
+第07课丨01递归的实现、特性以及思维要点  
+[递归代码模板](https://shimo.im/docs/DjqqGCT3xqDYwPyY/read)  
+
+实战题目
+    • https://leetcode-cn.com/problems/climbing-stairs/
+    • https://leetcode-cn.com/problems/generate-parentheses/
+    • https://leetcode-cn.com/problems/invert-binary-tree/description/
+    • https://leetcode-cn.com/problems/validate-binary-search-tree
+    • https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
+    • https://leetcode-cn.com/problems/minimum-depth-of-binary-tree
+    • https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
+每日一课
+    • [如何优雅地计算斐波那契数列](https://time.geekbang.org/dailylesson/detail/100028406)
+课后作业
+    • https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
+    • https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
+    • https://leetcode-cn.com/problems/combinations/
+    • https://leetcode-cn.com/problems/permutations/
+    • https://leetcode-cn.com/problems/permutations-ii/
+
+
+```
+#include <ctype.h>
+
+       int isalnum(int c);
+       int isalpha(int c);
+       int isascii(int c);
+       int isblank(int c);
+       int iscntrl(int c);
+       int isdigit(int c);
+       int isgraph(int c);
+       int islower(int c);
+       int isprint(int c);
+       int ispunct(int c);
+       int isspace(int c);
+       int isupper(int c);
+       int isxdigit(int c);
+```
+
+```
+#include <ctype.h>
+
+       int toupper(int c);
+       int tolower(int c);
+```
