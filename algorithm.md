@@ -1,9 +1,9 @@
 
-# 数组、链表、跳表的基本实现和特征
+# 数组、链表、跳表
 
 ## 数组降龙十八掌
 
-哈希表法，双指针法
+哈希表法，双指针法，单调栈， 单调队列
 ### 哈希表法
 [两数之和](https://leetcode-cn.com/problems/two-sum/)
 
@@ -24,6 +24,12 @@
 
 ### 二分
 排序的数组，或者部分有序
+
+
+### 单调栈， 单调队列
+[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
+
+### 滑动窗口
 
 
 
@@ -108,13 +114,14 @@ Linked List 实战题目
     两种方法 
     • https://leetcode.com/problems/reverse-nodes-in-k-group/
 课后作业
-    • https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+* [删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)  
     • https://leetcode-cn.com/problems/rotate-array/
     • https://leetcode-cn.com/problems/merge-two-sorted-lists/
+    边界， [] [1], [1] [], [] []  
     • https://leetcode-cn.com/problems/merge-sorted-array/
     • https://leetcode-cn.com/problems/two-sum/
     • https://leetcode-cn.com/problems/move-zeroes/
-    • https://leetcode-cn.com/problems/plus-one/
+* [plus-one](https://leetcode-cn.com/problems/plus-one/)
 
 
 ## 第04课丨01栈和队列的实现与特性
@@ -142,16 +149,16 @@ Linked List 实战题目
     • https://leetcode-cn.com/problems/valid-anagram/description/
     • https://leetcode-cn.com/problems/group-anagrams/
     • https://leetcode-cn.com/problems/two-sum/description/
-参考链接
+参考链接  
     • [养成收藏精选代码的习惯（示例）](http://shimo.im/docs/R6g9WJV89QkHrDhr)
 
 
 第06课丨01树、二叉树、二叉搜索树的实现和特性
 [二叉搜索树 Demo](https://visualgo.net/zh/bst?slide=1) 
 
-实战题目 / 课后作业
-    • https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
-    • https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+实战题目 / 课后作业  
+*[二叉树中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)  
+*[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)  
     • https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
     • https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/
     • https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
@@ -202,3 +209,6 @@ Linked List 实战题目
        int toupper(int c);
        int tolower(int c);
 ```
+
+## C++ 常用算法
+[C++ 常用算法](http://c.biancheng.net/stl/algorithms/)  

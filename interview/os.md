@@ -13,18 +13,29 @@
 （2）当进程遇到阻塞时，例如等待输入，线程能够使不依赖输入数据的工作继续执行
 （3）可以有效地利用多处理器和多核计算机，在没有线程之前，多核并不能让一个进程的执行速度提高
 
-2. 进程的资源、线程的资源
+2. 进程的资源、线程的资源  
 
 
 
-3. __thread 关键字
+3. __thread 关键字  
 [参考链接]()  
 
-4. Linux accept()/epoll_wait()惊群
-[参考链接](https://blog.csdn.net/adkada1/article/details/54583213)
+4. Linux accept()/epoll_wait()惊群  
+[参考链接](https://blog.csdn.net/adkada1/article/details/54583213)  
 场景一：epoll_create()在fork子进程之前  
 场景二：epoll_create()在fork子进程之后  
 利用SO_REUSEPORT解决epoll的惊群问题  
 
 [accept 与 epoll 惊群](https://rocfang.gitbooks.io/dev-notes/content/acceptyu_epoll_liang_qun.html)  
 [RocFang的编程笔记](https://rocfang.gitbooks.io/dev-notes/content/index.html)  
+
+5. 多线程怎么同步，多线程竞争怎么解决
+   C++线程同步的四种方式：互斥锁，条件变量，读写锁，信号量
+
+6. 进程通信
+   |通信方法|无法介于内核态与用户态的原因|
+   |-|-|
+   |管道（不包括命名管道）|局限于父子进程间的通信|
+   |消息队列|在硬、软中断中无法阻塞地接收数据|
+   |信号量|无法介于内核态和用户态使用|
+   |共享内存|需要信号量辅助，而信号量又无法使用|
