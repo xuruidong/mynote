@@ -69,6 +69,10 @@ Redis 中使用了跳表。
 最优解法
 
 
+### 快慢指针+保留逻辑
+[删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)  
+[删除有序数组中的重复项2](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)  
+
 ### 头尾指针，左右边界
 #### 盛水最多的容器
 暴力解法
@@ -169,8 +173,8 @@ Linked List 实战题目
 
 实战题目
     • https://leetcode-cn.com/problems/climbing-stairs/
-    • https://leetcode-cn.com/problems/generate-parentheses/
-    • https://leetcode-cn.com/problems/invert-binary-tree/description/
+* [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)  
+* [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/description/)  
     • https://leetcode-cn.com/problems/validate-binary-search-tree
     • https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
     • https://leetcode-cn.com/problems/minimum-depth-of-binary-tree
