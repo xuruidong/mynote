@@ -216,3 +216,8 @@ Linked List 实战题目
 
 ## C++ 常用算法
 [C++ 常用算法](http://c.biancheng.net/stl/algorithms/)  
+[C++：std::greater()、std::less()、自定义比较函数的规则](https://blog.csdn.net/sandalphon4869/article/details/105419706)  
+
+
+## 动态规划
+[漫画：什么是动态规划？](https://zhuanlan.zhihu.com/p/31628866)  
