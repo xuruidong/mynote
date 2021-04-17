@@ -101,6 +101,7 @@ HASH表解法: 两种方法
 ## 第03课丨01数组、链表、跳表的基本实现和特性  
 [Linked List 的标准实现代码](https://www.geeksforgeeks.org/implementing-a-linked-list-in-java-using-class/)  
 [LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)  
+[redis skiplist](https://redisbook.readthedocs.io/en/latest/internal-datastruct/skiplist.html)  
 [跳跃表、为啥 Redis 使用跳表（Skip List）而不是使用 Red-Black？](https://www.zhihu.com/question/20202931)  
 
 两数之和题目： https://leetcode-cn.com/problems/two-sum/
