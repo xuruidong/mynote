@@ -267,3 +267,8 @@ Linked List 实战题目
 
 ## 动态规划
 [漫画：什么是动态规划？](https://zhuanlan.zhihu.com/p/31628866)  
+
+
+## 二维前缀和
+https://leetcode-cn.com/problems/range-sum-query-2d-immutable/    
+https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/  
