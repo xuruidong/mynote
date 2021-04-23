@@ -10,3 +10,8 @@ socket 绑定 网卡
 socekt 设置缓冲区大小  
 
 
+
+memalign 指定地址对齐的内存申请函数
+
+
+
