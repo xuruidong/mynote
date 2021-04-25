@@ -31,7 +31,73 @@ static TreeNode *recur(TreeNode* root, TreeNode** head)
 
 TreeNode* increasingBST(TreeNode* root)
 {
-    TreeNode **ret = nullptr;
-    recur(root, ret);
-    return *ret;
+    TreeNode *head = nullptr;
+    TreeNode *tail = nullptr;
+    TreeNode *cur = root;
+    if(!cur) {
+        return cur;
+    }
+    std::stack<TreeNode *> stk;
+    std::vector<TreeNode *> v;
+    while(cur || !stk.empty()) {
+        if(cur) {
+            stk.push(cur);
+            cur = cur->left;
+        } else {
+            cur = stk.top();
+            v.push_back(cur);
+            /*
+            if(!head) {
+                head = cur;
+            } else {
+                tail->right = cur;
+            }
+            tail = cur;
+            */
+            stk.pop();
+            cur = cur->right;
+        }
+    }
+    head = v[0];
+    tail = v[0];
+    for(int i=1; i<v.size(); ++i) {
+        tail->right = v[i];
+        tail->left = nullptr;
+        tail = v[i];
+    }
+    tail->right = nullptr;
+    tail->left = nullptr;
+
+    return head;
+}
+
+TreeNode* increasingBST2(TreeNode* root)
+{
+    TreeNode *head = nullptr;
+    TreeNode *tail = nullptr;
+    TreeNode *cur = root;
+    if(!cur) {
+        return cur;
+    }
+    std::stack<TreeNode *> stk;
+    while(cur || !stk.empty()) {
+        if(cur) {
+            stk.push(cur);
+            cur = cur->left;
+        } else {
+            cur = stk.top();
+            if(!head) {
+                head = cur;
+            } else {
+                tail->right = cur;
+            }
+            tail = cur;
+            tail->left = nullptr;
+            stk.pop();
+            cur = cur->right;
+        }
+    }
+    tail->right = nullptr;
+
+    return head;
 }
