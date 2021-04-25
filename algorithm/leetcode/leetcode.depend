@@ -1,0 +1,265 @@
+# depslib dependency file v1.0
+1619145372 source:f:\xrd\c_cpp\test\leetcode\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<unordered_set>
+	"Solution.h"
+	"c208_Trie.h"
+	"utils.h"
+	"c368_largestDivisibleSubset.h"
+	<unordered_map>
+
+1617860931 source:f:\xrd\c_cpp\test\leetcode\src\c33_search.cpp
+	"Solution.h"
+
+1618196058 f:\xrd\c_cpp\test\leetcode\include\solution.h
+	<string>
+	<vector>
+
+1618381805 source:f:\xrd\c_cpp\test\leetcode\src\solution.cpp
+	"Solution.h"
+	<string>
+	<queue>
+	<iostream>
+
+1617861603 source:f:\xrd\c_cpp\test\leetcode\src\c22_generateparenthesis.cpp
+	"Solution.h"
+
+1618387986 source:f:\xrd\c_cpp\test\leetcode\src\c208_trie.cpp
+	"c208_Trie.h"
+	<iostream>
+
+1618386043 f:\xrd\c_cpp\test\leetcode\include\c208_trie.h
+	<string>
+
+1618799640 source:f:\xrd\c_cpp\test\leetcode\src\c783_mindiffinbst.cpp
+	"c783_minDiffInBST.h"
+
+1618389470 f:\xrd\c_cpp\test\leetcode\include\c783_mindiffinbst.h
+
+1618482421 source:f:\xrd\c_cpp\test\leetcode\src\c213_rob.cpp
+	"c213_rob.h"
+
+1618799766 f:\xrd\c_cpp\test\leetcode\include\c213_rob.h
+	<vector>
+
+1618799984 source:f:\xrd\c_cpp\test\leetcode\src\c198_rob.cpp
+	"c198_rob.h"
+	"common.h"
+
+1618799669 f:\xrd\c_cpp\test\leetcode\include\c198_rob.h
+	<vector>
+
+1619142712 f:\xrd\c_cpp\test\leetcode\include\common.h
+	<vector>
+	<string>
+	<set>
+	<unordered_set>
+	<iostream>
+	<algorithm>
+	"limits.h"
+
+1618799442 source:f:\xrd\c_cpp\test\leetcode\src\c27_removeelement.cpp
+	"c27_removeElement.h"
+
+1618800011 f:\xrd\c_cpp\test\leetcode\include\c27_removeelement.h
+	"common.h"
+
+1618799904 source:f:\xrd\c_cpp\test\leetcode\src\c87_isscramble.cpp
+	"c87_isScramble.h"
+	"common.h"
+
+1618800056 f:\xrd\c_cpp\test\leetcode\include\c87_isscramble.h
+	"common.h"
+
+1619142605 source:f:\xrd\c_cpp\test\leetcode\src\utils.cpp
+	"utils.h"
+	<random>
+	<iostream>
+
+1618799443 f:\xrd\c_cpp\test\leetcode\include\utils.h
+	<vector>
+
+1618885592 source:f:\xrd\c_cpp\test\leetcode\src\c28_strstr.cpp
+	"c28_strstr.h"
+
+1618885335 f:\xrd\c_cpp\test\leetcode\include\c28_strstr.h
+	"common.h"
+
+1618885721 source:f:\xrd\c_cpp\test\leetcode\src\c121_maxprofit.cpp
+	"c121_maxProfit.h"
+
+1618885395 f:\xrd\c_cpp\test\leetcode\include\c121_maxprofit.h
+	"common.h"
+
+1618885804 source:f:\xrd\c_cpp\test\leetcode\src\c5_longestpalindrome.cpp
+	"c5_longestPalindrome.h"
+
+1618885773 f:\xrd\c_cpp\test\leetcode\include\c5_longestpalindrome.h
+	"common.h"
+
+1619141741 source:f:\xrd\c_cpp\test\leetcode\src\c122_maxprofit.cpp
+	"c122_maxProfit.h"
+
+1619141789 f:\xrd\c_cpp\test\leetcode\include\c122_maxprofit.h
+	"common.h"
+
+1619070735 source:f:\xrd\c_cpp\test\leetcode\src\c363_maxsumsubmatrix.cpp
+	"c363_maxSumSubmatrix.h"
+
+1619141817 f:\xrd\c_cpp\test\leetcode\include\c363_maxsumsubmatrix.h
+	"common.h"
+
+1619144494 source:f:\xrd\c_cpp\test\leetcode\src\c368_largestdivisiblesubset.cpp
+	"c368_largestDivisibleSubset.h"
+
+1619141706 f:\xrd\c_cpp\test\leetcode\include\c368_largestdivisiblesubset.h
+	"common.h"
+
+1619142041 source:f:\xrd\c_cpp\test\leetcode\src\c91_numdecodings.cpp
+	"c91_numDecodings.h"
+
+1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
+	"common.h"
+
+1619145372 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<algorithm>
+	<unordered_set>
+	"Solution.h"
+	"c208_Trie.h"
+	"utils.h"
+	"c368_largestDivisibleSubset.h"
+	<unordered_map>
+
+1618196058 f:\xrd\note\mynote\algorithm\leetcode\include\solution.h
+	<string>
+	<vector>
+
+1618386043 f:\xrd\note\mynote\algorithm\leetcode\include\c208_trie.h
+	<string>
+
+1618799443 f:\xrd\note\mynote\algorithm\leetcode\include\utils.h
+	<vector>
+
+1619141706 f:\xrd\note\mynote\algorithm\leetcode\include\c368_largestdivisiblesubset.h
+	"common.h"
+
+1619313800 f:\xrd\note\mynote\algorithm\leetcode\include\common.h
+	<vector>
+	<string>
+	<set>
+	<unordered_set>
+	<iostream>
+	<algorithm>
+	"limits.h"
+
+1618885721 source:f:\xrd\note\mynote\algorithm\leetcode\src\c121_maxprofit.cpp
+	"c121_maxProfit.h"
+
+1618885395 f:\xrd\note\mynote\algorithm\leetcode\include\c121_maxprofit.h
+	"common.h"
+
+1619141741 source:f:\xrd\note\mynote\algorithm\leetcode\src\c122_maxprofit.cpp
+	"c122_maxProfit.h"
+
+1619141789 f:\xrd\note\mynote\algorithm\leetcode\include\c122_maxprofit.h
+	"common.h"
+
+1618799984 source:f:\xrd\note\mynote\algorithm\leetcode\src\c198_rob.cpp
+	"c198_rob.h"
+	"common.h"
+
+1618799669 f:\xrd\note\mynote\algorithm\leetcode\include\c198_rob.h
+	<vector>
+
+1618387986 source:f:\xrd\note\mynote\algorithm\leetcode\src\c208_trie.cpp
+	"c208_Trie.h"
+	<iostream>
+
+1618482421 source:f:\xrd\note\mynote\algorithm\leetcode\src\c213_rob.cpp
+	"c213_rob.h"
+
+1618799766 f:\xrd\note\mynote\algorithm\leetcode\include\c213_rob.h
+	<vector>
+
+1617861603 source:f:\xrd\note\mynote\algorithm\leetcode\src\c22_generateparenthesis.cpp
+	"Solution.h"
+
+1618799442 source:f:\xrd\note\mynote\algorithm\leetcode\src\c27_removeelement.cpp
+	"c27_removeElement.h"
+
+1618800011 f:\xrd\note\mynote\algorithm\leetcode\include\c27_removeelement.h
+	"common.h"
+
+1618885592 source:f:\xrd\note\mynote\algorithm\leetcode\src\c28_strstr.cpp
+	"c28_strstr.h"
+
+1618885335 f:\xrd\note\mynote\algorithm\leetcode\include\c28_strstr.h
+	"common.h"
+
+1617860931 source:f:\xrd\note\mynote\algorithm\leetcode\src\c33_search.cpp
+	"Solution.h"
+
+1619070735 source:f:\xrd\note\mynote\algorithm\leetcode\src\c363_maxsumsubmatrix.cpp
+	"c363_maxSumSubmatrix.h"
+
+1619141817 f:\xrd\note\mynote\algorithm\leetcode\include\c363_maxsumsubmatrix.h
+	"common.h"
+
+1619317156 source:f:\xrd\note\mynote\algorithm\leetcode\src\c368_largestdivisiblesubset.cpp
+	"c368_largestDivisibleSubset.h"
+
+1618885804 source:f:\xrd\note\mynote\algorithm\leetcode\src\c5_longestpalindrome.cpp
+	"c5_longestPalindrome.h"
+
+1618885773 f:\xrd\note\mynote\algorithm\leetcode\include\c5_longestpalindrome.h
+	"common.h"
+
+1618799640 source:f:\xrd\note\mynote\algorithm\leetcode\src\c783_mindiffinbst.cpp
+	"c783_minDiffInBST.h"
+
+1618389470 f:\xrd\note\mynote\algorithm\leetcode\include\c783_mindiffinbst.h
+
+1618799904 source:f:\xrd\note\mynote\algorithm\leetcode\src\c87_isscramble.cpp
+	"c87_isScramble.h"
+	"common.h"
+
+1618800056 f:\xrd\note\mynote\algorithm\leetcode\include\c87_isscramble.h
+	"common.h"
+
+1619142041 source:f:\xrd\note\mynote\algorithm\leetcode\src\c91_numdecodings.cpp
+	"c91_numDecodings.h"
+
+1619141987 f:\xrd\note\mynote\algorithm\leetcode\include\c91_numdecodings.h
+	"common.h"
+
+1618381805 source:f:\xrd\note\mynote\algorithm\leetcode\src\solution.cpp
+	"Solution.h"
+	<string>
+	<queue>
+	<iostream>
+
+1619142605 source:f:\xrd\note\mynote\algorithm\leetcode\src\utils.cpp
+	"utils.h"
+	<random>
+	<iostream>
+
+1619180134 source:f:\xrd\note\mynote\algorithm\leetcode\src\c300_lengthoflis.cpp
+	"c300_lengthOfLIS.h"
+
+1619317056 f:\xrd\note\mynote\algorithm\leetcode\include\c300_lengthoflis.h
+	"common.h"
+
+1619317032 source:f:\xrd\note\mynote\algorithm\leetcode\src\c897_increasingbst.cpp
+	"c897_increasingBST.h"
+
+1619317032 f:\xrd\note\mynote\algorithm\leetcode\include\c897_increasingbst.h
+	"common.h"
+
