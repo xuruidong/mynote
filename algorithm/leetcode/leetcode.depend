@@ -125,7 +125,7 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1619145372 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1619430052 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -151,13 +151,16 @@
 1619141706 f:\xrd\note\mynote\algorithm\leetcode\include\c368_largestdivisiblesubset.h
 	"common.h"
 
-1619313800 f:\xrd\note\mynote\algorithm\leetcode\include\common.h
+1619415570 f:\xrd\note\mynote\algorithm\leetcode\include\common.h
 	<vector>
 	<string>
 	<set>
 	<unordered_set>
+	<stack>
+	<queue>
 	<iostream>
 	<algorithm>
+	<numeric>
 	"limits.h"
 
 1618885721 source:f:\xrd\note\mynote\algorithm\leetcode\src\c121_maxprofit.cpp
@@ -257,9 +260,15 @@
 1619317056 f:\xrd\note\mynote\algorithm\leetcode\include\c300_lengthoflis.h
 	"common.h"
 
-1619317032 source:f:\xrd\note\mynote\algorithm\leetcode\src\c897_increasingbst.cpp
+1619400331 source:f:\xrd\note\mynote\algorithm\leetcode\src\c897_increasingbst.cpp
 	"c897_increasingBST.h"
 
 1619317032 f:\xrd\note\mynote\algorithm\leetcode\include\c897_increasingbst.h
+	"common.h"
+
+1619415625 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1011_shipwithindays.cpp
+	"c1011_shipWithinDays.h"
+
+1619415359 f:\xrd\note\mynote\algorithm\leetcode\include\c1011_shipwithindays.h
 	"common.h"
 

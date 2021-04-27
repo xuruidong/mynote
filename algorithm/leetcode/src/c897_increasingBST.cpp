@@ -101,3 +101,35 @@ TreeNode* increasingBST2(TreeNode* root)
 
     return head;
 }
+
+static void recur2(TreeNode* root, vector<TreeNode*> &store)
+{
+    if(!root) {
+        return ;
+    }
+
+    recur2(root->left, store);
+    store.push_back(root);
+    recur2(root->right, store);
+}
+
+TreeNode* increasingBST3(TreeNode* root)
+{
+    if(!root) {
+        return nullptr;
+    }
+    vector<TreeNode*> v;
+    recur2(root, v);
+
+    TreeNode *head = v[0];
+    TreeNode *tail = v[0];
+    for(int i=1; i<v.size(); ++i) {
+        tail->right = v[i];
+        tail->left = nullptr;
+        tail = v[i];
+    }
+    tail->right = nullptr;
+    tail->left = nullptr;
+
+    return head;
+}

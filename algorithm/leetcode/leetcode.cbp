@@ -35,6 +35,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Solution.h" />
+		<Unit filename="include/c1011_shipWithinDays.h" />
 		<Unit filename="include/c121_maxProfit.h" />
 		<Unit filename="include/c122_maxProfit.h" />
 		<Unit filename="include/c198_rob.h" />
@@ -53,6 +54,7 @@
 		<Unit filename="include/utils.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Solution.cpp" />
+		<Unit filename="src/c1011_shipWithinDays.cpp" />
 		<Unit filename="src/c121_maxProfit.cpp" />
 		<Unit filename="src/c122_maxProfit.cpp" />
 		<Unit filename="src/c198_rob.cpp" />
