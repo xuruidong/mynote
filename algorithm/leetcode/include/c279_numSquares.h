@@ -1,6 +1,7 @@
 #ifndef C279_NUMSQUARES_H
 #define C279_NUMSQUARES_H
 
+#include "common.h"
 
 class c279_numSquares
 {

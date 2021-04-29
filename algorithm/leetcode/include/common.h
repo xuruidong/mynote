@@ -7,10 +7,13 @@
 #include <unordered_set>
 #include <stack>
 #include <queue>
+#include <unordered_map>
 #include <iostream>
 
 #include <algorithm>
 #include <numeric>
+
+#include <math.h>
 
 #include "limits.h"
 
