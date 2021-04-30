@@ -197,6 +197,20 @@ Nginx的这个机制，最显著的就是让文件描述符和需要自定义清
 
 #### 分配一个cleanup结构
 ```
+/**
+ * 分配一个可以用于回调函数清理内存块的内存
+ * 内存块仍旧在p->d或p->large上
+ *
+ * ngx_pool_t中的cleanup字段管理着一个特殊的链表，该链表的每一项都记录着一个特殊的需要释放的资源。
+ * 对于这个链表中每个节点所包含的资源如何去释放，是自说明的。这也就提供了非常大的灵活性。
+ * 意味着，ngx_pool_t不仅仅可以管理内存，通过这个机制，也可以管理任何需要释放的资源，
+ * 例如，关闭文件，或者删除文件等等的。下面我们看一下这个链表每个节点的类型
+ *
+ * 一般分两种情况：
+ * 1. 文件描述符
+ * 2. 外部自定义回调函数可以来清理内存
+ */
+
 ngx_pool_cleanup_t *
 ngx_pool_cleanup_add(ngx_pool_t *p, size_t size)
 {
@@ -225,6 +239,73 @@ ngx_pool_cleanup_add(ngx_pool_t *p, size_t size)
     ngx_log_debug1(NGX_LOG_DEBUG_ALLOC, p->log, 0, "add cleanup: %p", c);
 
     return c;
+}
+
+```
+
+手动清理 p->cleanup链表上的数据：（内存池销毁函数ngx_destroy_pool也会清理p->cleanup）  
+```
+void
+ngx_pool_run_cleanup_file(ngx_pool_t *p, ngx_fd_t fd)
+{
+    ngx_pool_cleanup_t       *c;
+    ngx_pool_cleanup_file_t  *cf;
+
+    for (c = p->cleanup; c; c = c->next) {
+        if (c->handler == ngx_pool_cleanup_file) {
+
+            cf = c->data;
+
+            if (cf->fd == fd) {
+                c->handler(cf);
+                c->handler = NULL;
+                return;
+            }
+        }
+    }
+}
+```
+
+关闭文件的回调函数和删除文件的回调函数。这个是文件句柄通用的回调函数，可以放置在p->cleanup->handler上
+```
+void
+ngx_pool_cleanup_file(void *data)
+{
+    ngx_pool_cleanup_file_t  *c = data;
+
+    ngx_log_debug1(NGX_LOG_DEBUG_ALLOC, c->log, 0, "file cleanup: fd:%d",
+                   c->fd);
+
+    if (ngx_close_file(c->fd) == NGX_FILE_ERROR) {
+        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+                      ngx_close_file_n " \"%s\" failed", c->name);
+    }
+}
+
+
+void
+ngx_pool_delete_file(void *data)
+{
+    ngx_pool_cleanup_file_t  *c = data;
+
+    ngx_err_t  err;
+
+    ngx_log_debug2(NGX_LOG_DEBUG_ALLOC, c->log, 0, "file cleanup: fd:%d %s",
+                   c->fd, c->name);
+
+    if (ngx_delete_file(c->name) == NGX_FILE_ERROR) {
+        err = ngx_errno;
+
+        if (err != NGX_ENOENT) {
+            ngx_log_error(NGX_LOG_CRIT, c->log, err,
+                          ngx_delete_file_n " \"%s\" failed", c->name);
+        }
+    }
+
+    if (ngx_close_file(c->fd) == NGX_FILE_ERROR) {
+        ngx_log_error(NGX_LOG_ALERT, c->log, ngx_errno,
+                      ngx_close_file_n " \"%s\" failed", c->name);
+    }
 }
 
 ```

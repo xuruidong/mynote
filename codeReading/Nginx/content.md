@@ -1,4 +1,5 @@
 # Nginx源码分析
+http://nginx.org/en/docs/
 reference https://blog.csdn.net/initphp/category_9265172.html  
 
 
