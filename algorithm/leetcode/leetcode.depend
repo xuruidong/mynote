@@ -125,7 +125,7 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1619668200 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1619764906 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -137,6 +137,8 @@
 	"utils.h"
 	"c368_largestDivisibleSubset.h"
 	"c403_canCross.h"
+	"c45_jump.h"
+	"c260_singleNumber.h"
 	<unordered_map>
 
 1618196058 f:\xrd\note\mynote\algorithm\leetcode\include\solution.h
@@ -287,7 +289,7 @@
 1619666562 f:\xrd\note\mynote\algorithm\leetcode\include\c633_judgesquaresum.h
 	"common.h"
 
-1619667999 source:f:\xrd\note\mynote\algorithm\leetcode\src\c403_cancross.cpp
+1619679897 source:f:\xrd\note\mynote\algorithm\leetcode\src\c403_cancross.cpp
 	"c403_canCross.h"
 
 1619666523 f:\xrd\note\mynote\algorithm\leetcode\include\c403_cancross.h
@@ -297,5 +299,29 @@
 	"c983_rangeSumBST.h"
 
 1619666752 f:\xrd\note\mynote\algorithm\leetcode\include\c983_rangesumbst.h
+	"common.h"
+
+1619693656 f:\xrd\note\mynote\algorithm\leetcode\include\c45_jump.h
+	"common.h"
+
+1619695841 source:f:\xrd\note\mynote\algorithm\leetcode\src\c45_jump.cpp
+	"c45_jump.h"
+
+1619764016 source:f:\xrd\note\mynote\algorithm\leetcode\src\c136_singlenumber.cpp
+	"c136_singleNumber.h"
+
+1619763999 f:\xrd\note\mynote\algorithm\leetcode\include\c136_singlenumber.h
+	"common.h"
+
+1619764165 source:f:\xrd\note\mynote\algorithm\leetcode\src\c137_singlenumber.cpp
+	"c137_singleNumber.h"
+
+1619764201 f:\xrd\note\mynote\algorithm\leetcode\include\c137_singlenumber.h
+	"common.h"
+
+1619764142 source:f:\xrd\note\mynote\algorithm\leetcode\src\c260_singlenumber.cpp
+	"c260_singleNumber.h"
+
+1619764217 f:\xrd\note\mynote\algorithm\leetcode\include\c260_singlenumber.h
 	"common.h"
 

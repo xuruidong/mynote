@@ -10,6 +10,8 @@
 #include "utils.h"
 #include "c368_largestDivisibleSubset.h"
 #include "c403_canCross.h"
+#include "c45_jump.h"
+#include "c260_singleNumber.h"
 
 using namespace std;
 
@@ -592,6 +594,13 @@ int main()
     c403_canCross c403;
     cout<<c403.canCross(stones)<<endl;
 
+    c45_jump c45;
+    vector<int> jumpv = {2,1,2,3,4,1};
+
+
+    c260_singleNumber c260;
+    vector<int> ret260 = c260.singleNumber(jumpv);
+    u.vector_print(ret260);
    // maptest();
     return 0;
 }
