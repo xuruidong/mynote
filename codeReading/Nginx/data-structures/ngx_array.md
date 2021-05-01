@@ -18,7 +18,7 @@ typedef struct {
 ```
 
 * *elts : 指向数组的第一个元素的指针地址
-* nelts : 未使用的元素的计数器
+* nelts : 已经使用的元素的计数器
 * size : 每个元素的大小，元素大小是固定的
 * nalloc : 一共分配了多少个元素。如果元素不够用，Nginx会数组会进行自动扩容
 * pool : 数组的数据结构ngx_array_t和元素所需要的内存都会分配在pool内存池上
@@ -119,8 +119,57 @@ ngx_array_destroy(ngx_array_t *a)
 }
 ```
 
-### 3. 添加一个元素 ngx_array_push
-
+### 3. 获取一个空余元素空间 ngx_array_push
+获取一个新空间，用来追加元素 
 ```
+void *
+ngx_array_push(ngx_array_t *a)
+{
+    void        *elt, *new;
+    size_t       size;
+    ngx_pool_t  *p;
 
+    if (a->nelts == a->nalloc) {
+
+        /* the array is full */
+
+        size = a->size * a->nalloc;
+
+        p = a->pool;
+
+        if ((u_char *) a->elts + size == p->d.last
+            && p->d.last + a->size <= p->d.end)
+        {
+            /*
+             * the array allocation is the last in the pool
+             * and there is space for new allocation
+             */
+
+            p->d.last += a->size;
+            a->nalloc++;
+
+        } else {
+            /* allocate a new array */
+
+            new = ngx_palloc(p, 2 * size);
+            if (new == NULL) {
+                return NULL;
+            }
+
+            ngx_memcpy(new, a->elts, size);
+            a->elts = new;
+            a->nalloc *= 2;
+        }
+    }
+
+    elt = (u_char *) a->elts + a->size * a->nelts;
+    a->nelts++;
+
+    return elt;
+}
 ```
+先判断array 已满，已使用的元素数是否等于申请的数量。  
+如果满，则扩容。不满，nelts++。  
+扩容时，如果申请的空间是在内存池的最后申请的位置，并且内存池剩余空间大于当前数组空间，则直接扩容。
+
+### 3. 获取多个元素空间 ngx_array_push_n
