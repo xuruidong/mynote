@@ -8,8 +8,8 @@ class utils
     public:
         utils();
         virtual ~utils();
-        int vector_print(std::vector<int> &nums);
-        std::vector<int> generateRandomArray(int maxSize, int maxValue);
+        static int vector_print(std::vector<int> &nums);
+        static std::vector<int> generateRandomArray(int maxSize, int maxValue);
 
     protected:
 

@@ -3,11 +3,14 @@
 #include <cstring>
 #include <vector>
 //#include <string.h>
+#include <ctime>
 #include<algorithm>
 #include <unordered_set>
 #include "Solution.h"
 #include "c208_Trie.h"
 #include "utils.h"
+
+#include "c39_combinationSum.h"
 #include "c368_largestDivisibleSubset.h"
 #include "c403_canCross.h"
 #include "c45_jump.h"
@@ -601,6 +604,10 @@ int main()
     c260_singleNumber c260;
     vector<int> ret260 = c260.singleNumber(jumpv);
     u.vector_print(ret260);
+
+    cout<<"=========="<<endl;
+    c39_combinationSum c39;
+    c39.test();
    // maptest();
     return 0;
 }

@@ -325,3 +325,220 @@
 1619764217 f:\xrd\note\mynote\algorithm\leetcode\include\c260_singlenumber.h
 	"common.h"
 
+1619788346 source:e:\note\mynote\algorithm\leetcode\src\c1011_shipwithindays.cpp
+	"c1011_shipWithinDays.h"
+
+1619788345 e:\note\mynote\algorithm\leetcode\include\c1011_shipwithindays.h
+	"common.h"
+
+1619853519 e:\note\mynote\algorithm\leetcode\include\common.h
+	<vector>
+	<string>
+	<set>
+	<unordered_set>
+	<stack>
+	<queue>
+	<unordered_map>
+	<iostream>
+	<algorithm>
+	<numeric>
+	<math.h>
+	<string.h>
+	"limits.h"
+	"utils.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c121_maxprofit.cpp
+	"c121_maxProfit.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c121_maxprofit.h
+	"common.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c122_maxprofit.cpp
+	"c122_maxProfit.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c122_maxprofit.h
+	"common.h"
+
+1619788346 source:e:\note\mynote\algorithm\leetcode\src\c136_singlenumber.cpp
+	"c136_singleNumber.h"
+
+1619788345 e:\note\mynote\algorithm\leetcode\include\c136_singlenumber.h
+	"common.h"
+
+1619788346 source:e:\note\mynote\algorithm\leetcode\src\c137_singlenumber.cpp
+	"c137_singleNumber.h"
+
+1619788345 e:\note\mynote\algorithm\leetcode\include\c137_singlenumber.h
+	"common.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c198_rob.cpp
+	"c198_rob.h"
+	"common.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c198_rob.h
+	<vector>
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c208_trie.cpp
+	"c208_Trie.h"
+	<iostream>
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c208_trie.h
+	<string>
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c213_rob.cpp
+	"c213_rob.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c213_rob.h
+	<vector>
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c22_generateparenthesis.cpp
+	"Solution.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\solution.h
+	<string>
+	<vector>
+
+1619788346 source:e:\note\mynote\algorithm\leetcode\src\c260_singlenumber.cpp
+	"c260_singleNumber.h"
+
+1619788346 e:\note\mynote\algorithm\leetcode\include\c260_singlenumber.h
+	"common.h"
+
+1619788346 source:e:\note\mynote\algorithm\leetcode\src\c279_numsquares.cpp
+	"c279_numSquares.h"
+
+1619788346 e:\note\mynote\algorithm\leetcode\include\c279_numsquares.h
+	"common.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c27_removeelement.cpp
+	"c27_removeElement.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c27_removeelement.h
+	"common.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c28_strstr.cpp
+	"c28_strstr.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c28_strstr.h
+	"common.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c300_lengthoflis.cpp
+	"c300_lengthOfLIS.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c300_lengthoflis.h
+	"common.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c33_search.cpp
+	"Solution.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c363_maxsumsubmatrix.cpp
+	"c363_maxSumSubmatrix.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c363_maxsumsubmatrix.h
+	"common.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c368_largestdivisiblesubset.cpp
+	"c368_largestDivisibleSubset.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c368_largestdivisiblesubset.h
+	"common.h"
+
+1619788346 source:e:\note\mynote\algorithm\leetcode\src\c403_cancross.cpp
+	"c403_canCross.h"
+
+1619788346 e:\note\mynote\algorithm\leetcode\include\c403_cancross.h
+	"common.h"
+
+1619788346 source:e:\note\mynote\algorithm\leetcode\src\c45_jump.cpp
+	"c45_jump.h"
+
+1619788346 e:\note\mynote\algorithm\leetcode\include\c45_jump.h
+	"common.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c5_longestpalindrome.cpp
+	"c5_longestPalindrome.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c5_longestpalindrome.h
+	"common.h"
+
+1619788346 source:e:\note\mynote\algorithm\leetcode\src\c633_judgesquaresum.cpp
+	"c633_judgeSquareSum.h"
+
+1619788346 e:\note\mynote\algorithm\leetcode\include\c633_judgesquaresum.h
+	"common.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c783_mindiffinbst.cpp
+	"c783_minDiffInBST.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c783_mindiffinbst.h
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c87_isscramble.cpp
+	"c87_isScramble.h"
+	"common.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c87_isscramble.h
+	"common.h"
+
+1619788346 source:e:\note\mynote\algorithm\leetcode\src\c897_increasingbst.cpp
+	"c897_increasingBST.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c897_increasingbst.h
+	"common.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\c91_numdecodings.cpp
+	"c91_numDecodings.h"
+
+1619354108 e:\note\mynote\algorithm\leetcode\include\c91_numdecodings.h
+	"common.h"
+
+1619788346 source:e:\note\mynote\algorithm\leetcode\src\c983_rangesumbst.cpp
+	"c983_rangeSumBST.h"
+
+1619788346 e:\note\mynote\algorithm\leetcode\include\c983_rangesumbst.h
+	"common.h"
+
+1619354108 source:e:\note\mynote\algorithm\leetcode\src\solution.cpp
+	"Solution.h"
+	<string>
+	<queue>
+	<iostream>
+
+1619853714 source:e:\note\mynote\algorithm\leetcode\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<vector>
+	<ctime>
+	<algorithm>
+	<unordered_set>
+	"Solution.h"
+	"c208_Trie.h"
+	"utils.h"
+	"c39_combinationSum.h"
+	"c368_largestDivisibleSubset.h"
+	"c403_canCross.h"
+	"c45_jump.h"
+	"c260_singleNumber.h"
+	<unordered_map>
+
+1619853450 e:\note\mynote\algorithm\leetcode\include\utils.h
+	<vector>
+
+1619832571 source:e:\note\mynote\algorithm\leetcode\src\utils.cpp
+	"utils.h"
+	<random>
+	<iostream>
+	<time.h>
+
+1619832683 source:e:\note\mynote\algorithm\leetcode\src\c690_getimportance.cpp
+	"c690_getImportance.h"
+
+1619830410 e:\note\mynote\algorithm\leetcode\include\c690_getimportance.h
+	"common.h"
+
+1619878324 e:\note\mynote\algorithm\leetcode\include\c39_combinationsum.h
+	"common.h"
+
+1619853674 source:e:\note\mynote\algorithm\leetcode\src\c39_combinationsum.cpp
+	"c39_combinationSum.h"
+

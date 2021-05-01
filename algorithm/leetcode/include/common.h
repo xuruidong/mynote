@@ -14,8 +14,10 @@
 #include <numeric>
 
 #include <math.h>
+#include <string.h>
 
 #include "limits.h"
+#include "utils.h"
 
 using namespace std;
 
