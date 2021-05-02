@@ -69,3 +69,14 @@ c208_Trie::~c208_Trie()
         }
         return true;
     }
+
+void c208_Trie::test()
+{
+    c208_Trie t;
+    t.insert("apple");
+    cout<<t.search("apple")<<endl;
+    cout<<t.search("app")<<endl;
+    cout<<t.startsWith("app")<<endl;
+    t.insert("app");
+    cout<<t.search("app")<<endl;
+}

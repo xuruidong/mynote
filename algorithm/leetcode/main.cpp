@@ -15,6 +15,7 @@
 #include "c403_canCross.h"
 #include "c45_jump.h"
 #include "c260_singleNumber.h"
+#include "c554_leastBricks.h"
 
 using namespace std;
 
@@ -430,16 +431,7 @@ int maptest()
 
 }
 
-void c208_Trie_test()
-{
-    c208_Trie t;
-    t.insert("apple");
-    cout<<t.search("apple")<<endl;
-    cout<<t.search("app")<<endl;
-    cout<<t.startsWith("app")<<endl;
-    t.insert("app");
-    cout<<t.search("app")<<endl;
-}
+
 
 struct cls_demo{
 private:
@@ -566,10 +558,170 @@ int longestBeautifulSubstring(string word) {
     return ans;
 }
 
+
+string replaceDigits(string s) {
+        for(int i=1; i<s.size(); ++i) {
+            s[i] = s[i-1] + s[i] - 'a';
+            ++i;
+        }
+        return s;
+    }
+
+class SeatManager {
+    //vector<int> vec;
+    vector<int> status;
+    priority_queue<int, vector<int>, greater<int>> q;
+public:
+    SeatManager(int n) {
+        //vec.resize(n+1);
+        status.resize(n+1);
+        for(int i=1; i<=n; n++) {
+            q.push(i);
+            status[i] = 0;
+        }
+    }
+
+    int reserve() {
+        while(!q.empty()) {
+            int ret = q.top();
+            q.pop();
+            if(status[ret] == 0) {
+                status[ret] = 1;
+                return ret;
+            }
+        }
+        return -1;
+    }
+
+    void unreserve(int seatNumber) {
+        q.push(seatNumber);
+        status[seatNumber] = 0;
+    }
+};
+
+
+bool mycomp(vector<int> v1, vector<int> v2) {
+    if(v1[1] > v2[1]) {
+        return true;
+    } else if(v1[1] == v2[1]) {
+        return v1[0] > v2[0];
+    }
+    return false;
+}
+
+/*
+ *
+ [[7,14],[11,6],[3,1],[9,4],[14,14],[17,11],[22,13],[6,25],[12,22],[21,9]]
+ [[21,17],[4,6],[17,25],[15,18],[17,16],[18,16],[8,17],[6,7],[9,22],[17,18]]
+
+[12,6,6,12,12,12,6,6,6,12]
+ */
+#if 0
+vector<int> closestRoom(vector<vector<int>>& rooms, vector<vector<int>>& queries) {
+    sort(rooms.begin(), rooms.end(), [](vector<int> &c1, vector<int> &c2)->bool{
+            if(c1[1] < c2[1]) {
+                return true;
+            } else if (c1[1] == c2[1]) {
+                return c1[0] < c2[0];
+            }
+            return false;
+         });
+
+    vector<int> ans;
+    for(auto &q: queries) {
+        auto it = rooms.lower_bound (q, [](vector<int> &v1, vector<int> &v2)->bool{
+                                     if(v1[1] < v2[1]) {
+                                        return true;
+                                     } else if (v1[1] == v2[1]) {
+                                        return v1[0] < v2[0];
+                                     }
+                                     return false;
+                                });
+
+        int tmp = INT_MAX;
+        int id = -1;
+        while(it != rooms.end()) {
+            if(abs(q[0]-(*it)[0]) < tmp) {
+                tmp = abs(q[0]-(*it)[0]);
+                id = (*it)[0];
+            }
+            ++it;
+        }
+        ans.push_back(id);
+    }
+    return ans;
+}
+#endif // 0
+
+
+int getMinDistance(vector<int>& nums, int target, int start) {
+    int ans = INT_MAX;
+    for(int i=0; i<nums.size(); ++i) {
+        if(nums[i] == target) {
+            if(abs(i-start) == 0) {
+                return 0;
+            } else {
+                ans = ans>abs(i-start)?abs(i-start):ans;
+            }
+        }
+    }
+    return ans;
+    }
+
+
+void process(string s, int ind, int lastnum) {
+
+}
+    bool splitString(string s) {
+
+    }
+
+vector<int> minInterval(vector<vector<int>>& intervals, vector<int>& queries) {
+        vector<int> ans;
+        sort(intervals.begin(), intervals.end(), [](vector<int> &v1, vector<int> &v2)->bool{
+            if(v1[1] < v2[1]) {
+                return true;
+            } else if (v1[1] == v2[1]) {
+                return v1[0] < v2[0];
+            }
+            return false;
+         });
+
+         for(int q: queries) {
+
+            vector<int> tmp = {0,q};
+            auto it = upper_bound (intervals.begin(), intervals.end(), tmp, [](const vector<int> &v1, vector<int> &v2)->bool{
+                                     return v1[1] < v2[1];
+                                });
+ #if 1
+            vector<int> tmp2 = {q+1, q};
+            auto it2 = upper_bound (intervals.begin(), intervals.end(), tmp2, [](const vector<int> &v1, vector<int> &v2)->bool{
+                                    /*
+                                    if(v1[1] < v2[1]) {
+                                        if (v1[0] < v2[0]) {
+                                            return true;
+                                    }
+                                    }
+                                     return false;
+                                     */
+                                     return v1[0] < v2[0];
+                                });
+#endif
+            int r = INT_MAX;
+            while(it != it2) {
+                r = min(r, (*it)[1] - (*it)[0] + 1);
+            }
+            ans.push_back(r);
+         }
+        return ans;
+    }
+
+
 int main()
 {
     utils u;
     cout << "Hello world!" << endl;
+
     cls_demo c1(1,100);
     cls_demo c2(2, 99);
 
@@ -608,6 +760,9 @@ int main()
     cout<<"=========="<<endl;
     c39_combinationSum c39;
     c39.test();
+
+    c554_leastBricks c554;
+    c554.test();
    // maptest();
     return 0;
 }

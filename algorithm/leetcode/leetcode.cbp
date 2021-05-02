@@ -50,9 +50,11 @@
 		<Unit filename="include/c300_lengthOfLIS.h" />
 		<Unit filename="include/c363_maxSumSubmatrix.h" />
 		<Unit filename="include/c368_largestDivisibleSubset.h" />
+		<Unit filename="include/c38_countAndSay.h" />
 		<Unit filename="include/c39_combinationSum.h" />
 		<Unit filename="include/c403_canCross.h" />
 		<Unit filename="include/c45_jump.h" />
+		<Unit filename="include/c554_leastBricks.h" />
 		<Unit filename="include/c5_longestPalindrome.h" />
 		<Unit filename="include/c633_judgeSquareSum.h" />
 		<Unit filename="include/c690_getImportance.h" />
@@ -81,9 +83,11 @@
 		<Unit filename="src/c33_search.cpp" />
 		<Unit filename="src/c363_maxSumSubmatrix.cpp" />
 		<Unit filename="src/c368_largestDivisibleSubset.cpp" />
+		<Unit filename="src/c38_countAndSay.cpp" />
 		<Unit filename="src/c39_combinationSum.cpp" />
 		<Unit filename="src/c403_canCross.cpp" />
 		<Unit filename="src/c45_jump.cpp" />
+		<Unit filename="src/c554_leastBricks.cpp" />
 		<Unit filename="src/c5_longestPalindrome.cpp" />
 		<Unit filename="src/c633_judgeSquareSum.cpp" />
 		<Unit filename="src/c690_getImportance.cpp" />

@@ -24,6 +24,7 @@ class c208_Trie
         void insert(string word);
         bool search(string word);
         bool startsWith(string prefix);
+        void test();
 
     protected:
 

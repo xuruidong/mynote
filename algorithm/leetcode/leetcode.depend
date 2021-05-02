@@ -331,13 +331,14 @@
 1619788345 e:\note\mynote\algorithm\leetcode\include\c1011_shipwithindays.h
 	"common.h"
 
-1619853519 e:\note\mynote\algorithm\leetcode\include\common.h
+1619920309 e:\note\mynote\algorithm\leetcode\include\common.h
 	<vector>
 	<string>
 	<set>
 	<unordered_set>
 	<stack>
 	<queue>
+	<map>
 	<unordered_map>
 	<iostream>
 	<algorithm>
@@ -378,11 +379,11 @@
 1619354108 e:\note\mynote\algorithm\leetcode\include\c198_rob.h
 	<vector>
 
-1619354108 source:e:\note\mynote\algorithm\leetcode\src\c208_trie.cpp
+1619921319 source:e:\note\mynote\algorithm\leetcode\src\c208_trie.cpp
 	"c208_Trie.h"
 	<iostream>
 
-1619354108 e:\note\mynote\algorithm\leetcode\include\c208_trie.h
+1619921344 e:\note\mynote\algorithm\leetcode\include\c208_trie.h
 	<string>
 
 1619354108 source:e:\note\mynote\algorithm\leetcode\src\c213_rob.cpp
@@ -503,7 +504,7 @@
 	<queue>
 	<iostream>
 
-1619853714 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1619949021 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -519,6 +520,7 @@
 	"c403_canCross.h"
 	"c45_jump.h"
 	"c260_singleNumber.h"
+	"c554_leastBricks.h"
 	<unordered_map>
 
 1619853450 e:\note\mynote\algorithm\leetcode\include\utils.h
@@ -539,6 +541,12 @@
 1619878324 e:\note\mynote\algorithm\leetcode\include\c39_combinationsum.h
 	"common.h"
 
-1619853674 source:e:\note\mynote\algorithm\leetcode\src\c39_combinationsum.cpp
+1619878299 source:e:\note\mynote\algorithm\leetcode\src\c39_combinationsum.cpp
 	"c39_combinationSum.h"
+
+1619921066 source:e:\note\mynote\algorithm\leetcode\src\c554_leastbricks.cpp
+	"c554_leastBricks.h"
+
+1619920472 e:\note\mynote\algorithm\leetcode\include\c554_leastbricks.h
+	"common.h"
 
