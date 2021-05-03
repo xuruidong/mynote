@@ -10,6 +10,7 @@
 #include "c208_Trie.h"
 #include "utils.h"
 
+#include "c7_reverse.h"
 #include "c39_combinationSum.h"
 #include "c368_largestDivisibleSubset.h"
 #include "c403_canCross.h"
@@ -716,6 +717,9 @@ vector<int> minInterval(vector<vector<int>>& intervals, vector<int>& queries) {
         return ans;
     }
 
+bool mycomp11(int i, int j) {
+    return (i > j);
+}
 
 int main()
 {
@@ -725,16 +729,19 @@ int main()
     cls_demo c1(1,100);
     cls_demo c2(2, 99);
 
-    //cout<< (c1<c2) <<endl;
     vector<cls_demo> v;
     v.push_back(c1);
     v.push_back(c2);
     sort(v.begin(), v.end(), [](cls_demo &c1, cls_demo &c2)->bool{
-            return c1.vb < c2.vb;
+            return c1.va < c2.va;
          });
     for(auto &e: v){
-        //e.print();
+        e.print();
     }
+
+    vector<int> testv = {115,19,18,54,108,540,90,80,360,720};
+    sort(testv.begin(), testv.end(), mycomp11);
+    utils::vector_print(testv);
 
     vector<int> nums = {5,9,18,54,108,540,90,180,360,720};
     c368_largestDivisibleSubset c368;
@@ -763,6 +770,9 @@ int main()
 
     c554_leastBricks c554;
     c554.test();
+
+    c7_reverse c7;
+    c7.test();
    // maptest();
     return 0;
 }

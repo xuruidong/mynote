@@ -504,7 +504,7 @@
 	<queue>
 	<iostream>
 
-1619949021 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1620053666 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -515,6 +515,7 @@
 	"Solution.h"
 	"c208_Trie.h"
 	"utils.h"
+	"c7_reverse.h"
 	"c39_combinationSum.h"
 	"c368_largestDivisibleSubset.h"
 	"c403_canCross.h"
@@ -549,4 +550,16 @@
 
 1619920472 e:\note\mynote\algorithm\leetcode\include\c554_leastbricks.h
 	"common.h"
+
+1620014084 e:\note\mynote\algorithm\leetcode\include\c7_reverse.h
+	"common.h"
+
+1619953880 source:e:\note\mynote\algorithm\leetcode\src\c38_countandsay.cpp
+	"c38_countAndSay.h"
+
+1619949017 e:\note\mynote\algorithm\leetcode\include\c38_countandsay.h
+	"common.h"
+
+1620016153 source:e:\note\mynote\algorithm\leetcode\src\c7_reverse.cpp
+	"c7_reverse.h"
 

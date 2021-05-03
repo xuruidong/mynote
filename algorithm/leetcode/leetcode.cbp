@@ -59,6 +59,7 @@
 		<Unit filename="include/c633_judgeSquareSum.h" />
 		<Unit filename="include/c690_getImportance.h" />
 		<Unit filename="include/c783_minDiffInBST.h" />
+		<Unit filename="include/c7_reverse.h" />
 		<Unit filename="include/c87_isScramble.h" />
 		<Unit filename="include/c897_increasingBST.h" />
 		<Unit filename="include/c91_numDecodings.h" />
@@ -92,6 +93,7 @@
 		<Unit filename="src/c633_judgeSquareSum.cpp" />
 		<Unit filename="src/c690_getImportance.cpp" />
 		<Unit filename="src/c783_minDiffInBST.cpp" />
+		<Unit filename="src/c7_reverse.cpp" />
 		<Unit filename="src/c87_isScramble.cpp" />
 		<Unit filename="src/c897_increasingBST.cpp" />
 		<Unit filename="src/c91_numDecodings.cpp" />
