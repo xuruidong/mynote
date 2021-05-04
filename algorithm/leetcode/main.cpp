@@ -12,6 +12,7 @@
 
 #include "c7_reverse.h"
 #include "c39_combinationSum.h"
+#include "c47_permuteUnique.h"
 #include "c368_largestDivisibleSubset.h"
 #include "c403_canCross.h"
 #include "c45_jump.h"
@@ -479,8 +480,8 @@ int sumBase(int n, int k) {
 
 73
 
-���룺nums = [3,9,6], k = 2
-�����1
+ÊäÈë£ºnums = [3,9,6], k = 2
+Êä³ö£º1
 */
 
 int maxFrequency(vector<int>& nums, int k) {
@@ -721,6 +722,69 @@ bool mycomp11(int i, int j) {
     return (i > j);
 }
 
+int minCost(vector<int>& houses, vector<vector<int>>& cost, int m, int n, int target) {
+    const int inf = 0x3f3f3f3f;
+    vector<vector<vector<int>>> dp;
+
+    for(int i=0; i<=m; ++i) {
+        dp.push_back({});
+        for(int j=0; j<=n; ++j) {
+            vector<int> tmp(target+1);
+            dp[i].push_back(tmp);
+            dp[i][j][0] = inf;
+        }
+    }
+
+    for(int i=1; i<=m; ++i) {
+        int color = houses[i-1];
+        for(int j=1; j<=n; ++j) {
+            for(int k=1; k<=target; ++k) {
+                if(k>i) {
+                    dp[i][j][k] = inf;
+                    continue;
+                }
+
+                // 第 i 间房间已经上色
+                if(color != 0) {
+                    if(j==color) { // 只有与「本来的颜色」相同的状态才允许被转移
+                        int tmp = inf;
+                        // 先从所有「第 i 间房形成新分区」方案中选最优（即与上一房间颜色不同）
+                        for (int p = 1; p <= n; ++p) {
+                            if (p != j) {
+                                tmp = min(tmp, dp[i - 1][p][k - 1]);
+                            }
+                        }
+                        // 再结合「第 i 间房不形成新分区」方案中选最优（即与上一房间颜色相同）
+                        dp[i][j][k] = min(dp[i - 1][j][k], tmp);
+
+                    } else {
+                        dp[i][j][k] = inf;
+                    }
+                } else {
+                    // 第 i 间房间尚未上色
+                    int u = cost[i - 1][j - 1];
+                    int tmp = inf;
+                    // 先从所有「第 i 间房形成新分区」方案中选最优（即与上一房间颜色不同）
+                    for (int p = 1; p <= n; ++p) {
+                        if (p != j) {
+                            tmp = min(tmp, dp[i - 1][p][k - 1]);
+                        }
+                    }
+                    // 再结合「第 i 间房不形成新分区」方案中选最优（即与上一房间颜色相同）
+                    // 并将「上色成本」添加进去
+                    dp[i][j][k] = min(tmp, dp[i - 1][j][k]) + u;
+                }
+            }
+        }
+    }
+    // 从「考虑所有房间，并且形成分区数量为 t」的所有方案中找答案
+    int ans = inf;
+    for (int i = 1; i <= n; i++) {
+        ans = min(ans, dp[m][i][target]);
+    }
+    return ans == inf ? -1 : ans;
+}
+
 int main()
 {
     utils u;
@@ -773,6 +837,9 @@ int main()
 
     c7_reverse c7;
     c7.test();
+
+    c47_permuteUnique c47;
+    c47.test();
    // maptest();
     return 0;
 }

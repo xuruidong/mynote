@@ -504,7 +504,7 @@
 	<queue>
 	<iostream>
 
-1620053666 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1620138014 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -517,6 +517,7 @@
 	"utils.h"
 	"c7_reverse.h"
 	"c39_combinationSum.h"
+	"c47_permuteUnique.h"
 	"c368_largestDivisibleSubset.h"
 	"c403_canCross.h"
 	"c45_jump.h"
@@ -562,4 +563,19 @@
 
 1620016153 source:e:\note\mynote\algorithm\leetcode\src\c7_reverse.cpp
 	"c7_reverse.h"
+
+1620057613 source:e:\note\mynote\algorithm\leetcode\src\c236_lowestcommonancestor.cpp
+	"c236_lowestCommonAncestor.h"
+
+1620057649 e:\note\mynote\algorithm\leetcode\include\c236_lowestcommonancestor.h
+	"common.h"
+
+1620057613 source:e:\note\mynote\algorithm\leetcode\src\c46_permute.cpp
+	"c46_permute.h"
+
+1620057646 e:\note\mynote\algorithm\leetcode\include\c46_permute.h
+	"common.h"
+
+1620137384 e:\note\mynote\algorithm\leetcode\include\c47_permuteunique.h
+	"common.h"
 
