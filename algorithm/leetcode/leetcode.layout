@@ -2,14 +2,49 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+	<File name="src\c368_largestDivisibleSubset.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="905" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\c5_longestPalindrome.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="223" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\c91_numDecodings.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="735" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="src\c260_singleNumber.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="354" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\c121_maxProfit.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="27" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\c213_rob.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="598" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="src\c5_longestPalindrome.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="283" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="src\c198_rob.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="37" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c554_leastBricks.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c87_isScramble.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1585" topLine="38" />
+			<Cursor1 position="607" topLine="8" />
 		</Cursor>
 	</File>
 	<File name="include\c363_maxSumSubmatrix.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -17,34 +52,34 @@
 			<Cursor1 position="87" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\c91_numDecodings.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c7_reverse.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="261" topLine="0" />
+			<Cursor1 position="470" topLine="11" />
 		</Cursor>
 	</File>
-	<File name="src\c368_largestDivisibleSubset.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\Solution.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="905" topLine="0" />
+			<Cursor1 position="343" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\c87_isScramble.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\c633_judgeSquareSum.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="73" topLine="0" />
+			<Cursor1 position="85" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c633_judgeSquareSum.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c46_permute.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="17" topLine="0" />
+			<Cursor1 position="492" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c38_countAndSay.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\c897_increasingBST.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1313" topLine="28" />
+			<Cursor1 position="76" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\utils.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c690_getImportance.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="12" topLine="10" />
+			<Cursor1 position="2307" topLine="52" />
 		</Cursor>
 	</File>
 	<File name="src\c27_removeElement.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -57,89 +92,29 @@
 			<Cursor1 position="263" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\c633_judgeSquareSum.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c122_maxProfit.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="85" topLine="0" />
+			<Cursor1 position="19" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c897_increasingBST.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c554_leastBricks.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="24" topLine="0" />
+			<Cursor1 position="1585" topLine="38" />
 		</Cursor>
 	</File>
-	<File name="include\c39_combinationSum.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c983_rangeSumBST.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="74" topLine="0" />
+			<Cursor1 position="18" topLine="9" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c38_countAndSay.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="25344" topLine="289" />
-		</Cursor>
-		<Folding>
-			<Collapse line="24" />
-			<Collapse line="59" />
-			<Collapse line="121" />
-			<Collapse line="139" />
-			<Collapse line="173" />
-			<Collapse line="204" />
-			<Collapse line="226" />
-			<Collapse line="279" />
-			<Collapse line="340" />
-			<Collapse line="402" />
-			<Collapse line="460" />
-			<Collapse line="486" />
-			<Collapse line="514" />
-			<Collapse line="571" />
-			<Collapse line="613" />
-			<Collapse line="621" />
-			<Collapse line="658" />
-			<Collapse line="673" />
-			<Collapse line="676" />
-			<Collapse line="680" />
-		</Folding>
-	</File>
-	<File name="include\c300_lengthOfLIS.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="79" topLine="0" />
+			<Cursor1 position="1313" topLine="28" />
 		</Cursor>
 	</File>
-	<File name="src\Solution.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c236_lowestCommonAncestor.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1571" topLine="60" />
-		</Cursor>
-	</File>
-	<File name="include\c198_rob.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="154" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\c22_generateParenthesis.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="110" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\c121_maxProfit.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="75" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\c137_singleNumber.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="213" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\c39_combinationSum.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3379" topLine="90" />
-		</Cursor>
-		<Folding>
-			<Collapse line="53" />
-		</Folding>
-	</File>
-	<File name="include\c5_longestPalindrome.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="223" topLine="0" />
+			<Cursor1 position="195" topLine="9" />
 		</Cursor>
 	</File>
 	<File name="src\c136_singleNumber.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -147,64 +122,9 @@
 			<Cursor1 position="211" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c47_permuteUnique.cpp" open="1" top="1" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="893" topLine="20" />
-		</Cursor>
-	</File>
-	<File name="src\c208_Trie.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="14" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\c690_getImportance.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2307" topLine="52" />
-		</Cursor>
-	</File>
-	<File name="src\c7_reverse.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="470" topLine="11" />
-		</Cursor>
-	</File>
-	<File name="src\c5_longestPalindrome.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="283" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\c983_rangeSumBST.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="273" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\c45_jump.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="211" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\c137_singleNumber.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="79" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\c1011_shipWithinDays.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="462" topLine="5" />
-		</Cursor>
-	</File>
-	<File name="src\c91_numDecodings.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="735" topLine="15" />
-		</Cursor>
-	</File>
 	<File name="src\c403_canCross.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1311" topLine="18" />
-		</Cursor>
-	</File>
-	<File name="include\c27_removeElement.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="306" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="include\utils.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -222,29 +142,56 @@
 			<Cursor1 position="19" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\c208_Trie.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\c121_maxProfit.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="449" topLine="0" />
+			<Cursor1 position="75" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\c897_increasingBST.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\c198_rob.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="76" topLine="0" />
+			<Cursor1 position="154" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c260_singleNumber.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c22_generateParenthesis.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="354" topLine="0" />
+			<Cursor1 position="110" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c236_lowestCommonAncestor.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\c137_singleNumber.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="195" topLine="9" />
+			<Cursor1 position="79" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c983_rangeSumBST.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="18" topLine="9" />
+			<Cursor1 position="21094" topLine="292" />
+		</Cursor>
+		<Folding>
+			<Collapse line="25" />
+			<Collapse line="60" />
+			<Collapse line="122" />
+			<Collapse line="140" />
+			<Collapse line="174" />
+			<Collapse line="205" />
+			<Collapse line="227" />
+			<Collapse line="280" />
+			<Collapse line="341" />
+			<Collapse line="403" />
+			<Collapse line="461" />
+			<Collapse line="487" />
+			<Collapse line="515" />
+			<Collapse line="572" />
+			<Collapse line="614" />
+			<Collapse line="622" />
+			<Collapse line="659" />
+			<Collapse line="674" />
+			<Collapse line="677" />
+			<Collapse line="681" />
+		</Folding>
+	</File>
+	<File name="src\c45_jump.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="211" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="include\c279_numSquares.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -252,24 +199,29 @@
 			<Cursor1 position="67" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\Solution.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c208_Trie.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="343" topLine="0" />
+			<Cursor1 position="14" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c87_isScramble.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c897_increasingBST.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="607" topLine="8" />
+			<Cursor1 position="24" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\c122_maxProfit.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c1011_shipWithinDays.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="75" topLine="0" />
+			<Cursor1 position="462" topLine="5" />
 		</Cursor>
 	</File>
-	<File name="src\c122_maxProfit.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c633_judgeSquareSum.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="19" topLine="0" />
+			<Cursor1 position="17" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\c300_lengthOfLIS.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="79" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src\c783_minDiffInBST.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -277,14 +229,29 @@
 			<Cursor1 position="323" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c213_rob.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c137_singleNumber.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="598" topLine="21" />
+			<Cursor1 position="213" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c28_strstr.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c740_deleteAndEarn.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="226" topLine="0" />
+			<Cursor1 position="1658" topLine="46" />
+		</Cursor>
+	</File>
+	<File name="include\c122_maxProfit.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="75" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\c47_permuteUnique.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1167" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="include\c91_numDecodings.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="261" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src\c33_search.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -292,14 +259,52 @@
 			<Cursor1 position="56" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c121_maxProfit.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\c39_combinationSum.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="27" topLine="0" />
+			<Cursor1 position="74" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c46_permute.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\Solution.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="492" topLine="0" />
+			<Cursor1 position="1571" topLine="60" />
+		</Cursor>
+	</File>
+	<File name="src\c28_strstr.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="226" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\c27_removeElement.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="306" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\c87_isScramble.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="73" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\utils.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12" topLine="10" />
+		</Cursor>
+	</File>
+	<File name="src\c39_combinationSum.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3379" topLine="90" />
+		</Cursor>
+		<Folding>
+			<Collapse line="53" />
+		</Folding>
+	</File>
+	<File name="include\c208_Trie.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="449" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\c983_rangeSumBST.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="273" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

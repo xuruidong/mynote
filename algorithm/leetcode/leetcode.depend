@@ -504,7 +504,7 @@
 	<queue>
 	<iostream>
 
-1620138014 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1620179596 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -523,6 +523,7 @@
 	"c45_jump.h"
 	"c260_singleNumber.h"
 	"c554_leastBricks.h"
+	"c740_deleteAndEarn.h"
 	<unordered_map>
 
 1619853450 e:\note\mynote\algorithm\leetcode\include\utils.h
@@ -578,4 +579,10 @@
 
 1620137384 e:\note\mynote\algorithm\leetcode\include\c47_permuteunique.h
 	"common.h"
+
+1620179558 e:\note\mynote\algorithm\leetcode\include\c740_deleteandearn.h
+	"common.h"
+
+1620143497 source:e:\note\mynote\algorithm\leetcode\src\c47_permuteunique.cpp
+	"c47_permuteUnique.h"
 

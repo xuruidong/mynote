@@ -18,6 +18,7 @@
 #include "c45_jump.h"
 #include "c260_singleNumber.h"
 #include "c554_leastBricks.h"
+#include "c740_deleteAndEarn.h"
 
 using namespace std;
 
@@ -840,6 +841,9 @@ int main()
 
     c47_permuteUnique c47;
     c47.test();
+
+    c740_deleteAndEarn c740;
+    c740.test();
    // maptest();
     return 0;
 }
