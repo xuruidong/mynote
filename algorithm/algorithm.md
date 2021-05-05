@@ -164,8 +164,8 @@ Linked List 实战题目
 实战题目 / 课后作业  
 *[二叉树中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)  
 *[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)  
-    • https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
-    • https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/
+    • https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/  
+[589. N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)  
     • https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
 
 
@@ -187,7 +187,22 @@ Linked List 实战题目
     • https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
     • https://leetcode-cn.com/problems/combinations/
     • https://leetcode-cn.com/problems/permutations/
-    • https://leetcode-cn.com/problems/permutations-ii/
+* [47](https://leetcode-cn.com/problems/permutations-ii/)  
+
+
+第8课  
+预习题目
+https://leetcode-cn.com/problems/powx-n/
+https://leetcode-cn.com/problems/subsets/
+参考链接  
+[牛顿迭代法原理](http://www.matrix67.com/blog/archives/361)  
+[牛顿迭代法代码](http://www.voidcn.com/article/p-eudisdmk-zm.html)  
+
+
+实战题目
+https://leetcode-cn.com/problems/majority-element/description/ （简单、但是高频）
+https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
+https://leetcode-cn.com/problems/n-queens/
 
 
 第12课 动态规划
@@ -284,3 +299,9 @@ https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/
 https://leetcode-cn.com/problems/range-sum-of-bst  
 
 
+## 回溯
+对于寻找所有可行解的题，我们都可以尝试用「搜索回溯」的方法来解决。
+[39. 组合总和](https://leetcode-cn.com/problems/combination-sum/)  
+https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/
+
+[46. 全排列](https://leetcode-cn.com/problems/permutations/)  
