@@ -1,6 +1,7 @@
 #ifndef C104_MAXDEPTH_H
 #define C104_MAXDEPTH_H
 
+#include "common.h"
 
 class c104_maxDepth
 {

@@ -331,7 +331,7 @@
 1619788345 e:\note\mynote\algorithm\leetcode\include\c1011_shipwithindays.h
 	"common.h"
 
-1619920309 e:\note\mynote\algorithm\leetcode\include\common.h
+1620218518 e:\note\mynote\algorithm\leetcode\include\common.h
 	<vector>
 	<string>
 	<set>
@@ -504,7 +504,7 @@
 	<queue>
 	<iostream>
 
-1620179596 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1620313312 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -524,6 +524,7 @@
 	"c260_singleNumber.h"
 	"c554_leastBricks.h"
 	"c740_deleteAndEarn.h"
+	"c1423_maxScore.h"
 	<unordered_map>
 
 1619853450 e:\note\mynote\algorithm\leetcode\include\utils.h
@@ -585,4 +586,49 @@
 
 1620143497 source:e:\note\mynote\algorithm\leetcode\src\c47_permuteunique.cpp
 	"c47_permuteUnique.h"
+
+1620188295 source:e:\note\mynote\algorithm\leetcode\src\c740_deleteandearn.cpp
+	"c740_deleteAndEarn.h"
+
+1620312898 source:e:\note\mynote\algorithm\leetcode\src\c1423_maxscore.cpp
+	"c1423_maxScore.h"
+
+1620313263 e:\note\mynote\algorithm\leetcode\include\c1423_maxscore.h
+	"common.h"
+
+1620312902 source:e:\note\mynote\algorithm\leetcode\src\c111_mindepth.cpp
+	"c111_minDepth.h"
+
+1620312923 e:\note\mynote\algorithm\leetcode\include\c111_mindepth.h
+	"common.h"
+
+1620221928 source:e:\note\mynote\algorithm\leetcode\src\c429_levelorder.cpp
+	"c429_levelOrder.h"
+
+1620220819 e:\note\mynote\algorithm\leetcode\include\c429_levelorder.h
+	"common.h"
+
+1620218702 source:e:\note\mynote\algorithm\leetcode\src\c589_preorder.cpp
+	"c589_preorder.h"
+
+1620218523 e:\note\mynote\algorithm\leetcode\include\c589_preorder.h
+	"common.h"
+
+1620307928 source:e:\note\mynote\algorithm\leetcode\src\c104_maxdepth.cpp
+	"c104_maxDepth.h"
+
+1620312954 e:\note\mynote\algorithm\leetcode\include\c104_maxdepth.h
+	"common.h"
+
+1620307928 source:e:\note\mynote\algorithm\leetcode\src\c1720_decode.cpp
+	"c1720_decode.h"
+
+1620312967 e:\note\mynote\algorithm\leetcode\include\c1720_decode.h
+	"common.h"
+
+1620312902 source:e:\note\mynote\algorithm\leetcode\src\c56_merge.cpp
+	"c56_merge.h"
+
+1620312983 e:\note\mynote\algorithm\leetcode\include\c56_merge.h
+	"common.h"
 

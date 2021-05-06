@@ -19,6 +19,7 @@
 #include "c260_singleNumber.h"
 #include "c554_leastBricks.h"
 #include "c740_deleteAndEarn.h"
+#include "c1423_maxScore.h"
 
 using namespace std;
 
@@ -844,6 +845,9 @@ int main()
 
     c740_deleteAndEarn c740;
     c740.test();
+
+    c1423_maxScore c1423;
+    c1423.test();
    // maptest();
     return 0;
 }

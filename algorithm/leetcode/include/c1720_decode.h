@@ -1,6 +1,7 @@
 #ifndef C1720_DECODE_H
 #define C1720_DECODE_H
 
+#include "common.h"
 
 class c1720_decode
 {
