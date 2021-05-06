@@ -36,10 +36,13 @@
 		</Compiler>
 		<Unit filename="include/Solution.h" />
 		<Unit filename="include/c1011_shipWithinDays.h" />
+		<Unit filename="include/c104_maxDepth.h" />
+		<Unit filename="include/c111_minDepth.h" />
 		<Unit filename="include/c121_maxProfit.h" />
 		<Unit filename="include/c122_maxProfit.h" />
 		<Unit filename="include/c136_singleNumber.h" />
 		<Unit filename="include/c137_singleNumber.h" />
+		<Unit filename="include/c1720_decode.h" />
 		<Unit filename="include/c198_rob.h" />
 		<Unit filename="include/c208_Trie.h" />
 		<Unit filename="include/c213_rob.h" />
@@ -74,10 +77,13 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Solution.cpp" />
 		<Unit filename="src/c1011_shipWithinDays.cpp" />
+		<Unit filename="src/c104_maxDepth.cpp" />
+		<Unit filename="src/c111_minDepth.cpp" />
 		<Unit filename="src/c121_maxProfit.cpp" />
 		<Unit filename="src/c122_maxProfit.cpp" />
 		<Unit filename="src/c136_singleNumber.cpp" />
 		<Unit filename="src/c137_singleNumber.cpp" />
+		<Unit filename="src/c1720_decode.cpp" />
 		<Unit filename="src/c198_rob.cpp" />
 		<Unit filename="src/c208_Trie.cpp" />
 		<Unit filename="src/c213_rob.cpp" />
