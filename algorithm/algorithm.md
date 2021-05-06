@@ -177,7 +177,7 @@ Linked List 实战题目
 * [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)  
 * [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/description/)  
     • https://leetcode-cn.com/problems/validate-binary-search-tree
-    • https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
+* [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)  
     • https://leetcode-cn.com/problems/minimum-depth-of-binary-tree
     • https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
 每日一课
@@ -191,6 +191,8 @@ Linked List 实战题目
 
 
 第8课  
+[分治代码模板](https://shimo.im/docs/3xvghYh3JJPKwdvt/read)  
+[括号生成问题]  
 预习题目
 https://leetcode-cn.com/problems/powx-n/
 https://leetcode-cn.com/problems/subsets/
@@ -203,6 +205,22 @@ https://leetcode-cn.com/problems/subsets/
 https://leetcode-cn.com/problems/majority-element/description/ （简单、但是高频）
 https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
 https://leetcode-cn.com/problems/n-queens/
+
+
+第9课  
+[DFS 代码模板（递归写法、非递归写法）](https://shimo.im/docs/ddgwCccJQKxkrcTq)  
+[BFS 代码模板](https://shimo.im/docs/P8TqKHGKt3ytkYYd/read)  
+
+实战题目
+https://leetcode-cn.com/problems/binary-tree-level-order-traversal/#/description
+https://leetcode-cn.com/problems/minimum-genetic-mutation/#/description
+https://leetcode-cn.com/problems/generate-parentheses/#/description
+https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/#/description
+课后作业
+https://leetcode-cn.com/problems/word-ladder/description/
+https://leetcode-cn.com/problems/word-ladder-ii/description/
+https://leetcode-cn.com/problems/number-of-islands/
+https://leetcode-cn.com/problems/minesweeper/description/
 
 
 第12课 动态规划
