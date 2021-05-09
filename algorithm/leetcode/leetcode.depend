@@ -590,7 +590,7 @@
 1620188295 source:e:\note\mynote\algorithm\leetcode\src\c740_deleteandearn.cpp
 	"c740_deleteAndEarn.h"
 
-1620312898 source:e:\note\mynote\algorithm\leetcode\src\c1423_maxscore.cpp
+1620315333 source:e:\note\mynote\algorithm\leetcode\src\c1423_maxscore.cpp
 	"c1423_maxScore.h"
 
 1620313263 e:\note\mynote\algorithm\leetcode\include\c1423_maxscore.h
@@ -631,4 +631,9 @@
 
 1620312983 e:\note\mynote\algorithm\leetcode\include\c56_merge.h
 	"common.h"
+
+1620397102 source:e:\note\mynote\algorithm\leetcode\src\c1486_xoroperation.cpp
+	"c1486_xorOperation.h"
+
+1620397102 e:\note\mynote\algorithm\leetcode\include\c1486_xoroperation.h
 

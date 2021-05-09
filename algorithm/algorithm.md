@@ -323,3 +323,7 @@ https://leetcode-cn.com/problems/range-sum-of-bst
 https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-2/
 
 [46. 全排列](https://leetcode-cn.com/problems/permutations/)  
+
+## 位运算
+异或的性质  
+[](https://leetcode-cn.com/problems/xor-operation-in-an-array/solution/shu-zu-yi-huo-cao-zuo-by-leetcode-solution/)  
