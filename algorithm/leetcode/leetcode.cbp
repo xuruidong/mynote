@@ -72,6 +72,7 @@
 		<Unit filename="include/c740_deleteAndEarn.h" />
 		<Unit filename="include/c783_minDiffInBST.h" />
 		<Unit filename="include/c7_reverse.h" />
+		<Unit filename="include/c872_leafSimilar.h" />
 		<Unit filename="include/c87_isScramble.h" />
 		<Unit filename="include/c897_increasingBST.h" />
 		<Unit filename="include/c91_numDecodings.h" />
@@ -118,6 +119,7 @@
 		<Unit filename="src/c740_deleteAndEarn.cpp" />
 		<Unit filename="src/c783_minDiffInBST.cpp" />
 		<Unit filename="src/c7_reverse.cpp" />
+		<Unit filename="src/c872_leafSimilar.cpp" />
 		<Unit filename="src/c87_isScramble.cpp" />
 		<Unit filename="src/c897_increasingBST.cpp" />
 		<Unit filename="src/c91_numDecodings.cpp" />
