@@ -829,6 +829,10 @@ int maxDistance(vector<int>& nums1, vector<int>& nums2) {
 }
 
 
+bool mycomp121(int i, int j) {
+    cout<<i<<endl;
+    return i > j; }
+
 void upper_bound_test()
 {
     vector<int> nums =
@@ -836,14 +840,14 @@ void upper_bound_test()
         //{1,2,3,4,5}
         {5,4,3,2,1}
         ;
-    vector<int>::iterator iter = upper_bound(nums.begin(), nums.end(), 3, greater<int>());
+    vector<int>::iterator iter = upper_bound(nums.begin(), nums.end(), 3, mycomp121);
     for(; iter != nums.end(); ++iter) {
         cout<<*iter<<" ";
     }
     cout<<endl;  // 2, 1
 
     nums = {1,2,3,4,5};
-    iter = upper_bound(nums.begin(), nums.end(), 3, greater<int>());
+    iter = upper_bound(nums.begin(), nums.end(), 3, less<int>());
     for(; iter != nums.end(); ++iter) {
         cout<<*iter<<" ";
     }
