@@ -33,7 +33,7 @@ vector<int> decode(vector<int>& encoded) {
     return ans;
 }
 
-vector<int> decode(vector<int>& encoded) {
+vector<int> decode2(vector<int>& encoded) {
     vector<int> ans;
     int len = encoded.size();
     int n = len+1;

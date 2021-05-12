@@ -1,6 +1,7 @@
 #ifndef C872_LEAFSIMILAR_H
 #define C872_LEAFSIMILAR_H
 
+#include "common.h"
 
 class c872_leafSimilar
 {

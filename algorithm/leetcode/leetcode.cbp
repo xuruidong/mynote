@@ -40,6 +40,7 @@
 		<Unit filename="include/c111_minDepth.h" />
 		<Unit filename="include/c121_maxProfit.h" />
 		<Unit filename="include/c122_maxProfit.h" />
+		<Unit filename="include/c1310_xorQueries.h" />
 		<Unit filename="include/c136_singleNumber.h" />
 		<Unit filename="include/c137_singleNumber.h" />
 		<Unit filename="include/c1423_maxScore.h" />
@@ -77,6 +78,7 @@
 		<Unit filename="include/c87_isScramble.h" />
 		<Unit filename="include/c897_increasingBST.h" />
 		<Unit filename="include/c91_numDecodings.h" />
+		<Unit filename="include/c958_isCompleteTree.h" />
 		<Unit filename="include/c983_rangeSumBST.h" />
 		<Unit filename="include/utils.h" />
 		<Unit filename="main.cpp" />
@@ -86,6 +88,7 @@
 		<Unit filename="src/c111_minDepth.cpp" />
 		<Unit filename="src/c121_maxProfit.cpp" />
 		<Unit filename="src/c122_maxProfit.cpp" />
+		<Unit filename="src/c1310_xorQueries.cpp" />
 		<Unit filename="src/c136_singleNumber.cpp" />
 		<Unit filename="src/c137_singleNumber.cpp" />
 		<Unit filename="src/c1423_maxScore.cpp" />
@@ -125,6 +128,7 @@
 		<Unit filename="src/c87_isScramble.cpp" />
 		<Unit filename="src/c897_increasingBST.cpp" />
 		<Unit filename="src/c91_numDecodings.cpp" />
+		<Unit filename="src/c958_isCompleteTree.cpp" />
 		<Unit filename="src/c983_rangeSumBST.cpp" />
 		<Unit filename="src/utils.cpp" />
 		<Extensions>
