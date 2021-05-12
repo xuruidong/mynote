@@ -125,48 +125,58 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1619764906 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1620610270 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
 	<vector>
+	<ctime>
 	<algorithm>
 	<unordered_set>
 	"Solution.h"
 	"c208_Trie.h"
 	"utils.h"
+	"c7_reverse.h"
+	"c39_combinationSum.h"
+	"c47_permuteUnique.h"
 	"c368_largestDivisibleSubset.h"
 	"c403_canCross.h"
 	"c45_jump.h"
 	"c260_singleNumber.h"
+	"c554_leastBricks.h"
+	"c740_deleteAndEarn.h"
+	"c1423_maxScore.h"
 	<unordered_map>
 
 1618196058 f:\xrd\note\mynote\algorithm\leetcode\include\solution.h
 	<string>
 	<vector>
 
-1618386043 f:\xrd\note\mynote\algorithm\leetcode\include\c208_trie.h
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c208_trie.h
 	<string>
 
-1618799443 f:\xrd\note\mynote\algorithm\leetcode\include\utils.h
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\utils.h
 	<vector>
 
 1619141706 f:\xrd\note\mynote\algorithm\leetcode\include\c368_largestdivisiblesubset.h
 	"common.h"
 
-1619666700 f:\xrd\note\mynote\algorithm\leetcode\include\common.h
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\common.h
 	<vector>
 	<string>
 	<set>
 	<unordered_set>
 	<stack>
 	<queue>
+	<map>
 	<unordered_map>
 	<iostream>
 	<algorithm>
 	<numeric>
 	<math.h>
+	<string.h>
 	"limits.h"
+	"utils.h"
 
 1618885721 source:f:\xrd\note\mynote\algorithm\leetcode\src\c121_maxprofit.cpp
 	"c121_maxProfit.h"
@@ -187,7 +197,7 @@
 1618799669 f:\xrd\note\mynote\algorithm\leetcode\include\c198_rob.h
 	<vector>
 
-1618387986 source:f:\xrd\note\mynote\algorithm\leetcode\src\c208_trie.cpp
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c208_trie.cpp
 	"c208_Trie.h"
 	<iostream>
 
@@ -319,7 +329,7 @@
 1619764201 f:\xrd\note\mynote\algorithm\leetcode\include\c137_singlenumber.h
 	"common.h"
 
-1619764142 source:f:\xrd\note\mynote\algorithm\leetcode\src\c260_singlenumber.cpp
+1619765670 source:f:\xrd\note\mynote\algorithm\leetcode\src\c260_singlenumber.cpp
 	"c260_singleNumber.h"
 
 1619764217 f:\xrd\note\mynote\algorithm\leetcode\include\c260_singlenumber.h
@@ -636,4 +646,111 @@
 	"c1486_xorOperation.h"
 
 1620397102 e:\note\mynote\algorithm\leetcode\include\c1486_xoroperation.h
+
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c7_reverse.h
+	"common.h"
+
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c39_combinationsum.h
+	"common.h"
+
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c47_permuteunique.h
+	"common.h"
+
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c554_leastbricks.h
+	"common.h"
+
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c740_deleteandearn.h
+	"common.h"
+
+1620351818 f:\xrd\note\mynote\algorithm\leetcode\include\c1423_maxscore.h
+	"common.h"
+
+1620298406 source:f:\xrd\note\mynote\algorithm\leetcode\src\c104_maxdepth.cpp
+	"c104_maxDepth.h"
+
+1620351818 f:\xrd\note\mynote\algorithm\leetcode\include\c104_maxdepth.h
+	"common.h"
+
+1620351818 source:f:\xrd\note\mynote\algorithm\leetcode\src\c111_mindepth.cpp
+	"c111_minDepth.h"
+
+1620351818 f:\xrd\note\mynote\algorithm\leetcode\include\c111_mindepth.h
+	"common.h"
+
+1620351818 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1423_maxscore.cpp
+	"c1423_maxScore.h"
+
+1620386096 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1486_xoroperation.cpp
+	"c1486_xorOperation.h"
+
+1620352596 f:\xrd\note\mynote\algorithm\leetcode\include\c1486_xoroperation.h
+
+1620296886 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1720_decode.cpp
+	"c1720_decode.h"
+
+1620351818 f:\xrd\note\mynote\algorithm\leetcode\include\c1720_decode.h
+	"common.h"
+
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c236_lowestcommonancestor.cpp
+	"c236_lowestCommonAncestor.h"
+
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c236_lowestcommonancestor.h
+	"common.h"
+
+1620780426 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1734_decode.cpp
+	"c1734_decode.h"
+
+1620780416 f:\xrd\note\mynote\algorithm\leetcode\include\c1734_decode.h
+	"common.h"
+
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c38_countandsay.cpp
+	"c38_countAndSay.h"
+
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c38_countandsay.h
+	"common.h"
+
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c39_combinationsum.cpp
+	"c39_combinationSum.h"
+
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c429_levelorder.cpp
+	"c429_levelOrder.h"
+
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c429_levelorder.h
+	"common.h"
+
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c46_permute.cpp
+	"c46_permute.h"
+
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c46_permute.h
+	"common.h"
+
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c47_permuteunique.cpp
+	"c47_permuteUnique.h"
+
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c554_leastbricks.cpp
+	"c554_leastBricks.h"
+
+1620351818 source:f:\xrd\note\mynote\algorithm\leetcode\src\c56_merge.cpp
+	"c56_merge.h"
+
+1620351818 f:\xrd\note\mynote\algorithm\leetcode\include\c56_merge.h
+	"common.h"
+
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c589_preorder.cpp
+	"c589_preorder.h"
+
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c589_preorder.h
+	"common.h"
+
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c690_getimportance.cpp
+	"c690_getImportance.h"
+
+1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c690_getimportance.h
+	"common.h"
+
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c740_deleteandearn.cpp
+	"c740_deleteAndEarn.h"
+
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c7_reverse.cpp
+	"c7_reverse.h"
 

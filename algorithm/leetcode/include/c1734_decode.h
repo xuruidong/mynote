@@ -1,6 +1,7 @@
 #ifndef C1734_DECODE_H
 #define C1734_DECODE_H
 
+#include "common.h"
 
 class c1734_decode
 {
