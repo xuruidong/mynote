@@ -514,7 +514,7 @@
 	<queue>
 	<iostream>
 
-1620313312 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1620744604 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -753,4 +753,28 @@
 
 1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c7_reverse.cpp
 	"c7_reverse.h"
+
+1620661776 source:e:\note\mynote\algorithm\leetcode\src\c872_leafsimilar.cpp
+	"c872_leafSimilar.h"
+
+1620826089 e:\note\mynote\algorithm\leetcode\include\c872_leafsimilar.h
+	"common.h"
+
+1620826089 source:e:\note\mynote\algorithm\leetcode\src\c1734_decode.cpp
+	"c1734_decode.h"
+
+1620826089 e:\note\mynote\algorithm\leetcode\include\c1734_decode.h
+	"common.h"
+
+1620826089 source:e:\note\mynote\algorithm\leetcode\src\c1310_xorqueries.cpp
+	"c1310_xorQueries.h"
+
+1620830654 e:\note\mynote\algorithm\leetcode\include\c1310_xorqueries.h
+	"common.h"
+
+1620830634 source:e:\note\mynote\algorithm\leetcode\src\c958_iscompletetree.cpp
+	"c958_isCompleteTree.h"
+
+1620830686 e:\note\mynote\algorithm\leetcode\include\c958_iscompletetree.h
+	"common.h"
 

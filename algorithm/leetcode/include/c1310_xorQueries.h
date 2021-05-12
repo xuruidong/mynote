@@ -1,6 +1,7 @@
 #ifndef C1310_XORQUERIES_H
 #define C1310_XORQUERIES_H
 
+#include "common.h"
 
 class c1310_xorQueries
 {

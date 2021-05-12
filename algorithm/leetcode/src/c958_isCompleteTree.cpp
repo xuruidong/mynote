@@ -16,24 +16,34 @@ bool isCompleteTree(TreeNode* root)
     if(root == nullptr) {
         return false;
     }
+    bool null_flag = false;
     q.push(root);
     while(!q.empty()) {
         TreeNode* cur = q.front();
         q.pop();
-        if(!cur->left && cur->right) {
-            return false;
-        }
 
-        if(cur->right == nullptr) {
-            if(!q.empty()) {
+        if(null_flag == true) {
+            if(cur->left || cur->right) {
                 return false;
             }
         }
         if(cur->left)
             q.push(cur->left);
+        else {
+            null_flag = true;
+        }
 
-        if(cur->right)
-            q.push(cur->right);
+        if(null_flag == true) {
+            if(cur->right) {
+                return false;
+            }
+        } else {
+            if(cur->right)
+                q.push(cur->right);
+            else {
+                null_flag = true;
+            }
+        }
     }
     return true;
 }
