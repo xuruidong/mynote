@@ -40,6 +40,7 @@
 		<Unit filename="include/c111_minDepth.h" />
 		<Unit filename="include/c121_maxProfit.h" />
 		<Unit filename="include/c122_maxProfit.h" />
+		<Unit filename="include/c1269_numWays.h" />
 		<Unit filename="include/c1310_xorQueries.h" />
 		<Unit filename="include/c136_singleNumber.h" />
 		<Unit filename="include/c137_singleNumber.h" />
@@ -89,6 +90,7 @@
 		<Unit filename="src/c111_minDepth.cpp" />
 		<Unit filename="src/c121_maxProfit.cpp" />
 		<Unit filename="src/c122_maxProfit.cpp" />
+		<Unit filename="src/c1269_numWays.cpp" />
 		<Unit filename="src/c1310_xorQueries.cpp" />
 		<Unit filename="src/c136_singleNumber.cpp" />
 		<Unit filename="src/c137_singleNumber.cpp" />
