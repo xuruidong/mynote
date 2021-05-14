@@ -1,6 +1,7 @@
 #ifndef C958_ISCOMPLETETREE_H
 #define C958_ISCOMPLETETREE_H
 
+#include "common.h"
 
 class c958_isCompleteTree
 {
