@@ -778,3 +778,27 @@
 1620830686 e:\note\mynote\algorithm\leetcode\include\c958_iscompletetree.h
 	"common.h"
 
+1620832614 source:e:\note\mynote\algorithm\leetcode\src\c826_maxprofitassignment.cpp
+	"c826_maxProfitAssignment.h"
+
+1620830669 e:\note\mynote\algorithm\leetcode\include\c826_maxprofitassignment.h
+	"common.h"
+
+1620919204 source:e:\note\mynote\algorithm\leetcode\src\c1269_numways.cpp
+	"c1269_numWays.h"
+
+1621088957 e:\note\mynote\algorithm\leetcode\include\c1269_numways.h
+	"common.h"
+
+1621043248 source:e:\note\mynote\algorithm\leetcode\src\c12_inttoroman.cpp
+	"c12_intToRoman.h"
+
+1621088977 e:\note\mynote\algorithm\leetcode\include\c12_inttoroman.h
+	"common.h"
+
+1621046538 source:e:\note\mynote\algorithm\leetcode\src\c13_romantoint.cpp
+	"c13_romanToInt.h"
+
+1621088991 e:\note\mynote\algorithm\leetcode\include\c13_romantoint.h
+	"common.h"
+

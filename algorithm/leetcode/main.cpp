@@ -856,6 +856,99 @@ void upper_bound_test()
 
 }
 
+
+string sortSentence(string s) {
+    vector<string> vec;
+    string tmp;
+    for(int i=0; i<s.size(); ++i) {
+        if(s[i] == ' ') {
+            vec.push_back(tmp);
+            tmp = "";
+        } else {
+            tmp += s[i];
+        }
+    }
+    vec.push_back(tmp);
+
+    sort(vec.begin(), vec.end(), [](const string &s1, const string &s2) {
+            return s1[s1.size()-1] < s2[s2.size()-1];
+         });
+
+    string ans = "";
+    for(string &se : vec) {
+        //string st = se.substr(0, se.size-1);
+        //ans += st;
+        string st = se;
+        st[st.size()-1] = ' ';
+        ans += st;
+    }
+    ans.erase(ans.size()-1);
+    return ans;
+}
+
+
+vector<vector<char>> rotateTheBox(vector<vector<char>>& box) {
+    int len = box[0].size();
+    for(auto &line: box) {
+        for(int j=len-1; j>0; --j) {
+            if(line[j] == '.') {
+                int k=j-1;
+                while(1) {
+                    if(line[k] == '.'){
+                        --k;
+                        if(k<0){
+                            break;
+                        }
+                    }
+                    else if(line[k] == '#'){
+                        line[j] = '#';
+                        line[k] = '.';
+                        break;
+                    } else {
+                        j = k-1;
+                        break;
+                    }
+                }
+            }
+        }
+        //j=0
+    }
+
+    vector<vector<char>> ans;
+    vector<char> tmp;
+    for(int i=0; i<len; ++i){
+        for(int j=box.size()-1; j>=0; --j){
+            tmp.push_back(box[j][i]);
+        }
+        ans.push_back(tmp);
+        tmp.clean();
+    }
+    return ans;
+}
+
+#define M 1000000007
+int sumOfFlooredPairs(vector<int>& nums) {
+    sort(nums.begin(), nums.end());
+
+    int ans = 0;
+    auto it = nums.end()-1;
+    for(; it != nums.begin(); --it) {
+        int b=2;
+        auto it3 = nums.end()-1;
+        while(1) {
+            auto it2 = upper_bound(nums.begin(), it3, *it/b);
+            if(it2 != it3) {
+                ans += (it3 - it2)*(b-1)%M;
+                ++b;
+                it3 = it2;
+            } else {
+                break;
+            }
+        }
+    }
+    return ans;
+}
+
 int main()
 {
     utils u;

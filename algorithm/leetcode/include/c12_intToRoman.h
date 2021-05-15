@@ -2,6 +2,8 @@
 #define C12_INTTOROMAN_H
 
 
+#include "common.h"
+
 class c12_intToRoman
 {
     public:

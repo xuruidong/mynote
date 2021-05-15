@@ -1,6 +1,7 @@
 #ifndef C1269_NUMWAYS_H
 #define C1269_NUMWAYS_H
 
+#include "common.h"
 
 class c1269_numWays
 {

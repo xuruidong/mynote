@@ -45,6 +45,7 @@
 		<Unit filename="include/c1310_xorQueries.h" />
 		<Unit filename="include/c136_singleNumber.h" />
 		<Unit filename="include/c137_singleNumber.h" />
+		<Unit filename="include/c13_romanToInt.h" />
 		<Unit filename="include/c1423_maxScore.h" />
 		<Unit filename="include/c1486_xorOperation.h" />
 		<Unit filename="include/c1720_decode.h" />
@@ -96,6 +97,7 @@
 		<Unit filename="src/c1310_xorQueries.cpp" />
 		<Unit filename="src/c136_singleNumber.cpp" />
 		<Unit filename="src/c137_singleNumber.cpp" />
+		<Unit filename="src/c13_romanToInt.cpp" />
 		<Unit filename="src/c1423_maxScore.cpp" />
 		<Unit filename="src/c1486_xorOperation.cpp" />
 		<Unit filename="src/c1720_decode.cpp" />
