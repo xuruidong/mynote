@@ -921,7 +921,7 @@ vector<vector<char>> rotateTheBox(vector<vector<char>>& box) {
             tmp.push_back(box[j][i]);
         }
         ans.push_back(tmp);
-        tmp.clean();
+        tmp.clear();
     }
     return ans;
 }
@@ -948,6 +948,64 @@ int sumOfFlooredPairs(vector<int>& nums) {
     }
     return ans;
 }
+
+int subsetXORSum(vector<int>& nums) {
+    unsigned int n = (1<<nums.size());
+    int index = nums.size() -1;
+    int ans = 0;
+    for(unsigned int i=0; i<n; ++i) {
+        unsigned int j=i;
+        int tmp = 0;
+        int ind = index;
+        while(j){
+            if(j&0x01) {
+                tmp ^= nums[ind];
+            }
+            --ind;
+            j >>=1;
+        }
+        ans += tmp;
+    }
+    return ans;
+}
+
+/*
+["FindSumPairs","add","add","count","add","add","add","add","add","add","add","add","count","count","add","add","add","add","add","add","add","add","add","count","add","add","count","add","add","add","add","count","count","add","add","add","count","add","count","add","add","add","count","add","count","add","add","add","add","add","count","add","add","add","add","count","add","count","add","count","add","add","add","add","add","add","add","add","count","add","add","add","add","add","count","add","add","count","add","add","add","add","add","add","add","count","add","add","count","add","count","add","add","add","count","add","add","add","add","add","add","add","add","add","add","add","add","add","count","add","add","add","add","add","add","add","count","add","count","add","add","add","add","count","count","add","add","add","add","add","add","add","add","add","add","count","add","add","add","add","count","add","count","add","add","add","add","add","add","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count","count"]
+[[[9,70,14,9,76],[26,26,58,23,74,68,68,78,58,26]],[6,10],[5,6],[32],[3,55],[9,32],[9,16],[1,48],[1,4],[0,52],[8,20],[9,4],[88],[154],[9,4501],[2,20],[2,4501],[8,4501],[5,4505],[4,4],[5,4241],[4,4501],[4,4241],[4588],[0,4501],[4,847],[8896],[1,9589],[5,847],[0,5088],[3,9589],[4649],[92],[6,4501],[6,5088],[7,9589],[4649],[7,9671],[9681],[6,9671],[8,5088],[2,5088],[19347],[9,5088],[9681],[9,9671],[2,9671],[2,7295],[9,7295],[8,9671],[19347],[3,9671],[0,9671],[5,9671],[1,9671],[9676],[4,9671],[19408],[4,7295],[26642],[1,7295],[5,7295],[5,3113],[1,3113],[0,7295],[3,7295],[8,7295],[6,7295],[29816],[7,7295],[7,3113],[7,2215],[6,3113],[8,3113],[29755],[3,3113],[0,5328],[32037],[4,3113],[9,5328],[2,3113],[2,2215],[4,2215],[4,6664],[3,2215],[38639],[4,3574],[8,2215],[29755],[6,2215],[29816],[4,4791],[4,8635],[4,2734],[29760],[1,2215],[5,2215],[4,9817],[4,4323],[4,7213],[4,6589],[4,1480],[4,9856],[4,8968],[4,8194],[4,4939],[4,7355],[4,8997],[31975],[4,6130],[4,9464],[4,7884],[4,9954],[4,2439],[4,4887],[4,7171],[184028],[4,1721],[32031],[4,9642],[4,3381],[4,2846],[4,3498],[205183],[205183],[4,6018],[4,762],[4,8810],[4,510],[4,6949],[4,949],[4,9201],[4,4371],[4,3002],[4,4107],[32037],[4,1863],[4,8839],[4,8822],[4,9054],[32031],[4,2630],[31970],[4,7110],[4,7373],[4,271],[4,5630],[4,3345],[4,1512],[306244],[306249],[31970],[32031],[306305],[306311],[31970],[31970],[306311],[306249],[306305],[306244],[306249],[306244],[32031],[306249],[31970],[32031],[31975],[31975],[306244],[31975],[306311],[32031],[306311],[306244],[306249],[31975],[306311],[32031],[306244],[306244],[306305],[306311],[32031],[31970],[31970],[306305],[306244],[31970],[306311]]
+
+
+[null,null,null,2,null,null,null,null,null,null,null,null,2,7,null,null,null,null,null,null,null,null,null,6,null,null,1,null,null,null,null,3,2,null,null,null,3,null,6,null,null,null,4,null,8,null,null,null,null,null,6,null,null,null,null,2,null,8,null,6,null,null,null,null,null,null,null,null,2,null,null,null,null,null,8,null,null,2,null,null,null,null,null,null,null,1,null,null,6,null,2,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,9,null,null,null,null,null,null,null,2,null,9,null,null,null,null,1,1,null,null,null,null,null,null,null,null,null,null,9,null,null,null,null,9,null,18,null,null,null,null,null,null,2,1,18,9,1,1,18,18,1,1,1,2,1,2,9,1,18,9,9,9,2,9,1,9,1,2,1,9,1,9,2,2,1,1,9,18,18,1,2,18,1]
+*/
+class FindSumPairs {
+    unordered_map<int, unordered_set<int>> umap;
+    vector<int> nums11;
+    vector<int> nums22;
+public:
+    FindSumPairs(vector<int>& nums1, vector<int>& nums2) {
+        for(int i=0; i<nums2.size(); ++i) {
+            umap[nums2[i]].insert(i);
+        }
+        nums11 = nums1;
+        nums22 = nums2;
+    }
+
+    void add(int index, int val) {
+        umap[nums22[index]].erase(index);
+        umap[nums22[index]+val].insert(index);
+        nums22[index] += val;
+    }
+
+    int count(int tot) {
+        int ans = 0;
+        for(int i=0; i<nums11.size(); ++i) {
+            auto it = umap.find(tot-nums11[i]);
+            if(it != umap.end()) {
+                ans += it->second.size();
+            }
+        }
+        return ans;
+    }
+};
 
 int main()
 {
