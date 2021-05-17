@@ -91,4 +91,84 @@ ethtool(6943) function_name: sock_ioctl, kernel.function("sock_ioctl@net/socket.
 
 ```
 
-### 追踪自己的程序
+### 追踪自己写的程序
+自己实现的程序，如：
+```
+#include <iostream>
+#include <unistd.h>
+
+using namespace std;
+
+void test()
+{
+	cout<<"hello"<<endl;
+}
+
+int main()
+{
+	while(1) {
+		test();
+		sleep(1);
+	}
+}
+```
+用 stap 脚本来追踪test函数：
+```
+#!/usr/bin/stap
+
+probe begin 
+{
+    log("begin to probe")
+}
+
+probe process("a.out").function("*test*")
+{
+    printf ("%s(%d) function_name: %s, %s\n", execname(), pid(), ppfunc(), pp())
+}
+
+probe end
+{
+    log("end to probe")
+}
+```
+输出：
+```
+begin to probe
+a.out(1973) function_name: _GLOBAL__sub_I__Z4testv, process("/mnt/hgfs/stap_test/a.out").function("_GLOBAL__sub_I__Z4testv")
+a.out(1973) function_name: _Z4testv, process("/mnt/hgfs/stap_test/a.out").function("_Z4testv")
+a.out(1973) function_name: _Z4testv, process("/mnt/hgfs/stap_test/a.out").function("_Z4testv")
+^Cend to probe
+```
+
+### 追踪信号
+
+我曾经遇到过程序异常退出，没有core, 没有异常日志，怀疑有人开车把我的程序撞死了（kill），但是我没有证据啊，就想着如果能记录信号就好了。来来来，stap 搞起来。  
+```
+#!/usr/bin/stap
+
+probe begin 
+{
+    log("begin to probe")
+}
+
+probe end
+{
+    log("end to probe")
+}
+
+probe signal.send
+{
+	printf("Signal sent %s from %s(%d) to %s\n", sig_name, execname(), sig_pid, pid_name);
+}
+```
+执行 killall a.out 杀死进程， 然后stap 脚本会打印相关信号的情况    
+```
+begin to probe
+Signal sent SIGTERM from killall(3731) to a.out
+Signal sent SIGCHLD from killall(2062) to bash
+Signal sent SIGCHLD from a.out(1937) to bash
+^CSignal sent SIGINT from kworker/1:1(3727) to stapio
+Signal sent SIGINT from kworker/1:1(3447) to signal.stp
+Signal sent SIGTERM from signal.stp(3727) to stapio
+end to probe
+```
