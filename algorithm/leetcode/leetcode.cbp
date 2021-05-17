@@ -85,6 +85,7 @@
 		<Unit filename="include/c91_numDecodings.h" />
 		<Unit filename="include/c958_isCompleteTree.h" />
 		<Unit filename="include/c983_rangeSumBST.h" />
+		<Unit filename="include/c993_isCousins.h" />
 		<Unit filename="include/utils.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Solution.cpp" />
@@ -140,6 +141,7 @@
 		<Unit filename="src/c91_numDecodings.cpp" />
 		<Unit filename="src/c958_isCompleteTree.cpp" />
 		<Unit filename="src/c983_rangeSumBST.cpp" />
+		<Unit filename="src/c993_isCousins.cpp" />
 		<Unit filename="src/utils.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
