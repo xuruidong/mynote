@@ -47,6 +47,7 @@
 		<Unit filename="include/c137_singleNumber.h" />
 		<Unit filename="include/c13_romanToInt.h" />
 		<Unit filename="include/c1423_maxScore.h" />
+		<Unit filename="include/c1442_countTriplets.h" />
 		<Unit filename="include/c1486_xorOperation.h" />
 		<Unit filename="include/c1720_decode.h" />
 		<Unit filename="include/c1734_decode.h" />
@@ -101,6 +102,7 @@
 		<Unit filename="src/c137_singleNumber.cpp" />
 		<Unit filename="src/c13_romanToInt.cpp" />
 		<Unit filename="src/c1423_maxScore.cpp" />
+		<Unit filename="src/c1442_countTriplets.cpp" />
 		<Unit filename="src/c1486_xorOperation.cpp" />
 		<Unit filename="src/c1720_decode.cpp" />
 		<Unit filename="src/c1734_decode.cpp" />
