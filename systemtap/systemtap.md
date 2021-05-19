@@ -1,5 +1,23 @@
 
+使用 systemtap 可以在Linux 系统下观察内核或者应用层程序的行为。可以用来解决bug或者性能调优。
+
 ## 安装
+如果你用的是CentOS， 可能需要安装
+* SystemTap
+* kernel-devel
+* kernel-debuginfo
+* Development packages
+```
+# yum --enablerepo=rhel-debuginfo install systemtap kernel-devel kernel-debuginfo
+```
+我自己的测试机可以直接使用stap, 但每次执行会提示要安装debuginfo。 安装太慢了，我就重新编译内核了。
+编译内核时，需要打开以下选项：
+* CONFIG_DEBUG_INFO
+* CONFIG_KPROBES
+* CONFIG_DEBUG_FS
+* CONFIG_RELAY
+
+然后再用 systamtap 源码安装。  
 
 ### hello world
 ```
