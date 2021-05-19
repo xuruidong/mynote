@@ -43,7 +43,7 @@ int countTriplets2(vector<int> &arr)
         tmp ^= arr[i];
         umap[tmp].insert(i);
     }
-
+/*
     for(auto &it : umap) {
         for(auto &sit = it.second.begin(); sit != it.second.end(); ++sit) {
             for(auto &sit2 = sit+1; sit2 != it.second.end(); ++sit2) {
@@ -53,6 +53,6 @@ int countTriplets2(vector<int> &arr)
             }
         }
     }
-
+*/
     return ans;
 }

@@ -20,6 +20,7 @@
 #include "c554_leastBricks.h"
 #include "c740_deleteAndEarn.h"
 #include "c1423_maxScore.h"
+#include "c1738_kthLargestValue.h"
 
 using namespace std;
 
@@ -1071,6 +1072,9 @@ int main()
    // maptest();
 
    upper_bound_test();
+
+   c1738_kthLargestValue c1738;
+   c1738.test();
 
     return 0;
 }

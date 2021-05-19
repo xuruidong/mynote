@@ -35,9 +35,9 @@ int numWays(int steps, int arrLen)
 }
 
 int numWays2(int steps, int arrLen)
-{
+{/*
     int len = min(steps/2+1, arrLen);
-    long dp[2][len+2] = {0};
+    long dp[2][len+2] = {{0}};
 
     dp[0][1] = 1;
     for(int i=1; i<= steps; ++i) {
@@ -46,5 +46,5 @@ int numWays2(int steps, int arrLen)
         }
     }
 
-    return dp[steps&1][1];
+    return dp[steps&1][1];*/
 }

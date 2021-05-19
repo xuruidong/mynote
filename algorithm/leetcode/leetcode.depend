@@ -125,7 +125,7 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1620610270 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1621414267 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -146,6 +146,7 @@
 	"c554_leastBricks.h"
 	"c740_deleteAndEarn.h"
 	"c1423_maxScore.h"
+	"c1738_kthLargestValue.h"
 	<unordered_map>
 
 1618196058 f:\xrd\note\mynote\algorithm\leetcode\include\solution.h
@@ -264,10 +265,11 @@
 	<queue>
 	<iostream>
 
-1619142605 source:f:\xrd\note\mynote\algorithm\leetcode\src\utils.cpp
+1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\utils.cpp
 	"utils.h"
 	<random>
 	<iostream>
+	<time.h>
 
 1619180134 source:f:\xrd\note\mynote\algorithm\leetcode\src\c300_lengthoflis.cpp
 	"c300_lengthOfLIS.h"
@@ -806,5 +808,71 @@
 	"c421_findMaximumXOR.h"
 
 1621164542 e:\note\mynote\algorithm\leetcode\include\c421_findmaximumxor.h
+	"common.h"
+
+1620644079 source:f:\xrd\note\mynote\algorithm\leetcode\src\c872_leafsimilar.cpp
+	"c872_leafSimilar.h"
+
+1620780461 f:\xrd\note\mynote\algorithm\leetcode\include\c872_leafsimilar.h
+	"common.h"
+
+1620956143 source:f:\xrd\note\mynote\algorithm\leetcode\src\c12_inttoroman.cpp
+	"c12_intToRoman.h"
+
+1621246071 f:\xrd\note\mynote\algorithm\leetcode\include\c12_inttoroman.h
+	"common.h"
+
+1620782982 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1310_xorqueries.cpp
+	"c1310_xorQueries.h"
+
+1620952689 f:\xrd\note\mynote\algorithm\leetcode\include\c1310_xorqueries.h
+	"common.h"
+
+1621246071 source:f:\xrd\note\mynote\algorithm\leetcode\src\c13_romantoint.cpp
+	"c13_romanToInt.h"
+
+1621246071 f:\xrd\note\mynote\algorithm\leetcode\include\c13_romantoint.h
+	"common.h"
+
+1621412582 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1738_kthlargestvalue.cpp
+	"c1738_kthLargestValue.h"
+
+1621414254 f:\xrd\note\mynote\algorithm\leetcode\include\c1738_kthlargestvalue.h
+	"common.h"
+
+1621246071 source:f:\xrd\note\mynote\algorithm\leetcode\src\c421_findmaximumxor.cpp
+	"c421_findMaximumXOR.h"
+
+1621246071 f:\xrd\note\mynote\algorithm\leetcode\include\c421_findmaximumxor.h
+	"common.h"
+
+1620952689 source:f:\xrd\note\mynote\algorithm\leetcode\src\c826_maxprofitassignment.cpp
+	"c826_maxProfitAssignment.h"
+
+1620952689 f:\xrd\note\mynote\algorithm\leetcode\include\c826_maxprofitassignment.h
+	"common.h"
+
+1621412759 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1442_counttriplets.cpp
+	"c1442_countTriplets.h"
+
+1621412713 f:\xrd\note\mynote\algorithm\leetcode\include\c1442_counttriplets.h
+	"common.h"
+
+1620952689 source:f:\xrd\note\mynote\algorithm\leetcode\src\c958_iscompletetree.cpp
+	"c958_isCompleteTree.h"
+
+1620952689 f:\xrd\note\mynote\algorithm\leetcode\include\c958_iscompletetree.h
+	"common.h"
+
+1621412901 source:f:\xrd\note\mynote\algorithm\leetcode\src\c993_iscousins.cpp
+	"c993_isCousins.h"
+
+1621412882 f:\xrd\note\mynote\algorithm\leetcode\include\c993_iscousins.h
+	"common.h"
+
+1621412940 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1269_numways.cpp
+	"c1269_numWays.h"
+
+1621246071 f:\xrd\note\mynote\algorithm\leetcode\include\c1269_numways.h
 	"common.h"
 

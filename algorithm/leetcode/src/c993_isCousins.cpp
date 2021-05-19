@@ -33,7 +33,7 @@ static bool dfs(TreeNode* root, int x, int y, int depth, int root_val)
     if(!root) {
         return false;
     }
-    xxxxx
+//    xxxxx
     if(root->val == x || root->val == y) {
         if(father) {
             return depth == other_depth && father->val != root_val;
