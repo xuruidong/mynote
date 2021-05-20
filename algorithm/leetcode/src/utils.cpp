@@ -16,6 +16,7 @@ utils::~utils()
 }
 
 int utils::vector_print(std::vector<int> &nums)
+//template<typename T> static int vector_print(T &nums)
 {
     for(auto it = nums.begin(); it != nums.end(); ++it){
         std::cout<<*it<<",";
