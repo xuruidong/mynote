@@ -182,3 +182,161 @@ void upper_bound_test()
 
 
 ## priority_queue
+priority_queue 默认的存储容器是 vector, 默认的比较函数对象为 less, 所以默认为大根堆。  
+
+```
+    std::priority_queue<int> q;
+    q.push(100);
+    q.push(102);
+    q.push(34);
+    q.push(200);
+    while(!q.empty()) {
+        cout<<q.top()<<" ";
+        q.pop();
+    }
+    cout<<endl;
+```
+输出：
+```
+200 102 100 34
+```
+
+### 使用自定义的比较规则来初始化priority_queue
+[参考链接](https://blog.csdn.net/liu2012huan/article/details/52932494)  
+
+#### 重载小于操作符
+```
+class student{
+    public:
+        int age;
+        string name;
+        /**重载小于操作符，
+	      *这里必须是非成员函数才可以
+		*/
+        friend bool operator<(const student& a, const student & b){
+            return a.age < b.age;
+        }
+
+        student(string name, int age) {
+            this->name = name;
+            this->age = age;
+        }
+};
+
+void p_test()
+{
+    std::priority_queue<student> q;
+    q.emplace("aaa", 12);
+    q.emplace("bbb", 100);
+    q.emplace("ccc", 27);
+    q.emplace("ddd", 2);
+    q.emplace("eee", 93);
+    while(!q.empty()) {
+        cout<<q.top().name<<" "<<q.top().age<<" ";
+        q.pop();
+    }
+    cout<<endl;
+
+}
+```
+输出：  
+```
+bbb 100 eee 93 ccc 27 aaa 12 ddd 2
+```
+
+#### 可调用的函数操作符的对象
+```
+class student{
+    public:
+        int age;
+        string name;
+
+        student(string name, int age) {
+            this->name = name;
+            this->age = age;
+            cout<<name<<"===="<<age<<endl;
+        }
+};
+
+struct mycmp{
+    bool operator()(const student & a,const student & b){
+        return a.age < b.age;
+    }
+};
+
+void p_test()
+{
+    std::priority_queue<student, vector<student>, mycmp> q;
+    q.emplace("aaa", 12);
+    q.emplace("bbb", 100);
+    q.emplace("ccc", 27);
+    q.emplace("ddd", 2);
+    q.emplace("eee", 93);
+    while(!q.empty()) {
+        cout<<q.top().name<<" "<<q.top().age<<" ";
+        q.pop();
+    }
+    cout<<endl;
+}
+```
+
+#### 函数指针
+
+#### lambda 函数来初始化函数对象
+```
+void p_test()
+{
+    auto cmp = [](const student & a,const student & b){return a.age < b.age;};
+/**
+  *	需要把lambda表达式作为优先队列参数进行初始化
+  * 并且指定priority_queue的模板实参，decltype(cmp)，c++11 declare type，声明类型
+  * 可以认为是确定函数的类型
+  * bool (const student & a,const student & b)
+  **/
+
+    std::priority_queue<student, vector<student>, decltype(cmp)> q(cmp);
+    q.emplace("aaa", 12);
+    q.emplace("bbb", 100);
+    q.emplace("ccc", 27);
+    q.emplace("ddd", 2);
+    q.emplace("eee", 93);
+    while(!q.empty()) {
+        cout<<q.top().name<<" "<<q.top().age<<" ";
+        q.pop();
+    }
+    cout<<endl;
+
+}
+```
+
+#### 函数指针来初始化函数对象
+需要包含functional头文件
+```
+#include <functional>
+
+/**函数指针*/
+bool cmpfunc(const student& a, const student& b){
+    return a.age < b.age;
+}
+
+void p_test()
+{
+    std::priority_queue<student, vector<student>, function<bool(const student&,const student&)>> q(cmpfunc);
+    q.emplace("aaa", 12);
+    q.emplace("bbb", 100);
+    q.emplace("ccc", 27);
+    q.emplace("ddd", 2);
+    q.emplace("eee", 93);
+    while(!q.empty()) {
+        cout<<q.top().name<<" "<<q.top().age<<" ";
+        q.pop();
+    }
+    cout<<endl;
+}
+```
+
+#### 函数对象
+```
+function<bool(const student&,const student &)> func(cmpfunc);
+std::priority_queue<student, vector<student>, function<bool(const student&,const student&)>> q(func);
+```
