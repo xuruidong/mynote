@@ -36,6 +36,7 @@
 		</Compiler>
 		<Unit filename="include/Solution.h" />
 		<Unit filename="include/c1011_shipWithinDays.h" />
+		<Unit filename="include/c1035_maxUncrossedLines.h" />
 		<Unit filename="include/c104_maxDepth.h" />
 		<Unit filename="include/c111_minDepth.h" />
 		<Unit filename="include/c121_maxProfit.h" />
@@ -93,6 +94,7 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Solution.cpp" />
 		<Unit filename="src/c1011_shipWithinDays.cpp" />
+		<Unit filename="src/c1035_maxUncrossedLines.cpp" />
 		<Unit filename="src/c104_maxDepth.cpp" />
 		<Unit filename="src/c111_minDepth.cpp" />
 		<Unit filename="src/c121_maxProfit.cpp" />
