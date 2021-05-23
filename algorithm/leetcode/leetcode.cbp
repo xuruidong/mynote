@@ -50,6 +50,7 @@
 		<Unit filename="include/c1423_maxScore.h" />
 		<Unit filename="include/c1442_countTriplets.h" />
 		<Unit filename="include/c1486_xorOperation.h" />
+		<Unit filename="include/c1707_maximizeXor.h" />
 		<Unit filename="include/c1720_decode.h" />
 		<Unit filename="include/c1734_decode.h" />
 		<Unit filename="include/c1738_kthLargestValue.h" />
@@ -82,6 +83,7 @@
 		<Unit filename="include/c740_deleteAndEarn.h" />
 		<Unit filename="include/c783_minDiffInBST.h" />
 		<Unit filename="include/c7_reverse.h" />
+		<Unit filename="include/c810_xorGame.h" />
 		<Unit filename="include/c826_maxProfitAssignment.h" />
 		<Unit filename="include/c872_leafSimilar.h" />
 		<Unit filename="include/c87_isScramble.h" />
@@ -108,6 +110,7 @@
 		<Unit filename="src/c1423_maxScore.cpp" />
 		<Unit filename="src/c1442_countTriplets.cpp" />
 		<Unit filename="src/c1486_xorOperation.cpp" />
+		<Unit filename="src/c1707_maximizeXor.cpp" />
 		<Unit filename="src/c1720_decode.cpp" />
 		<Unit filename="src/c1734_decode.cpp" />
 		<Unit filename="src/c1738_kthLargestValue.cpp" />
@@ -142,6 +145,7 @@
 		<Unit filename="src/c740_deleteAndEarn.cpp" />
 		<Unit filename="src/c783_minDiffInBST.cpp" />
 		<Unit filename="src/c7_reverse.cpp" />
+		<Unit filename="src/c810_xorGame.cpp" />
 		<Unit filename="src/c826_maxProfitAssignment.cpp" />
 		<Unit filename="src/c872_leafSimilar.cpp" />
 		<Unit filename="src/c87_isScramble.cpp" />

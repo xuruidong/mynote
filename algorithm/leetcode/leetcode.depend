@@ -516,7 +516,7 @@
 	<queue>
 	<iostream>
 
-1621164686 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1621668711 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -535,11 +535,12 @@
 	"c45_jump.h"
 	"c260_singleNumber.h"
 	"c554_leastBricks.h"
+	"c692_topKFrequent.h"
 	"c740_deleteAndEarn.h"
 	"c1423_maxScore.h"
-	<unordered_map>
+	"c1738_kthLargestValue.h"
 
-1619853450 e:\note\mynote\algorithm\leetcode\include\utils.h
+1621668711 e:\note\mynote\algorithm\leetcode\include\utils.h
 	<vector>
 
 1619832571 source:e:\note\mynote\algorithm\leetcode\src\utils.cpp
@@ -786,7 +787,7 @@
 1620830669 e:\note\mynote\algorithm\leetcode\include\c826_maxprofitassignment.h
 	"common.h"
 
-1620919204 source:e:\note\mynote\algorithm\leetcode\src\c1269_numways.cpp
+1621668711 source:e:\note\mynote\algorithm\leetcode\src\c1269_numways.cpp
 	"c1269_numWays.h"
 
 1621088957 e:\note\mynote\algorithm\leetcode\include\c1269_numways.h
@@ -804,7 +805,7 @@
 1621088991 e:\note\mynote\algorithm\leetcode\include\c13_romantoint.h
 	"common.h"
 
-1621164662 source:e:\note\mynote\algorithm\leetcode\src\c421_findmaximumxor.cpp
+1621172636 source:e:\note\mynote\algorithm\leetcode\src\c421_findmaximumxor.cpp
 	"c421_findMaximumXOR.h"
 
 1621164542 e:\note\mynote\algorithm\leetcode\include\c421_findmaximumxor.h
@@ -882,4 +883,29 @@
 
 1621476853 f:\xrd\note\mynote\algorithm\leetcode\include\c692_topkfrequent.h
 	"common.h"
+
+1621668711 e:\note\mynote\algorithm\leetcode\include\c692_topkfrequent.h
+	"common.h"
+
+1621668711 e:\note\mynote\algorithm\leetcode\include\c1738_kthlargestvalue.h
+	"common.h"
+
+1621668711 source:e:\note\mynote\algorithm\leetcode\src\c1035_maxuncrossedlines.cpp
+	"c1035_maxUncrossedLines.h"
+
+1621668711 e:\note\mynote\algorithm\leetcode\include\c1035_maxuncrossedlines.h
+	"common.h"
+
+1621668711 source:e:\note\mynote\algorithm\leetcode\src\c1442_counttriplets.cpp
+	"c1442_countTriplets.h"
+
+1621668711 e:\note\mynote\algorithm\leetcode\include\c1442_counttriplets.h
+	"common.h"
+
+1621668711 source:e:\note\mynote\algorithm\leetcode\src\c1738_kthlargestvalue.cpp
+	"c1738_kthLargestValue.h"
+
+1621668711 source:e:\note\mynote\algorithm\leetcode\src\c692_topkfrequent.cpp
+	"c692_topKFrequent.h"
+	<functional>
 
