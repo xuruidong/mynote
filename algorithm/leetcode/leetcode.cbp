@@ -39,6 +39,7 @@
 		<Unit filename="include/c1035_maxUncrossedLines.h" />
 		<Unit filename="include/c104_maxDepth.h" />
 		<Unit filename="include/c111_minDepth.h" />
+		<Unit filename="include/c1190_reverseParentheses.h" />
 		<Unit filename="include/c121_maxProfit.h" />
 		<Unit filename="include/c122_maxProfit.h" />
 		<Unit filename="include/c1269_numWays.h" />
@@ -99,6 +100,7 @@
 		<Unit filename="src/c1035_maxUncrossedLines.cpp" />
 		<Unit filename="src/c104_maxDepth.cpp" />
 		<Unit filename="src/c111_minDepth.cpp" />
+		<Unit filename="src/c1190_reverseParentheses.cpp" />
 		<Unit filename="src/c121_maxProfit.cpp" />
 		<Unit filename="src/c122_maxProfit.cpp" />
 		<Unit filename="src/c1269_numWays.cpp" />
