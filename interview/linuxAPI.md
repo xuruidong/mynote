@@ -15,3 +15,4 @@ memalign 指定地址对齐的内存申请函数
 
 
 
+[SO_DONTROUTE和SO_BINDTODEVICE的深层次分析](https://www.oschina.net/question/234345_47633)  
