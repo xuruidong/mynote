@@ -72,6 +72,7 @@
 		<Unit filename="include/c421_findMaximumXOR.h" />
 		<Unit filename="include/c429_levelOrder.h" />
 		<Unit filename="include/c45_jump.h" />
+		<Unit filename="include/c461_hammingDistance.h" />
 		<Unit filename="include/c46_permute.h" />
 		<Unit filename="include/c47_permuteUnique.h" />
 		<Unit filename="include/c554_leastBricks.h" />
@@ -135,6 +136,7 @@
 		<Unit filename="src/c421_findMaximumXOR.cpp" />
 		<Unit filename="src/c429_levelOrder.cpp" />
 		<Unit filename="src/c45_jump.cpp" />
+		<Unit filename="src/c461_hammingDistance.cpp" />
 		<Unit filename="src/c46_permute.cpp" />
 		<Unit filename="src/c47_permuteUnique.cpp" />
 		<Unit filename="src/c554_leastBricks.cpp" />
