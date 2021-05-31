@@ -64,6 +64,7 @@
 		<Unit filename="include/c27_removeElement.h" />
 		<Unit filename="include/c28_strstr.h" />
 		<Unit filename="include/c300_lengthOfLIS.h" />
+		<Unit filename="include/c342_isPowerOfFour.h" />
 		<Unit filename="include/c363_maxSumSubmatrix.h" />
 		<Unit filename="include/c368_largestDivisibleSubset.h" />
 		<Unit filename="include/c38_countAndSay.h" />
@@ -129,6 +130,7 @@
 		<Unit filename="src/c28_strstr.cpp" />
 		<Unit filename="src/c300_lengthOfLIS.cpp" />
 		<Unit filename="src/c33_search.cpp" />
+		<Unit filename="src/c342_isPowerOfFour.cpp" />
 		<Unit filename="src/c363_maxSumSubmatrix.cpp" />
 		<Unit filename="src/c368_largestDivisibleSubset.cpp" />
 		<Unit filename="src/c38_countAndSay.cpp" />
