@@ -55,6 +55,7 @@
 		<Unit filename="include/c1720_decode.h" />
 		<Unit filename="include/c1734_decode.h" />
 		<Unit filename="include/c1738_kthLargestValue.h" />
+		<Unit filename="include/c1744_canEat.h" />
 		<Unit filename="include/c198_rob.h" />
 		<Unit filename="include/c208_Trie.h" />
 		<Unit filename="include/c213_rob.h" />
@@ -119,6 +120,7 @@
 		<Unit filename="src/c1720_decode.cpp" />
 		<Unit filename="src/c1734_decode.cpp" />
 		<Unit filename="src/c1738_kthLargestValue.cpp" />
+		<Unit filename="src/c1744_canEat.cpp" />
 		<Unit filename="src/c198_rob.cpp" />
 		<Unit filename="src/c208_Trie.cpp" />
 		<Unit filename="src/c213_rob.cpp" />
