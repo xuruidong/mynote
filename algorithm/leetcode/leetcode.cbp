@@ -79,6 +79,7 @@
 		<Unit filename="include/c46_permute.h" />
 		<Unit filename="include/c477_totalHammingDistance.h" />
 		<Unit filename="include/c47_permuteUnique.h" />
+		<Unit filename="include/c494_findTargetSumWays.h" />
 		<Unit filename="include/c523_checkSubarraySum.h" />
 		<Unit filename="include/c554_leastBricks.h" />
 		<Unit filename="include/c56_merge.h" />
@@ -148,6 +149,7 @@
 		<Unit filename="src/c46_permute.cpp" />
 		<Unit filename="src/c477_totalHammingDistance.cpp" />
 		<Unit filename="src/c47_permuteUnique.cpp" />
+		<Unit filename="src/c494_findTargetSumWays.cpp" />
 		<Unit filename="src/c523_checkSubarraySum.cpp" />
 		<Unit filename="src/c554_leastBricks.cpp" />
 		<Unit filename="src/c56_merge.cpp" />
