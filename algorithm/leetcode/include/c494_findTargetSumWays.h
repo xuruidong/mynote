@@ -1,6 +1,7 @@
 #ifndef C494_FINDTARGETSUMWAYS_H
 #define C494_FINDTARGETSUMWAYS_H
 
+#include "common.h"
 
 class c494_findTargetSumWays
 {

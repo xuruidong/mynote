@@ -20,6 +20,7 @@
 #include "c554_leastBricks.h"
 #include "c692_topKFrequent.h"
 #include "c740_deleteAndEarn.h"
+#include "c852_peakIndexInMountainArray.h"
 #include "c1423_maxScore.h"
 #include "c1738_kthLargestValue.h"
 
@@ -503,6 +504,9 @@ int main()
 
     c692_topKFrequent c692;
     c692.test();
+
+    c852_peakIndexInMountainArray c852;
+    c852.test();
 
     return 0;
 }

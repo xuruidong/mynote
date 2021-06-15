@@ -21,7 +21,7 @@ vector<bool> canEat(vector<int>& candiesCount, vector<vector<int>>& queries)
     vector<bool> ans;
     for(auto &q:queries) {
         long long v1 = q[1] * q[2];
-        if(( v1 > sum[q[0]) || (q[2] <= sum[q[0]+1)) {
+        if(( v1 > sum[q[0]]) || (q[2] <= sum[q[0]+1])) {
             ans.push_back(true);
         } else {
             ans.push_back(false);

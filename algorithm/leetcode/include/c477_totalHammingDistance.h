@@ -1,6 +1,7 @@
 #ifndef C477_TOTALHAMMINGDISTANCE_H
 #define C477_TOTALHAMMINGDISTANCE_H
 
+#include "common.h"
 
 class c477_totalHammingDistance
 {

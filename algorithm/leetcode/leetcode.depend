@@ -125,7 +125,7 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1621497498 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1623735303 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -146,6 +146,7 @@
 	"c554_leastBricks.h"
 	"c692_topKFrequent.h"
 	"c740_deleteAndEarn.h"
+	"c852_peakIndexInMountainArray.h"
 	"c1423_maxScore.h"
 	"c1738_kthLargestValue.h"
 
@@ -162,7 +163,7 @@
 1619141706 f:\xrd\note\mynote\algorithm\leetcode\include\c368_largestdivisiblesubset.h
 	"common.h"
 
-1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\common.h
+1623735595 f:\xrd\note\mynote\algorithm\leetcode\include\common.h
 	<vector>
 	<string>
 	<set>
@@ -739,7 +740,7 @@
 1620351818 f:\xrd\note\mynote\algorithm\leetcode\include\c56_merge.h
 	"common.h"
 
-1620262155 source:f:\xrd\note\mynote\algorithm\leetcode\src\c589_preorder.cpp
+1623736078 source:f:\xrd\note\mynote\algorithm\leetcode\src\c589_preorder.cpp
 	"c589_preorder.h"
 
 1620262155 f:\xrd\note\mynote\algorithm\leetcode\include\c589_preorder.h
@@ -908,4 +909,74 @@
 1621668711 source:e:\note\mynote\algorithm\leetcode\src\c692_topkfrequent.cpp
 	"c692_topKFrequent.h"
 	<functional>
+
+1623735241 f:\xrd\note\mynote\algorithm\leetcode\include\c852_peakindexinmountainarray.h
+	"common.h"
+
+1621597148 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1035_maxuncrossedlines.cpp
+	"c1035_maxUncrossedLines.h"
+
+1621566443 f:\xrd\note\mynote\algorithm\leetcode\include\c1035_maxuncrossedlines.h
+	"common.h"
+
+1622106208 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1190_reverseparentheses.cpp
+	"c1190_reverseParentheses.h"
+
+1623735340 f:\xrd\note\mynote\algorithm\leetcode\include\c1190_reverseparentheses.h
+	"common.h"
+
+1622445805 source:f:\xrd\note\mynote\algorithm\leetcode\src\c342_ispoweroffour.cpp
+	"c342_isPowerOfFour.h"
+
+1622443330 f:\xrd\note\mynote\algorithm\leetcode\include\c342_ispoweroffour.h
+
+1622112319 source:f:\xrd\note\mynote\algorithm\leetcode\src\c461_hammingdistance.cpp
+	"c461_hammingDistance.h"
+
+1622107675 f:\xrd\note\mynote\algorithm\leetcode\include\c461_hammingdistance.h
+
+1622195925 source:f:\xrd\note\mynote\algorithm\leetcode\src\c477_totalhammingdistance.cpp
+	"c477_totalHammingDistance.h"
+
+1623735390 f:\xrd\note\mynote\algorithm\leetcode\include\c477_totalhammingdistance.h
+	"common.h"
+
+1622790291 source:f:\xrd\note\mynote\algorithm\leetcode\src\c160_getintersectionnode.cpp
+	"c160_getIntersectionNode.h"
+	"common.h"
+
+1622770301 f:\xrd\note\mynote\algorithm\leetcode\include\c160_getintersectionnode.h
+
+1623735700 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1707_maximizexor.cpp
+	"c1707_maximizeXor.h"
+
+1623735382 f:\xrd\note\mynote\algorithm\leetcode\include\c1707_maximizexor.h
+	"common.h"
+
+1623735757 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1744_caneat.cpp
+	"c1744_canEat.h"
+
+1623735362 f:\xrd\note\mynote\algorithm\leetcode\include\c1744_caneat.h
+	"common.h"
+
+1623060049 source:f:\xrd\note\mynote\algorithm\leetcode\src\c494_findtargetsumways.cpp
+	"c494_findTargetSumWays.h"
+
+1623735827 f:\xrd\note\mynote\algorithm\leetcode\include\c494_findtargetsumways.h
+	"common.h"
+
+1622106208 source:f:\xrd\note\mynote\algorithm\leetcode\src\c810_xorgame.cpp
+	"c810_xorGame.h"
+
+1622106208 f:\xrd\note\mynote\algorithm\leetcode\include\c810_xorgame.h
+	"common.h"
+
+1623735208 source:f:\xrd\note\mynote\algorithm\leetcode\src\c852_peakindexinmountainarray.cpp
+	"c852_peakIndexInMountainArray.h"
+
+1623736070 source:f:\xrd\note\mynote\algorithm\leetcode\src\c523_checksubarraysum.cpp
+	"c523_checkSubarraySum.h"
+
+1623735846 f:\xrd\note\mynote\algorithm\leetcode\include\c523_checksubarraysum.h
+	"common.h"
 
