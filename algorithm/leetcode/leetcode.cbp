@@ -57,6 +57,7 @@
 		<Unit filename="include/c1734_decode.h" />
 		<Unit filename="include/c1738_kthLargestValue.h" />
 		<Unit filename="include/c1744_canEat.h" />
+		<Unit filename="include/c1833_maxIceCream.h" />
 		<Unit filename="include/c198_rob.h" />
 		<Unit filename="include/c208_Trie.h" />
 		<Unit filename="include/c213_rob.h" />
@@ -77,6 +78,7 @@
 		<Unit filename="include/c45_jump.h" />
 		<Unit filename="include/c461_hammingDistance.h" />
 		<Unit filename="include/c46_permute.h" />
+		<Unit filename="include/c474_findMaxForm.h" />
 		<Unit filename="include/c477_totalHammingDistance.h" />
 		<Unit filename="include/c47_permuteUnique.h" />
 		<Unit filename="include/c523_checkSubarraySum.h" />
@@ -124,6 +126,7 @@
 		<Unit filename="src/c1734_decode.cpp" />
 		<Unit filename="src/c1738_kthLargestValue.cpp" />
 		<Unit filename="src/c1744_canEat.cpp" />
+		<Unit filename="src/c1833_maxIceCream.cpp" />
 		<Unit filename="src/c198_rob.cpp" />
 		<Unit filename="src/c208_Trie.cpp" />
 		<Unit filename="src/c213_rob.cpp" />
@@ -146,6 +149,7 @@
 		<Unit filename="src/c45_jump.cpp" />
 		<Unit filename="src/c461_hammingDistance.cpp" />
 		<Unit filename="src/c46_permute.cpp" />
+		<Unit filename="src/c474_findMaxForm.cpp" />
 		<Unit filename="src/c477_totalHammingDistance.cpp" />
 		<Unit filename="src/c47_permuteUnique.cpp" />
 		<Unit filename="src/c523_checkSubarraySum.cpp" />
