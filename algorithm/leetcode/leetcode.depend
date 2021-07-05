@@ -125,7 +125,7 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1623735303 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1625451835 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -145,6 +145,7 @@
 	"c260_singleNumber.h"
 	"c554_leastBricks.h"
 	"c692_topKFrequent.h"
+	"c726_countOfAtoms.h"
 	"c740_deleteAndEarn.h"
 	"c852_peakIndexInMountainArray.h"
 	"c1423_maxScore.h"
@@ -913,7 +914,7 @@
 1623735241 f:\xrd\note\mynote\algorithm\leetcode\include\c852_peakindexinmountainarray.h
 	"common.h"
 
-1621597148 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1035_maxuncrossedlines.cpp
+1623737049 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1035_maxuncrossedlines.cpp
 	"c1035_maxUncrossedLines.h"
 
 1621566443 f:\xrd\note\mynote\algorithm\leetcode\include\c1035_maxuncrossedlines.h
@@ -971,7 +972,7 @@
 1622106208 f:\xrd\note\mynote\algorithm\leetcode\include\c810_xorgame.h
 	"common.h"
 
-1623735208 source:f:\xrd\note\mynote\algorithm\leetcode\src\c852_peakindexinmountainarray.cpp
+1623736448 source:f:\xrd\note\mynote\algorithm\leetcode\src\c852_peakindexinmountainarray.cpp
 	"c852_peakIndexInMountainArray.h"
 
 1623736070 source:f:\xrd\note\mynote\algorithm\leetcode\src\c523_checksubarraysum.cpp
@@ -979,4 +980,10 @@
 
 1623735846 f:\xrd\note\mynote\algorithm\leetcode\include\c523_checksubarraysum.h
 	"common.h"
+
+1625451902 f:\xrd\note\mynote\algorithm\leetcode\include\c726_countofatoms.h
+	"common.h"
+
+1625476146 source:f:\xrd\note\mynote\algorithm\leetcode\src\c726_countofatoms.cpp
+	"c726_countOfAtoms.h"
 
