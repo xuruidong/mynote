@@ -1,6 +1,7 @@
 #ifndef C451_FREQUENCYSORT_H
 #define C451_FREQUENCYSORT_H
 
+#include "common.h"
 
 class c451_frequencySort
 {

@@ -18,7 +18,6 @@ c726_countOfAtoms::~c726_countOfAtoms()
 
 static unordered_map<string, int> fsm(string &s, int &index)
 {
-    cout<<"in fsm:"<<&s<<endl;
     unordered_map<string, int> umap;
     if(index >= s.size()) {
         return umap;
@@ -44,6 +43,9 @@ static unordered_map<string, int> fsm(string &s, int &index)
                 umap[it->first] += it->second;
                 //cout<<"~~~~"<<umap[it->first]<<endl;
             }
+            if(i>=s.size()) {
+                return umap;
+            }
             continue;
         }
 
@@ -68,6 +70,10 @@ static unordered_map<string, int> fsm(string &s, int &index)
                 else if(s[i] >= '0' && s[i] <='9') {
                     digit_str = s[i];
                     state = STATE_DIGIT;
+                }
+                else if(s[i] >= 'A' && s[i] <='Z') {
+                    umap[tmp] += 1;
+                    tmp = s[i];
                 }
                 else if(s[i] == ')') {
                     umap[tmp] += 1;
@@ -115,6 +121,7 @@ static unordered_map<string, int> fsm(string &s, int &index)
                     umap[tmp] += v;
                     digit_str = "";
                     tmp = "";
+                    state = STATE_RIGHT_BRACKET;
                 }
                 break;
             case STATE_RIGHT_BRACKET:
@@ -130,10 +137,19 @@ static unordered_map<string, int> fsm(string &s, int &index)
                 break;
         }
     }
-    if(digit_str != "") {
+
+    if(state == STATE_DIGIT && digit_str != "") {
         cout<<"2 digit str:"<<digit_str<<endl;
         int v = stoi(digit_str);
-        umap[tmp] += v;
+        if(right_bracket_flag) {
+            for(auto it=umap.begin(); it != umap.end(); ++it) {
+                it->second *= v;
+            }
+            //--i;
+            return umap;
+        }
+        else
+            umap[tmp] += v;
     }
     else {
         umap[tmp] += 1;

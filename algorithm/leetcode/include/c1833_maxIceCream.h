@@ -1,6 +1,7 @@
 #ifndef C1833_MAXICECREAM_H
 #define C1833_MAXICECREAM_H
 
+#include "common.h"
 
 class c1833_maxIceCream
 {

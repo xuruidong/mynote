@@ -1,6 +1,7 @@
 #ifndef C654_FINDERRORNUMS_H
 #define C654_FINDERRORNUMS_H
 
+#include "common.h"
 
 class c654_findErrorNums
 {
