@@ -44,11 +44,11 @@ public:
 vector<int> maximizeXor(vector<int>& nums, vector<vector<int>>& queries)
 {
     sort(nums.begin(), nums.end());
-    int numsQ = queries.size();
+    int numQ = queries.size();
     for(int i =0; i<numQ; ++i) {
         queries[i].push_back(i);
     }
-    sort(queries.begin(), queries.end(), [](auto &x, auto &y) { return x[1] < y[i]});
+    sort(queries.begin(), queries.end(), [](auto &x, auto &y) { return x[1] < y[1];});
 
     vector<int> ans(numQ);
     Trie* t=new Trie();

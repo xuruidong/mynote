@@ -19,7 +19,9 @@
 #include "c260_singleNumber.h"
 #include "c554_leastBricks.h"
 #include "c692_topKFrequent.h"
+#include "c726_countOfAtoms.h"
 #include "c740_deleteAndEarn.h"
+#include "c852_peakIndexInMountainArray.h"
 #include "c1423_maxScore.h"
 #include "c1738_kthLargestValue.h"
 
@@ -437,7 +439,7 @@ int main()
 {
     utils u;
     cout << "Hello world!" << endl;
-
+#if 0
     cls_demo c1(1,100);
     cls_demo c2(2, 99);
 
@@ -496,13 +498,18 @@ int main()
     c1423.test();
    // maptest();
 
-   upper_bound_test();
-
    c1738_kthLargestValue c1738;
    c1738.test();
 
     c692_topKFrequent c692;
     c692.test();
 
+    c852_peakIndexInMountainArray c852;
+    c852.test();
+#endif
+    c726_countOfAtoms c726;
+    c726.test();
+
+    upper_bound_test();
     return 0;
 }

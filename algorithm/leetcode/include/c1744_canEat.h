@@ -1,6 +1,7 @@
 #ifndef C1744_CANEAT_H
 #define C1744_CANEAT_H
 
+#include "common.h"
 
 class c1744_canEat
 {

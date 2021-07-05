@@ -1,7 +1,7 @@
 #ifndef C523_CHECKSUBARRAYSUM_H
 #define C523_CHECKSUBARRAYSUM_H
 
-
+#include "common.h"
 class c523_checkSubarraySum
 {
     public:

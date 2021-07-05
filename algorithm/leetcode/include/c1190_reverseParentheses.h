@@ -1,6 +1,7 @@
 #ifndef C1190_REVERSEPARENTHESES_H
 #define C1190_REVERSEPARENTHESES_H
 
+#include "common.h"
 
 class c1190_reverseParentheses
 {

@@ -82,6 +82,7 @@
 		<Unit filename="include/c474_findMaxForm.h" />
 		<Unit filename="include/c477_totalHammingDistance.h" />
 		<Unit filename="include/c47_permuteUnique.h" />
+		<Unit filename="include/c494_findTargetSumWays.h" />
 		<Unit filename="include/c523_checkSubarraySum.h" />
 		<Unit filename="include/c554_leastBricks.h" />
 		<Unit filename="include/c56_merge.h" />
@@ -91,11 +92,13 @@
 		<Unit filename="include/c654_findErrorNums.h" />
 		<Unit filename="include/c690_getImportance.h" />
 		<Unit filename="include/c692_topKFrequent.h" />
+		<Unit filename="include/c726_countOfAtoms.h" />
 		<Unit filename="include/c740_deleteAndEarn.h" />
 		<Unit filename="include/c783_minDiffInBST.h" />
 		<Unit filename="include/c7_reverse.h" />
 		<Unit filename="include/c810_xorGame.h" />
 		<Unit filename="include/c826_maxProfitAssignment.h" />
+		<Unit filename="include/c852_peakIndexInMountainArray.h" />
 		<Unit filename="include/c872_leafSimilar.h" />
 		<Unit filename="include/c87_isScramble.h" />
 		<Unit filename="include/c897_increasingBST.h" />
@@ -155,6 +158,7 @@
 		<Unit filename="src/c474_findMaxForm.cpp" />
 		<Unit filename="src/c477_totalHammingDistance.cpp" />
 		<Unit filename="src/c47_permuteUnique.cpp" />
+		<Unit filename="src/c494_findTargetSumWays.cpp" />
 		<Unit filename="src/c523_checkSubarraySum.cpp" />
 		<Unit filename="src/c554_leastBricks.cpp" />
 		<Unit filename="src/c56_merge.cpp" />
@@ -164,11 +168,13 @@
 		<Unit filename="src/c654_findErrorNums.cpp" />
 		<Unit filename="src/c690_getImportance.cpp" />
 		<Unit filename="src/c692_topKFrequent.cpp" />
+		<Unit filename="src/c726_countOfAtoms.cpp" />
 		<Unit filename="src/c740_deleteAndEarn.cpp" />
 		<Unit filename="src/c783_minDiffInBST.cpp" />
 		<Unit filename="src/c7_reverse.cpp" />
 		<Unit filename="src/c810_xorGame.cpp" />
 		<Unit filename="src/c826_maxProfitAssignment.cpp" />
+		<Unit filename="src/c852_peakIndexInMountainArray.cpp" />
 		<Unit filename="src/c872_leafSimilar.cpp" />
 		<Unit filename="src/c87_isScramble.cpp" />
 		<Unit filename="src/c897_increasingBST.cpp" />
