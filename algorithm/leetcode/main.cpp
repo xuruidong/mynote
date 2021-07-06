@@ -22,6 +22,7 @@
 #include "c726_countOfAtoms.h"
 #include "c740_deleteAndEarn.h"
 #include "c852_peakIndexInMountainArray.h"
+#include "c1418_displayTable.h"
 #include "c1423_maxScore.h"
 #include "c1738_kthLargestValue.h"
 
@@ -507,8 +508,11 @@ int main()
     c852_peakIndexInMountainArray c852;
     c852.test();
 #endif
-    c726_countOfAtoms c726;
-    c726.test();
+    //c726_countOfAtoms c726;
+    //c726.test();
+
+    c1418_displayTable c1418;
+    c1418.test();
 
     upper_bound_test();
     return 0;

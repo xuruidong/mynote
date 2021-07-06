@@ -125,7 +125,7 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1625451835 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1625535831 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -148,6 +148,7 @@
 	"c726_countOfAtoms.h"
 	"c740_deleteAndEarn.h"
 	"c852_peakIndexInMountainArray.h"
+	"c1418_displayTable.h"
 	"c1423_maxScore.h"
 	"c1738_kthLargestValue.h"
 
@@ -986,7 +987,7 @@
 1625451902 f:\xrd\note\mynote\algorithm\leetcode\include\c726_countofatoms.h
 	"common.h"
 
-1625476146 source:f:\xrd\note\mynote\algorithm\leetcode\src\c726_countofatoms.cpp
+1625535276 source:f:\xrd\note\mynote\algorithm\leetcode\src\c726_countofatoms.cpp
 	"c726_countOfAtoms.h"
 
 1621672907 source:e:\note\mynote\algorithm\leetcode\src\c810_xorgame.cpp
@@ -1087,5 +1088,32 @@
 	"c474_findMaxForm.h"
 
 1625495302 e:\note\mynote\algorithm\leetcode\include\c474_findmaxform.h
+	"common.h"
+
+1625535276 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1833_maxicecream.cpp
+	"c1833_maxIceCream.h"
+
+1625535276 f:\xrd\note\mynote\algorithm\leetcode\include\c1833_maxicecream.h
+	"common.h"
+
+1625535276 source:f:\xrd\note\mynote\algorithm\leetcode\src\c451_frequencysort.cpp
+	"c451_frequencySort.h"
+
+1625535276 f:\xrd\note\mynote\algorithm\leetcode\include\c451_frequencysort.h
+	"common.h"
+
+1625535841 f:\xrd\note\mynote\algorithm\leetcode\include\c1418_displaytable.h
+	"common.h"
+
+1625535276 source:f:\xrd\note\mynote\algorithm\leetcode\src\c474_findmaxform.cpp
+	"c474_findMaxForm.h"
+
+1625535276 f:\xrd\note\mynote\algorithm\leetcode\include\c474_findmaxform.h
+	"common.h"
+
+1625535276 source:f:\xrd\note\mynote\algorithm\leetcode\src\c654_finderrornums.cpp
+	"c654_findErrorNums.h"
+
+1625535276 f:\xrd\note\mynote\algorithm\leetcode\include\c654_finderrornums.h
 	"common.h"
 
