@@ -24,6 +24,7 @@
 #include "c852_peakIndexInMountainArray.h"
 #include "c1418_displayTable.h"
 #include "c1423_maxScore.h"
+#include "c1711_countPairs.h"
 #include "c1738_kthLargestValue.h"
 
 using namespace std;
@@ -513,6 +514,9 @@ int main()
 
     c1418_displayTable c1418;
     c1418.test();
+
+    c1711_countPairs c1711;
+    c1711.test();
 
     upper_bound_test();
     return 0;

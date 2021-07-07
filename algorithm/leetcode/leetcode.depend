@@ -125,7 +125,7 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1625535831 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1625623011 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -150,6 +150,7 @@
 	"c852_peakIndexInMountainArray.h"
 	"c1418_displayTable.h"
 	"c1423_maxScore.h"
+	"c1711_countPairs.h"
 	"c1738_kthLargestValue.h"
 
 1618196058 f:\xrd\note\mynote\algorithm\leetcode\include\solution.h
@@ -1115,5 +1116,11 @@
 	"c654_findErrorNums.h"
 
 1625535276 f:\xrd\note\mynote\algorithm\leetcode\include\c654_finderrornums.h
+	"common.h"
+
+1625536946 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1418_displaytable.cpp
+	"c1418_displayTable.h"
+
+1625622956 f:\xrd\note\mynote\algorithm\leetcode\include\c1711_countpairs.h
 	"common.h"
 

@@ -54,6 +54,7 @@
 		<Unit filename="include/c1486_xorOperation.h" />
 		<Unit filename="include/c160_getIntersectionNode.h" />
 		<Unit filename="include/c1707_maximizeXor.h" />
+		<Unit filename="include/c1711_countPairs.h" />
 		<Unit filename="include/c1720_decode.h" />
 		<Unit filename="include/c1734_decode.h" />
 		<Unit filename="include/c1738_kthLargestValue.h" />
@@ -129,6 +130,7 @@
 		<Unit filename="src/c1486_xorOperation.cpp" />
 		<Unit filename="src/c160_getIntersectionNode.cpp" />
 		<Unit filename="src/c1707_maximizeXor.cpp" />
+		<Unit filename="src/c1711_countPairs.cpp" />
 		<Unit filename="src/c1720_decode.cpp" />
 		<Unit filename="src/c1734_decode.cpp" />
 		<Unit filename="src/c1738_kthLargestValue.cpp" />
