@@ -105,6 +105,7 @@
 		<Unit filename="include/c87_isScramble.h" />
 		<Unit filename="include/c897_increasingBST.h" />
 		<Unit filename="include/c91_numDecodings.h" />
+		<Unit filename="include/c930_numSubarraysWithSum.h" />
 		<Unit filename="include/c958_isCompleteTree.h" />
 		<Unit filename="include/c983_rangeSumBST.h" />
 		<Unit filename="include/c993_isCousins.h" />
@@ -183,6 +184,7 @@
 		<Unit filename="src/c87_isScramble.cpp" />
 		<Unit filename="src/c897_increasingBST.cpp" />
 		<Unit filename="src/c91_numDecodings.cpp" />
+		<Unit filename="src/c930_numSubarraysWithSum.cpp" />
 		<Unit filename="src/c958_isCompleteTree.cpp" />
 		<Unit filename="src/c983_rangeSumBST.cpp" />
 		<Unit filename="src/c993_isCousins.cpp" />
