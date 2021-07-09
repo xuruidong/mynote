@@ -109,6 +109,7 @@
 		<Unit filename="include/c958_isCompleteTree.h" />
 		<Unit filename="include/c983_rangeSumBST.h" />
 		<Unit filename="include/c993_isCousins.h" />
+		<Unit filename="include/m17_10_majorityElement.h" />
 		<Unit filename="include/utils.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Solution.cpp" />
@@ -188,6 +189,7 @@
 		<Unit filename="src/c958_isCompleteTree.cpp" />
 		<Unit filename="src/c983_rangeSumBST.cpp" />
 		<Unit filename="src/c993_isCousins.cpp" />
+		<Unit filename="src/m17_10_majorityElement.cpp" />
 		<Unit filename="src/utils.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
