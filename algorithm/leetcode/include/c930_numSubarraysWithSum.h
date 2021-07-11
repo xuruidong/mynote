@@ -1,6 +1,7 @@
 #ifndef C930_NUMSUBARRAYSWITHSUM_H
 #define C930_NUMSUBARRAYSWITHSUM_H
 
+#include "common.h"
 
 class c930_numSubarraysWithSum
 {

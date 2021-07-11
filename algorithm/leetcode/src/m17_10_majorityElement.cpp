@@ -24,8 +24,8 @@ int majorityElement(vector<int>& nums)
         ++umap[n];
     }
     for(auto &it:umap) {
-        if(it->second > (nums.size()>>1)) {
-            return it->first;
+        if(it.second > (nums.size()>>1)) {
+            return it.first;
         }
     }
     return -1;

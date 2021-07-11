@@ -65,6 +65,7 @@
 		<Unit filename="include/c213_rob.h" />
 		<Unit filename="include/c236_lowestCommonAncestor.h" />
 		<Unit filename="include/c260_singleNumber.h" />
+		<Unit filename="include/c274_hIndex.h" />
 		<Unit filename="include/c279_numSquares.h" />
 		<Unit filename="include/c27_removeElement.h" />
 		<Unit filename="include/c28_strstr.h" />
@@ -144,6 +145,7 @@
 		<Unit filename="src/c22_generateParenthesis.cpp" />
 		<Unit filename="src/c236_lowestCommonAncestor.cpp" />
 		<Unit filename="src/c260_singleNumber.cpp" />
+		<Unit filename="src/c274_hIndex.cpp" />
 		<Unit filename="src/c279_numSquares.cpp" />
 		<Unit filename="src/c27_removeElement.cpp" />
 		<Unit filename="src/c28_strstr.cpp" />

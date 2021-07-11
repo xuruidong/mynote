@@ -1,6 +1,7 @@
 #ifndef M17_10_MAJORITYELEMENT_H
 #define M17_10_MAJORITYELEMENT_H
 
+#include "common.h"
 
 class m17_10_majorityElement
 {

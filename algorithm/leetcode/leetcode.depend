@@ -520,7 +520,7 @@
 	<queue>
 	<iostream>
 
-1625493818 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1626003808 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -538,12 +538,15 @@
 	"c403_canCross.h"
 	"c45_jump.h"
 	"c260_singleNumber.h"
+	"c274_hIndex.h"
 	"c554_leastBricks.h"
 	"c692_topKFrequent.h"
 	"c726_countOfAtoms.h"
 	"c740_deleteAndEarn.h"
 	"c852_peakIndexInMountainArray.h"
+	"c1418_displayTable.h"
 	"c1423_maxScore.h"
+	"c1711_countPairs.h"
 	"c1738_kthLargestValue.h"
 
 1621668711 e:\note\mynote\algorithm\leetcode\include\utils.h
@@ -1073,7 +1076,7 @@
 1625493818 e:\note\mynote\algorithm\leetcode\include\c523_checksubarraysum.h
 	"common.h"
 
-1625493818 source:e:\note\mynote\algorithm\leetcode\src\c726_countofatoms.cpp
+1625497267 source:e:\note\mynote\algorithm\leetcode\src\c726_countofatoms.cpp
 	"c726_countOfAtoms.h"
 
 1625407410 source:e:\note\mynote\algorithm\leetcode\src\c654_finderrornums.cpp
@@ -1122,5 +1125,35 @@
 	"c1418_displayTable.h"
 
 1625622956 f:\xrd\note\mynote\algorithm\leetcode\include\c1711_countpairs.h
+	"common.h"
+
+1626003334 e:\note\mynote\algorithm\leetcode\include\c274_hindex.h
+	"common.h"
+
+1626003083 e:\note\mynote\algorithm\leetcode\include\c1418_displaytable.h
+	"common.h"
+
+1626003083 e:\note\mynote\algorithm\leetcode\include\c1711_countpairs.h
+	"common.h"
+
+1626003083 source:e:\note\mynote\algorithm\leetcode\src\c1418_displaytable.cpp
+	"c1418_displayTable.h"
+
+1626003083 source:e:\note\mynote\algorithm\leetcode\src\c1711_countpairs.cpp
+	"c1711_countPairs.h"
+
+1626003083 source:e:\note\mynote\algorithm\leetcode\src\c930_numsubarrayswithsum.cpp
+	"c930_numSubarraysWithSum.h"
+
+1626003836 e:\note\mynote\algorithm\leetcode\include\c930_numsubarrayswithsum.h
+	"common.h"
+
+1626007483 source:e:\note\mynote\algorithm\leetcode\src\c274_hindex.cpp
+	"c274_hIndex.h"
+
+1626007525 source:e:\note\mynote\algorithm\leetcode\src\m17_10_majorityelement.cpp
+	"m17_10_majorityElement.h"
+
+1626003869 e:\note\mynote\algorithm\leetcode\include\m17_10_majorityelement.h
 	"common.h"
 

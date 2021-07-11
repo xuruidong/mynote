@@ -17,6 +17,7 @@
 #include "c403_canCross.h"
 #include "c45_jump.h"
 #include "c260_singleNumber.h"
+#include "c274_hIndex.h"
 #include "c554_leastBricks.h"
 #include "c692_topKFrequent.h"
 #include "c726_countOfAtoms.h"
@@ -517,6 +518,9 @@ int main()
 
     c1711_countPairs c1711;
     c1711.test();
+
+    c274_hIndex c274;
+    c274.test();
 
     upper_bound_test();
     return 0;
