@@ -125,7 +125,7 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1625623011 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1626071735 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -143,11 +143,13 @@
 	"c403_canCross.h"
 	"c45_jump.h"
 	"c260_singleNumber.h"
+	"c274_hIndex.h"
 	"c554_leastBricks.h"
 	"c692_topKFrequent.h"
 	"c726_countOfAtoms.h"
 	"c740_deleteAndEarn.h"
 	"c852_peakIndexInMountainArray.h"
+	"c981_TimeMap.h"
 	"c1418_displayTable.h"
 	"c1423_maxScore.h"
 	"c1711_countPairs.h"
@@ -166,9 +168,10 @@
 1619141706 f:\xrd\note\mynote\algorithm\leetcode\include\c368_largestdivisiblesubset.h
 	"common.h"
 
-1623735595 f:\xrd\note\mynote\algorithm\leetcode\include\common.h
+1626071385 f:\xrd\note\mynote\algorithm\leetcode\include\common.h
 	<vector>
 	<string>
+	<list>
 	<set>
 	<unordered_set>
 	<stack>
@@ -1155,5 +1158,38 @@
 	"m17_10_majorityElement.h"
 
 1626003869 e:\note\mynote\algorithm\leetcode\include\m17_10_majorityelement.h
+	"common.h"
+
+1625623880 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1711_countpairs.cpp
+	"c1711_countPairs.h"
+
+1626057321 f:\xrd\note\mynote\algorithm\leetcode\include\c274_hindex.h
+	"common.h"
+
+1626057321 source:f:\xrd\note\mynote\algorithm\leetcode\src\c274_hindex.cpp
+	"c274_hIndex.h"
+
+1625740137 source:f:\xrd\note\mynote\algorithm\leetcode\src\c930_numsubarrayswithsum.cpp
+	"c930_numSubarraysWithSum.h"
+
+1626057321 f:\xrd\note\mynote\algorithm\leetcode\include\c930_numsubarrayswithsum.h
+	"common.h"
+
+1626071319 source:f:\xrd\note\mynote\algorithm\leetcode\src\c275_hindex.cpp
+	"c275_hIndex.h"
+
+1626071347 f:\xrd\note\mynote\algorithm\leetcode\include\c275_hindex.h
+	"common.h"
+
+1626057321 source:f:\xrd\note\mynote\algorithm\leetcode\src\m17_10_majorityelement.cpp
+	"m17_10_majorityElement.h"
+
+1626057321 f:\xrd\note\mynote\algorithm\leetcode\include\m17_10_majorityelement.h
+	"common.h"
+
+1626083422 source:f:\xrd\note\mynote\algorithm\leetcode\src\c981_timemap.cpp
+	"c981_TimeMap.h"
+
+1626076802 f:\xrd\note\mynote\algorithm\leetcode\include\c981_timemap.h
 	"common.h"
 

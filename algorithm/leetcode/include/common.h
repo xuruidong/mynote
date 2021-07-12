@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <string>
+#include <list>
 #include <set>
 #include <unordered_set>
 #include <stack>

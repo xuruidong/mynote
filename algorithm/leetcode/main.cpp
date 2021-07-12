@@ -23,6 +23,7 @@
 #include "c726_countOfAtoms.h"
 #include "c740_deleteAndEarn.h"
 #include "c852_peakIndexInMountainArray.h"
+#include "c981_TimeMap.h"
 #include "c1418_displayTable.h"
 #include "c1423_maxScore.h"
 #include "c1711_countPairs.h"
@@ -284,7 +285,12 @@ void upper_bound_test()
     }
     cout<<endl; // null
 
-
+    nums = {5,4,3,2,1};
+    iter = lower_bound(nums.begin(), nums.end(), 3, greater<int>());
+    for(; iter != nums.end(); ++iter) {
+        cout<<*iter<<" ";
+    }
+    cout<<endl;
 }
 
 
@@ -521,6 +527,9 @@ int main()
 
     c274_hIndex c274;
     c274.test();
+
+    c981_TimeMap c981;
+    c981.test();
 
     upper_bound_test();
     return 0;

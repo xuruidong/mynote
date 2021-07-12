@@ -66,6 +66,7 @@
 		<Unit filename="include/c236_lowestCommonAncestor.h" />
 		<Unit filename="include/c260_singleNumber.h" />
 		<Unit filename="include/c274_hIndex.h" />
+		<Unit filename="include/c275_hIndex.h" />
 		<Unit filename="include/c279_numSquares.h" />
 		<Unit filename="include/c27_removeElement.h" />
 		<Unit filename="include/c28_strstr.h" />
@@ -108,6 +109,7 @@
 		<Unit filename="include/c91_numDecodings.h" />
 		<Unit filename="include/c930_numSubarraysWithSum.h" />
 		<Unit filename="include/c958_isCompleteTree.h" />
+		<Unit filename="include/c981_TimeMap.h" />
 		<Unit filename="include/c983_rangeSumBST.h" />
 		<Unit filename="include/c993_isCousins.h" />
 		<Unit filename="include/m17_10_majorityElement.h" />
@@ -146,6 +148,7 @@
 		<Unit filename="src/c236_lowestCommonAncestor.cpp" />
 		<Unit filename="src/c260_singleNumber.cpp" />
 		<Unit filename="src/c274_hIndex.cpp" />
+		<Unit filename="src/c275_hIndex.cpp" />
 		<Unit filename="src/c279_numSquares.cpp" />
 		<Unit filename="src/c27_removeElement.cpp" />
 		<Unit filename="src/c28_strstr.cpp" />
@@ -189,6 +192,7 @@
 		<Unit filename="src/c91_numDecodings.cpp" />
 		<Unit filename="src/c930_numSubarraysWithSum.cpp" />
 		<Unit filename="src/c958_isCompleteTree.cpp" />
+		<Unit filename="src/c981_TimeMap.cpp" />
 		<Unit filename="src/c983_rangeSumBST.cpp" />
 		<Unit filename="src/c993_isCousins.cpp" />
 		<Unit filename="src/m17_10_majorityElement.cpp" />
