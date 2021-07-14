@@ -335,3 +335,11 @@ https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zh
 ## 树状数组
 []()  
 
+
+[1818. 绝对差值和](https://leetcode-cn.com/problems/minimum-absolute-sum-difference/)  
+找到 数组中最解决 n 的值  
+学到了两个很灵性的操作：
+
+* 「找到 nums1 中最接近 nums2[i] 的值」
+  这个值可能在二分查找过程中的 mid-1/mid/mid+1 中出现，为了不侵入二分查找，可以转化为「找到 nums1 中大于等于 nums2[i] 的最小下标 j」，那么该值可能在 j（j < n） 或 j-1（j > 0）
+* 遍历过程中使用了取模操作，可能会导致最终 sum < maxn，因此结果要使用 (sum - maxn + mod) % mod 的形式
