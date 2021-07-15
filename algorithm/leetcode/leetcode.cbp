@@ -61,6 +61,7 @@
 		<Unit filename="include/c1744_canEat.h" />
 		<Unit filename="include/c1818_minAbsoluteSumDiff.h" />
 		<Unit filename="include/c1833_maxIceCream.h" />
+		<Unit filename="include/c1846_maximumElementAfterDecrementingAndRearranging.h" />
 		<Unit filename="include/c198_rob.h" />
 		<Unit filename="include/c208_Trie.h" />
 		<Unit filename="include/c213_rob.h" />
@@ -144,6 +145,7 @@
 		<Unit filename="src/c1744_canEat.cpp" />
 		<Unit filename="src/c1818_minAbsoluteSumDiff.cpp" />
 		<Unit filename="src/c1833_maxIceCream.cpp" />
+		<Unit filename="src/c1846_maximumElementAfterDecrementingAndRearranging.cpp" />
 		<Unit filename="src/c198_rob.cpp" />
 		<Unit filename="src/c208_Trie.cpp" />
 		<Unit filename="src/c213_rob.cpp" />
