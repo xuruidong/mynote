@@ -350,9 +350,10 @@
 1619788345 e:\note\mynote\algorithm\leetcode\include\c1011_shipwithindays.h
 	"common.h"
 
-1625493818 e:\note\mynote\algorithm\leetcode\include\common.h
+1626578284 e:\note\mynote\algorithm\leetcode\include\common.h
 	<vector>
 	<string>
+	<list>
 	<set>
 	<unordered_set>
 	<stack>
@@ -523,7 +524,7 @@
 	<queue>
 	<iostream>
 
-1626003808 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1626578447 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -547,6 +548,7 @@
 	"c726_countOfAtoms.h"
 	"c740_deleteAndEarn.h"
 	"c852_peakIndexInMountainArray.h"
+	"c981_TimeMap.h"
 	"c1418_displayTable.h"
 	"c1423_maxScore.h"
 	"c1711_countPairs.h"
@@ -1151,7 +1153,7 @@
 1626003836 e:\note\mynote\algorithm\leetcode\include\c930_numsubarrayswithsum.h
 	"common.h"
 
-1626007483 source:e:\note\mynote\algorithm\leetcode\src\c274_hindex.cpp
+1626007577 source:e:\note\mynote\algorithm\leetcode\src\c274_hindex.cpp
 	"c274_hIndex.h"
 
 1626007525 source:e:\note\mynote\algorithm\leetcode\src\m17_10_majorityelement.cpp
@@ -1191,5 +1193,26 @@
 	"c981_TimeMap.h"
 
 1626076802 f:\xrd\note\mynote\algorithm\leetcode\include\c981_timemap.h
+	"common.h"
+
+1626578284 e:\note\mynote\algorithm\leetcode\include\c981_timemap.h
+	"common.h"
+
+1626578284 source:e:\note\mynote\algorithm\leetcode\src\c1818_minabsolutesumdiff.cpp
+	"c1818_minAbsoluteSumDiff.h"
+
+1626578473 e:\note\mynote\algorithm\leetcode\include\c1818_minabsolutesumdiff.h
+	"common.h"
+
+1626578284 source:e:\note\mynote\algorithm\leetcode\src\c275_hindex.cpp
+	"c275_hIndex.h"
+
+1626578284 e:\note\mynote\algorithm\leetcode\include\c275_hindex.h
+	"common.h"
+
+1626578284 source:e:\note\mynote\algorithm\leetcode\src\c1846_maximumelementafterdecrementingandrearranging.cpp
+	"c1846_maximumElementAfterDecrementingAndRearranging.h"
+
+1626578491 e:\note\mynote\algorithm\leetcode\include\c1846_maximumelementafterdecrementingandrearranging.h
 	"common.h"
 

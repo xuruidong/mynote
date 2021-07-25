@@ -2,24 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="src\c474_findMaxForm.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\c726_countOfAtoms.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="19" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\m17_10_majorityElement.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="423" topLine="1" />
-		</Cursor>
-	</File>
-	<File name="src\c451_frequencySort.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="23" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\c981_TimeMap.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="433" topLine="0" />
+			<Cursor1 position="252" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="include\c1418_displayTable.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -27,31 +12,54 @@
 			<Cursor1 position="83" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c726_countOfAtoms.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\m17_10_majorityElement.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1328" topLine="18" />
+			<Cursor1 position="423" topLine="1" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c1818_minAbsoluteSumDiff.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="690310" topLine="262" />
+			<Cursor1 position="27" topLine="0" />
 		</Cursor>
-		<Folding>
-			<Collapse line="296" />
-			<Collapse line="326" />
-			<Collapse line="366" />
-			<Collapse line="388" />
-			<Collapse line="415" />
-		</Folding>
+	</File>
+	<File name="src\c218_getSkyline.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\c981_TimeMap.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="433" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\c1833_maxIceCream.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="81" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\c1846_maximumElementAfterDecrementingAndRearranging.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="149" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\c474_findMaxForm.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19" topLine="0" />
+		</Cursor>
 	</File>
 	<File name="src\c1833_maxIceCream.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="24" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\c1833_maxIceCream.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\c474_findMaxForm.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="81" topLine="0" />
+			<Cursor1 position="77" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\c451_frequencySort.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src\c930_numSubarraysWithSum.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -64,19 +72,14 @@
 			<Cursor1 position="83" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\c654_findErrorNums.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c654_findErrorNums.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="83" topLine="0" />
+			<Cursor1 position="20" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\c726_countOfAtoms.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c1846_maximumElementAfterDecrementingAndRearranging.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="252" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\c274_hIndex.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="443" topLine="2" />
+			<Cursor1 position="21" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="include\c930_numSubarraysWithSum.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -84,19 +87,9 @@
 			<Cursor1 position="34" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\c275_hIndex.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\c218_getSkyline.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="125" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\c654_findErrorNums.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="20" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\m17_10_majorityElement.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="91" topLine="0" />
+			<Cursor1 position="75" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src\c1711_countPairs.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -109,9 +102,46 @@
 			<Cursor1 position="594" topLine="21" />
 		</Cursor>
 	</File>
-	<File name="include\c474_findMaxForm.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\c1818_minAbsoluteSumDiff.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="77" topLine="0" />
+			<Cursor1 position="74" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\m17_10_majorityElement.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="91" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\c274_hIndex.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="443" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="include\c654_findErrorNums.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="83" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="703456" topLine="378" />
+		</Cursor>
+		<Folding>
+			<Collapse line="296" />
+			<Collapse line="326" />
+			<Collapse line="366" />
+			<Collapse line="388" />
+			<Collapse line="415" />
+		</Folding>
+	</File>
+	<File name="src\c726_countOfAtoms.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1328" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="src\c275_hIndex.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="125" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
