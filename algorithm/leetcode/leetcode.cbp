@@ -59,6 +59,7 @@
 		<Unit filename="include/c1720_decode.h" />
 		<Unit filename="include/c1734_decode.h" />
 		<Unit filename="include/c1738_kthLargestValue.h" />
+		<Unit filename="include/c1743_restoreArray.h" />
 		<Unit filename="include/c1744_canEat.h" />
 		<Unit filename="include/c1818_minAbsoluteSumDiff.h" />
 		<Unit filename="include/c1833_maxIceCream.h" />
@@ -145,6 +146,7 @@
 		<Unit filename="src/c1720_decode.cpp" />
 		<Unit filename="src/c1734_decode.cpp" />
 		<Unit filename="src/c1738_kthLargestValue.cpp" />
+		<Unit filename="src/c1743_restoreArray.cpp" />
 		<Unit filename="src/c1744_canEat.cpp" />
 		<Unit filename="src/c1818_minAbsoluteSumDiff.cpp" />
 		<Unit filename="src/c1833_maxIceCream.cpp" />

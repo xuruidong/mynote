@@ -531,6 +531,10 @@ int main()
     c981_TimeMap c981;
     c981.test();
 
+    string tmp="bad";
+    sort(tmp.begin(), tmp.end());
+    cout<<tmp<<endl;
+
     upper_bound_test();
     return 0;
 }
