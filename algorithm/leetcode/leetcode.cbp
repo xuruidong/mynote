@@ -117,6 +117,7 @@
 		<Unit filename="include/c958_isCompleteTree.h" />
 		<Unit filename="include/c981_TimeMap.h" />
 		<Unit filename="include/c983_rangeSumBST.h" />
+		<Unit filename="include/c987_verticalTraversal.h" />
 		<Unit filename="include/c993_isCousins.h" />
 		<Unit filename="include/m17_10_majorityElement.h" />
 		<Unit filename="include/utils.h" />
@@ -206,6 +207,7 @@
 		<Unit filename="src/c958_isCompleteTree.cpp" />
 		<Unit filename="src/c981_TimeMap.cpp" />
 		<Unit filename="src/c983_rangeSumBST.cpp" />
+		<Unit filename="src/c987_verticalTraversal.cpp" />
 		<Unit filename="src/c993_isCousins.cpp" />
 		<Unit filename="src/m17_10_majorityElement.cpp" />
 		<Unit filename="src/utils.cpp" />
