@@ -45,6 +45,7 @@
 		<Unit filename="include/c1269_numWays.h" />
 		<Unit filename="include/c12_intToRoman.h" />
 		<Unit filename="include/c1310_xorQueries.h" />
+		<Unit filename="include/c1337_kWeakestRows.h" />
 		<Unit filename="include/c136_singleNumber.h" />
 		<Unit filename="include/c137_singleNumber.h" />
 		<Unit filename="include/c138_copyRandomList.h" />
@@ -133,6 +134,7 @@
 		<Unit filename="src/c1269_numWays.cpp" />
 		<Unit filename="src/c12_intToRoman.cpp" />
 		<Unit filename="src/c1310_xorQueries.cpp" />
+		<Unit filename="src/c1337_kWeakestRows.cpp" />
 		<Unit filename="src/c136_singleNumber.cpp" />
 		<Unit filename="src/c137_singleNumber.cpp" />
 		<Unit filename="src/c138_copyRandomList.cpp" />

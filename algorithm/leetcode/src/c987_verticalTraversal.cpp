@@ -53,8 +53,8 @@ static void dfs(TreeNode* root, int col, int row/*depth*/, vector<vector<int>> &
     }
     vector<int> tmp = {col, row, root->val};
     vec.emplace_back(tmp);
-    dfs(root->left, col-1, row+1, mp);
-    dfs(root->right, col+1, row+1, mp);
+    dfs(root->left, col-1, row+1, vec);
+    dfs(root->right, col+1, row+1, vec);
 }
 vector<vector<int>> verticalTraversal(TreeNode* root)
 {

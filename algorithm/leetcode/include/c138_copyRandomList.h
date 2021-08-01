@@ -1,6 +1,7 @@
 #ifndef C138_COPYRANDOMLIST_H
 #define C138_COPYRANDOMLIST_H
 
+#include "common.h"
 
 class c138_copyRandomList
 {

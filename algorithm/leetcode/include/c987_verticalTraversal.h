@@ -1,6 +1,7 @@
 #ifndef C987_VERTICALTRAVERSAL_H
 #define C987_VERTICALTRAVERSAL_H
 
+#include "common.h"
 
 class c987_verticalTraversal
 {

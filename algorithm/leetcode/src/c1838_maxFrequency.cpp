@@ -47,3 +47,34 @@ int maxFrequency(vector<int>& nums, int k)
     }
     return ans;
 }
+
+// before
+#if 0
+int maxFrequency(vector<int>& nums, int k) {
+    sort(nums.begin(), nums.end());
+    int ans = 1;
+    int left = 0;
+    int sum = 0;
+    for(int i=1; i<nums.size(); ) {
+        if(nums[i-1] < nums[i]) {
+            int delt = nums[i] - nums[i-1];
+
+            if(sum + (i-left+1)*delt > k) {
+                //ans = ans>(i-left+1)?ans:(i-left+1);
+                ans = ans>(i-left)?ans:(i-left);
+                sum -= nums[i-1] - nums[left];
+                ++left;
+            } else {
+                ans = ans>(i-left+1)?ans:(i-left+1);
+                sum += (i-left+1)*delt;
+                ++i;
+            }
+        } else {
+            ans = ans>(i-left+1)?ans:(i-left+1);
+            ++i;
+        }
+    }
+
+    return ans;
+}
+#endif
