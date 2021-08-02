@@ -11,6 +11,7 @@ c138_copyRandomList::~c138_copyRandomList()
 }
 
 // 8 ms
+/*
 Node* copyRandomList(Node* head)
 {
     unordered_map<Node *, Node *> umap;
@@ -71,3 +72,4 @@ Node* copyRandomList(Node* head)
     }
     return ans;
 }
+*/
