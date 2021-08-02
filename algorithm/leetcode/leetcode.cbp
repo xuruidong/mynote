@@ -38,6 +38,7 @@
 		<Unit filename="include/c1011_shipWithinDays.h" />
 		<Unit filename="include/c1035_maxUncrossedLines.h" />
 		<Unit filename="include/c104_maxDepth.h" />
+		<Unit filename="include/c1104_pathInZigZagTree.h" />
 		<Unit filename="include/c111_minDepth.h" />
 		<Unit filename="include/c1190_reverseParentheses.h" />
 		<Unit filename="include/c121_maxProfit.h" />
@@ -56,6 +57,7 @@
 		<Unit filename="include/c160_getIntersectionNode.h" />
 		<Unit filename="include/c1707_maximizeXor.h" />
 		<Unit filename="include/c1711_countPairs.h" />
+		<Unit filename="include/c1713_minOperations.h" />
 		<Unit filename="include/c1720_decode.h" />
 		<Unit filename="include/c1734_decode.h" />
 		<Unit filename="include/c1738_kthLargestValue.h" />
@@ -109,6 +111,7 @@
 		<Unit filename="include/c810_xorGame.h" />
 		<Unit filename="include/c826_maxProfitAssignment.h" />
 		<Unit filename="include/c852_peakIndexInMountainArray.h" />
+		<Unit filename="include/c863_distanceK.h" />
 		<Unit filename="include/c872_leafSimilar.h" />
 		<Unit filename="include/c87_isScramble.h" />
 		<Unit filename="include/c897_increasingBST.h" />
@@ -125,6 +128,7 @@
 		<Unit filename="src/c1011_shipWithinDays.cpp" />
 		<Unit filename="src/c1035_maxUncrossedLines.cpp" />
 		<Unit filename="src/c104_maxDepth.cpp" />
+		<Unit filename="src/c1104_pathInZigZagTree.cpp" />
 		<Unit filename="src/c111_minDepth.cpp" />
 		<Unit filename="src/c1190_reverseParentheses.cpp" />
 		<Unit filename="src/c121_maxProfit.cpp" />
@@ -143,6 +147,7 @@
 		<Unit filename="src/c160_getIntersectionNode.cpp" />
 		<Unit filename="src/c1707_maximizeXor.cpp" />
 		<Unit filename="src/c1711_countPairs.cpp" />
+		<Unit filename="src/c1713_minOperations.cpp" />
 		<Unit filename="src/c1720_decode.cpp" />
 		<Unit filename="src/c1734_decode.cpp" />
 		<Unit filename="src/c1738_kthLargestValue.cpp" />
@@ -198,6 +203,7 @@
 		<Unit filename="src/c810_xorGame.cpp" />
 		<Unit filename="src/c826_maxProfitAssignment.cpp" />
 		<Unit filename="src/c852_peakIndexInMountainArray.cpp" />
+		<Unit filename="src/c863_distanceK.cpp" />
 		<Unit filename="src/c872_leafSimilar.cpp" />
 		<Unit filename="src/c87_isScramble.cpp" />
 		<Unit filename="src/c897_increasingBST.cpp" />

@@ -125,7 +125,7 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1626071735 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1627291464 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -1214,5 +1214,17 @@
 	"c1846_maximumElementAfterDecrementingAndRearranging.h"
 
 1626578491 e:\note\mynote\algorithm\leetcode\include\c1846_maximumelementafterdecrementingandrearranging.h
+	"common.h"
+
+1627291464 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1743_restorearray.cpp
+	"c1743_restoreArray.h"
+
+1627291464 f:\xrd\note\mynote\algorithm\leetcode\include\c1743_restorearray.h
+	"common.h"
+
+1626259983 source:f:\xrd\note\mynote\algorithm\leetcode\src\c1818_minabsolutesumdiff.cpp
+	"c1818_minAbsoluteSumDiff.h"
+
+1627291464 f:\xrd\note\mynote\algorithm\leetcode\include\c1818_minabsolutesumdiff.h
 	"common.h"
 
