@@ -1,7 +1,7 @@
 #ifndef C1713_MINOPERATIONS_H
 #define C1713_MINOPERATIONS_H
 
-
+#include "common.h"
 class c1713_minOperations
 {
     public:

@@ -22,6 +22,7 @@
 #include "c692_topKFrequent.h"
 #include "c726_countOfAtoms.h"
 #include "c740_deleteAndEarn.h"
+#include "c802_eventualSafeNodes.h"
 #include "c852_peakIndexInMountainArray.h"
 #include "c981_TimeMap.h"
 #include "c1418_displayTable.h"
@@ -504,6 +505,9 @@ int main()
 
     c981_TimeMap c981;
     c981.test();
+
+    c802_eventualSafeNodes c802;
+    c802.test();
 
     string tmp="bad";
     sort(tmp.begin(), tmp.end());

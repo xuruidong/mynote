@@ -16,7 +16,7 @@ static void proc(TreeNode* root, int cur, bool isLeft)
         return ;
     }
 
-    proc(root, cur)
+   // proc(root, cur)
 }
 vector<int> distanceK(TreeNode* root, TreeNode* target, int k)
 {

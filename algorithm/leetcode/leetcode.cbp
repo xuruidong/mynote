@@ -107,8 +107,10 @@
 		<Unit filename="include/c692_topKFrequent.h" />
 		<Unit filename="include/c726_countOfAtoms.h" />
 		<Unit filename="include/c740_deleteAndEarn.h" />
+		<Unit filename="include/c743_networkDelayTime.h" />
 		<Unit filename="include/c783_minDiffInBST.h" />
 		<Unit filename="include/c7_reverse.h" />
+		<Unit filename="include/c802_eventualSafeNodes.h" />
 		<Unit filename="include/c810_xorGame.h" />
 		<Unit filename="include/c826_maxProfitAssignment.h" />
 		<Unit filename="include/c852_peakIndexInMountainArray.h" />
@@ -201,8 +203,10 @@
 		<Unit filename="src/c692_topKFrequent.cpp" />
 		<Unit filename="src/c726_countOfAtoms.cpp" />
 		<Unit filename="src/c740_deleteAndEarn.cpp" />
+		<Unit filename="src/c743_networkDelayTime.cpp" />
 		<Unit filename="src/c783_minDiffInBST.cpp" />
 		<Unit filename="src/c7_reverse.cpp" />
+		<Unit filename="src/c802_eventualSafeNodes.cpp" />
 		<Unit filename="src/c810_xorGame.cpp" />
 		<Unit filename="src/c826_maxProfitAssignment.cpp" />
 		<Unit filename="src/c852_peakIndexInMountainArray.cpp" />
