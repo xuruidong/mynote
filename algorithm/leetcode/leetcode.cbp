@@ -80,6 +80,7 @@
 		<Unit filename="include/c27_removeElement.h" />
 		<Unit filename="include/c28_strstr.h" />
 		<Unit filename="include/c300_lengthOfLIS.h" />
+		<Unit filename="include/c313_nthSuperUglyNumber.h" />
 		<Unit filename="include/c342_isPowerOfFour.h" />
 		<Unit filename="include/c363_maxSumSubmatrix.h" />
 		<Unit filename="include/c368_largestDivisibleSubset.h" />
@@ -89,6 +90,7 @@
 		<Unit filename="include/c421_findMaximumXOR.h" />
 		<Unit filename="include/c429_levelOrder.h" />
 		<Unit filename="include/c451_frequencySort.h" />
+		<Unit filename="include/c457_circularArrayLoop.h" />
 		<Unit filename="include/c45_jump.h" />
 		<Unit filename="include/c461_hammingDistance.h" />
 		<Unit filename="include/c46_permute.h" />
@@ -176,6 +178,7 @@
 		<Unit filename="src/c27_removeElement.cpp" />
 		<Unit filename="src/c28_strstr.cpp" />
 		<Unit filename="src/c300_lengthOfLIS.cpp" />
+		<Unit filename="src/c313_nthSuperUglyNumber.cpp" />
 		<Unit filename="src/c33_search.cpp" />
 		<Unit filename="src/c342_isPowerOfFour.cpp" />
 		<Unit filename="src/c363_maxSumSubmatrix.cpp" />
@@ -186,6 +189,7 @@
 		<Unit filename="src/c421_findMaximumXOR.cpp" />
 		<Unit filename="src/c429_levelOrder.cpp" />
 		<Unit filename="src/c451_frequencySort.cpp" />
+		<Unit filename="src/c457_circularArrayLoop.cpp" />
 		<Unit filename="src/c45_jump.cpp" />
 		<Unit filename="src/c461_hammingDistance.cpp" />
 		<Unit filename="src/c46_permute.cpp" />

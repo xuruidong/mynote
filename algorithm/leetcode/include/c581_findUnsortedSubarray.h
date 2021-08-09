@@ -1,6 +1,7 @@
 #ifndef C581_FINDUNSORTEDSUBARRAY_H
 #define C581_FINDUNSORTEDSUBARRAY_H
 
+#include "common.h"
 
 class c581_findUnsortedSubarray
 {

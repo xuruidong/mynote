@@ -525,7 +525,7 @@
 	<queue>
 	<iostream>
 
-1626578447 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1628492230 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -544,10 +544,12 @@
 	"c45_jump.h"
 	"c260_singleNumber.h"
 	"c274_hIndex.h"
+	"c313_nthSuperUglyNumber.h"
 	"c554_leastBricks.h"
 	"c692_topKFrequent.h"
 	"c726_countOfAtoms.h"
 	"c740_deleteAndEarn.h"
+	"c802_eventualSafeNodes.h"
 	"c852_peakIndexInMountainArray.h"
 	"c981_TimeMap.h"
 	"c1418_displayTable.h"
@@ -1245,13 +1247,13 @@
 1627219813 e:\note\mynote\algorithm\leetcode\include\c1743_restorearray.h
 	"common.h"
 
-1627722800 source:e:\note\mynote\algorithm\leetcode\src\c1838_maxfrequency.cpp
+1627805350 source:e:\note\mynote\algorithm\leetcode\src\c1838_maxfrequency.cpp
 	"c1838_maxFrequency.h"
 
 1627722800 e:\note\mynote\algorithm\leetcode\include\c1838_maxfrequency.h
 	"common.h"
 
-1627804853 source:e:\note\mynote\algorithm\leetcode\src\c1337_kweakestrows.cpp
+1627805791 source:e:\note\mynote\algorithm\leetcode\src\c1337_kweakestrows.cpp
 	"c1337_kWeakestRows.h"
 
 1627804877 e:\note\mynote\algorithm\leetcode\include\c1337_kweakestrows.h
@@ -1336,4 +1338,52 @@
 
 1628141005 f:\xrd\note\mynote\algorithm\leetcode\include\c863_distancek.h
 	"common.h"
+
+1628323000 e:\note\mynote\algorithm\leetcode\include\c802_eventualsafenodes.h
+	"common.h"
+
+1628000754 source:e:\note\mynote\algorithm\leetcode\src\c1104_pathinzigzagtree.cpp
+	"c1104_pathInZigZagTree.h"
+
+1628323000 e:\note\mynote\algorithm\leetcode\include\c1104_pathinzigzagtree.h
+	"common.h"
+
+1628000754 source:e:\note\mynote\algorithm\leetcode\src\c1713_minoperations.cpp
+	"c1713_minOperations.h"
+
+1628323000 e:\note\mynote\algorithm\leetcode\include\c1713_minoperations.h
+	"common.h"
+
+1628323000 source:e:\note\mynote\algorithm\leetcode\src\c743_networkdelaytime.cpp
+	"c743_networkDelayTime.h"
+
+1628323000 e:\note\mynote\algorithm\leetcode\include\c743_networkdelaytime.h
+	"common.h"
+
+1628323000 source:e:\note\mynote\algorithm\leetcode\src\c802_eventualsafenodes.cpp
+	"c802_eventualSafeNodes.h"
+
+1628323000 source:e:\note\mynote\algorithm\leetcode\src\c863_distancek.cpp
+	"c863_distanceK.h"
+
+1628323000 e:\note\mynote\algorithm\leetcode\include\c863_distancek.h
+	"common.h"
+
+1628004483 source:e:\note\mynote\algorithm\leetcode\src\c581_findunsortedsubarray.cpp
+	"c581_findUnsortedSubarray.h"
+
+1628323231 e:\note\mynote\algorithm\leetcode\include\c581_findunsortedsubarray.h
+	"common.h"
+
+1628492022 e:\note\mynote\algorithm\leetcode\include\c313_nthsuperuglynumber.h
+	"common.h"
+
+1628326959 source:e:\note\mynote\algorithm\leetcode\src\c457_circulararrayloop.cpp
+	"c457_circularArrayLoop.h"
+
+1628326956 e:\note\mynote\algorithm\leetcode\include\c457_circulararrayloop.h
+	"common.h"
+
+1628492883 source:e:\note\mynote\algorithm\leetcode\src\c313_nthsuperuglynumber.cpp
+	"c313_nthSuperUglyNumber.h"
 

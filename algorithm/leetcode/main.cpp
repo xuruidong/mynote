@@ -18,6 +18,7 @@
 #include "c45_jump.h"
 #include "c260_singleNumber.h"
 #include "c274_hIndex.h"
+#include "c313_nthSuperUglyNumber.h"
 #include "c554_leastBricks.h"
 #include "c692_topKFrequent.h"
 #include "c726_countOfAtoms.h"
@@ -508,6 +509,9 @@ int main()
 
     c802_eventualSafeNodes c802;
     c802.test();
+
+    c313_nthSuperUglyNumber c313;
+    c313.test();
 
     string tmp="bad";
     sort(tmp.begin(), tmp.end());
