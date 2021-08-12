@@ -343,3 +343,53 @@ https://leetcode-cn.com/problems/combination-sum/solution/hui-su-suan-fa-jian-zh
 * 「找到 nums1 中最接近 nums2[i] 的值」
   这个值可能在二分查找过程中的 mid-1/mid/mid+1 中出现，为了不侵入二分查找，可以转化为「找到 nums1 中大于等于 nums2[i] 的最小下标 j」，那么该值可能在 j（j < n） 或 j-1（j > 0）
 * 遍历过程中使用了取模操作，可能会导致最终 sum < maxn，因此结果要使用 (sum - maxn + mod) % mod 的形式
+
+
+
+## 计数排序
+[1846. 减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/)  
+【纯C】O(n)一次AC，又是一天没依靠题解独立完成了最优解，现在看到这种最大值不超过数组大小的立马就会想到计数，虽然和题解写的有些出入，但还是O(N)的时间复杂度。
+
+首先申请一个arrSize+1空间大小的hash用来计数
+ret是返回值，我们假设arr是理想情况，由1开始每次递增1，所以ret初始为arrSize
+less是等下用来记录剩余元素数量的，初始大小为arrSize
+然后就是计数了，大于arrSize的数量全部算到hash[arrSize]的头上，其余的记在hash[arr[i]]上
+计数完毕后，i从1循环到arrSize
+用less每次减去已经计数的元素数量来记录剩余元素的数量
+剩余元素我们假设是按照每次递增1的顺序排列
+如果当前的i加上剩余元素小于ret，ret则等于i+less，否则ret不变。
+为什么？因为题目规定只能排序或者减小元素大小，且元素间差的绝对值必须小于等于1，剩余元素我们假设是按照每次递增1的顺序排列的，所以最终结果是不可能超过i+less的。
+
+
+
+## 拓扑排序
+[802. 找到最终的安全状态](https://leetcode-cn.com/problems/find-eventual-safe-states/)  
+
+
+## 滑动窗口
+[1838. 最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/)  
+
+
+
+## 单源最短路径算法 \texttt{Dijkstra}Dijkstra
+单源最短路径算法 \texttt{Dijkstra}Dijkstra
+$ddd$
+[743. 网络延迟时间](https://leetcode-cn.com/problems/network-delay-time/)  
+
+
+
+
+node->prev->next = node->next;
+node->next->prev = node->prev;
+node->prev = NULL;
+node->next = NULL;
+
+if(head == node) {
+    head = node->next;
+    node->next->prev = NULL;
+}
+
+if(tail == node) {
+    tail = node->prev;
+    node->prev->next = NULL;
+}

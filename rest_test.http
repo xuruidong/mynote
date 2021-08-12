@@ -41,3 +41,27 @@ content-type: application/json
     "reportUrl": "http://172.16.3.16:8080",
     
 }
+
+
+###
+# POST http://10.0.120.35:22222
+POST http://10.0.120.35:22222
+content-type: application/json
+
+{
+	"data": [
+		{
+		"ip":"10.0.120.11",
+		"password":"public"
+		}
+	]
+}
+
+###
+#POST http://122.115.224.130:8015/api/collection/getdeviceInfo
+POST http://122.115.224.130:8015/api/collection/getdeviceinfo
+content-type: application/json
+
+{
+	"name": "test"
+}

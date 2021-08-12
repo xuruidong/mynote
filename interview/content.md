@@ -16,3 +16,13 @@
 4. Linux accept()/epoll_wait()惊群  
 5. 多线程怎么同步，多线程竞争怎么解决
 6. 进程通信
+
+## memory
+[C++性能优化（十） —— JeMalloc](https://blog.51cto.com/u_9291927/2575161)  
+
+
+---
+静态链接libstdc++
+yum install glibc-static -y
+yum install libstdc++-static.x86_64 -y
+[glibc-static安装](https://blog.csdn.net/itas109/article/details/104226783)  

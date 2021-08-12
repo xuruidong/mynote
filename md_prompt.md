@@ -2,6 +2,8 @@
 
 http://www.mdeditor.com/
 
+[HTML 手册](https://www.zixuephp.net/manual-html-936.html)  
+
 以下是标题样式：
 # 我是大标题
 ## 标题2
@@ -23,6 +25,7 @@ http://www.mdeditor.com/
 <font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font>  
 
 <table><tr><td bgcolor=yellow>我的背景色是yellow</td></tr></table>
+<b><font color=red>加粗并红色</font></b>
 
 **我被加粗了**
 *我是斜体我歪了*
