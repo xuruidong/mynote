@@ -79,6 +79,7 @@
 		<Unit filename="include/c279_numSquares.h" />
 		<Unit filename="include/c27_removeElement.h" />
 		<Unit filename="include/c28_strstr.h" />
+		<Unit filename="include/c295_MedianFinder.h" />
 		<Unit filename="include/c300_lengthOfLIS.h" />
 		<Unit filename="include/c313_nthSuperUglyNumber.h" />
 		<Unit filename="include/c342_isPowerOfFour.h" />
@@ -178,6 +179,7 @@
 		<Unit filename="src/c279_numSquares.cpp" />
 		<Unit filename="src/c27_removeElement.cpp" />
 		<Unit filename="src/c28_strstr.cpp" />
+		<Unit filename="src/c295_MedianFinder.cpp" />
 		<Unit filename="src/c300_lengthOfLIS.cpp" />
 		<Unit filename="src/c313_nthSuperUglyNumber.cpp" />
 		<Unit filename="src/c33_search.cpp" />
