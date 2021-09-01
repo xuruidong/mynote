@@ -125,7 +125,7 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1628141353 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1628561620 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -144,6 +144,7 @@
 	"c45_jump.h"
 	"c260_singleNumber.h"
 	"c274_hIndex.h"
+	"c313_nthSuperUglyNumber.h"
 	"c554_leastBricks.h"
 	"c692_topKFrequent.h"
 	"c726_countOfAtoms.h"
@@ -1321,7 +1322,7 @@
 1628133284 f:\xrd\note\mynote\algorithm\leetcode\include\c743_networkdelaytime.h
 	"common.h"
 
-1628141005 source:f:\xrd\note\mynote\algorithm\leetcode\src\c802_eventualsafenodes.cpp
+1628158390 source:f:\xrd\note\mynote\algorithm\leetcode\src\c802_eventualsafenodes.cpp
 	"c802_eventualSafeNodes.h"
 
 1628141096 f:\xrd\note\mynote\algorithm\leetcode\include\c802_eventualsafenodes.h
@@ -1386,4 +1387,34 @@
 
 1628499807 source:e:\note\mynote\algorithm\leetcode\src\c313_nthsuperuglynumber.cpp
 	"c313_nthSuperUglyNumber.h"
+
+1628561620 f:\xrd\note\mynote\algorithm\leetcode\include\c313_nthsuperuglynumber.h
+	"common.h"
+
+1628561620 source:f:\xrd\note\mynote\algorithm\leetcode\src\c313_nthsuperuglynumber.cpp
+	"c313_nthSuperUglyNumber.h"
+
+1630489967 source:f:\xrd\note\mynote\algorithm\leetcode\src\c165_compareversion.cpp
+	"c165_compareVersion.h"
+
+1630489987 f:\xrd\note\mynote\algorithm\leetcode\include\c165_compareversion.h
+	"common.h"
+
+1628576064 source:f:\xrd\note\mynote\algorithm\leetcode\src\c413_numberofarithmeticslices.cpp
+	"c413_numberOfArithmeticSlices.h"
+
+1628576077 f:\xrd\note\mynote\algorithm\leetcode\include\c413_numberofarithmeticslices.h
+	"common.h"
+
+1628561620 source:f:\xrd\note\mynote\algorithm\leetcode\src\c457_circulararrayloop.cpp
+	"c457_circularArrayLoop.h"
+
+1628561620 f:\xrd\note\mynote\algorithm\leetcode\include\c457_circulararrayloop.h
+	"common.h"
+
+1628158446 source:f:\xrd\note\mynote\algorithm\leetcode\src\c581_findunsortedsubarray.cpp
+	"c581_findUnsortedSubarray.h"
+
+1628561620 f:\xrd\note\mynote\algorithm\leetcode\include\c581_findunsortedsubarray.h
+	"common.h"
 

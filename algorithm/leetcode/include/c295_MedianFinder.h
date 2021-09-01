@@ -8,6 +8,8 @@ class c295_MedianFinder
     public:
         c295_MedianFinder();
         virtual ~c295_MedianFinder();
+        void addNum(int num);
+        double findMedian();
 
     protected:
 

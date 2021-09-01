@@ -12,7 +12,7 @@ c295_MedianFinder::~c295_MedianFinder()
 }
 
 
-void addNum(int num)
+void c295_MedianFinder::addNum(int num)
 {
     if(eles_count == 0) {
         small_eles.push(num);
@@ -47,7 +47,7 @@ void addNum(int num)
     ++eles_count;
 }
 
-double findMedian()
+double c295_MedianFinder::findMedian()
 {
     if(eles_count == 1) {
         return (double)small_eles.top();
