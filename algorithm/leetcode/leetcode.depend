@@ -125,7 +125,7 @@
 1619141987 f:\xrd\c_cpp\test\leetcode\include\c91_numdecodings.h
 	"common.h"
 
-1628561620 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
+1630579505 source:f:\xrd\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -139,6 +139,7 @@
 	"c7_reverse.h"
 	"c39_combinationSum.h"
 	"c47_permuteUnique.h"
+	"c165_compareVersion.h"
 	"c368_largestDivisibleSubset.h"
 	"c403_canCross.h"
 	"c45_jump.h"
@@ -1397,7 +1398,7 @@
 1630489967 source:f:\xrd\note\mynote\algorithm\leetcode\src\c165_compareversion.cpp
 	"c165_compareVersion.h"
 
-1630489987 f:\xrd\note\mynote\algorithm\leetcode\include\c165_compareversion.h
+1630579359 f:\xrd\note\mynote\algorithm\leetcode\include\c165_compareversion.h
 	"common.h"
 
 1628576064 source:f:\xrd\note\mynote\algorithm\leetcode\src\c413_numberofarithmeticslices.cpp
@@ -1416,5 +1417,11 @@
 	"c581_findUnsortedSubarray.h"
 
 1628561620 f:\xrd\note\mynote\algorithm\leetcode\include\c581_findunsortedsubarray.h
+	"common.h"
+
+1630490095 source:f:\xrd\note\mynote\algorithm\leetcode\src\c295_medianfinder.cpp
+	"c295_MedianFinder.h"
+
+1630490086 f:\xrd\note\mynote\algorithm\leetcode\include\c295_medianfinder.h
 	"common.h"
 

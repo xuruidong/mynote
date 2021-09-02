@@ -8,6 +8,8 @@ class c165_compareVersion
     public:
         c165_compareVersion();
         virtual ~c165_compareVersion();
+        int compareVersion(string version1, string version2);
+        void test();
 
     protected:
 

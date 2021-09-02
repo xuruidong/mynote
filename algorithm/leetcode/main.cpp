@@ -13,6 +13,7 @@
 #include "c7_reverse.h"
 #include "c39_combinationSum.h"
 #include "c47_permuteUnique.h"
+#include "c165_compareVersion.h"
 #include "c368_largestDivisibleSubset.h"
 #include "c403_canCross.h"
 #include "c45_jump.h"
@@ -512,6 +513,9 @@ int main()
 
     c313_nthSuperUglyNumber c313;
     c313.test();
+
+    c165_compareVersion c165;
+    c165.test();
 
     string tmp="bad";
     sort(tmp.begin(), tmp.end());
