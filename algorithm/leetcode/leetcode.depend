@@ -527,7 +527,7 @@
 	<queue>
 	<iostream>
 
-1630673717 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1631105807 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -548,6 +548,7 @@
 	"c260_singleNumber.h"
 	"c274_hIndex.h"
 	"c313_nthSuperUglyNumber.h"
+	"c502_findMaximizedCapital.h"
 	"c554_leastBricks.h"
 	"c692_topKFrequent.h"
 	"c726_countOfAtoms.h"
@@ -1442,5 +1443,14 @@
 	"c295_MedianFinder.h"
 
 1630673717 e:\note\mynote\algorithm\leetcode\include\c295_medianfinder.h
+	"common.h"
+
+1631017848 source:e:\note\mynote\algorithm\leetcode\src\c1221_balancedstringsplit.cpp
+	"c1221_balancedStringSplit.h"
+
+1631017839 e:\note\mynote\algorithm\leetcode\include\c1221_balancedstringsplit.h
+	"common.h"
+
+1631105568 e:\note\mynote\algorithm\leetcode\include\c502_findmaximizedcapital.h
 	"common.h"
 

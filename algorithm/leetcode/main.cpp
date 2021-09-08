@@ -20,6 +20,7 @@
 #include "c260_singleNumber.h"
 #include "c274_hIndex.h"
 #include "c313_nthSuperUglyNumber.h"
+#include "c502_findMaximizedCapital.h"
 #include "c554_leastBricks.h"
 #include "c692_topKFrequent.h"
 #include "c726_countOfAtoms.h"
@@ -516,6 +517,9 @@ int main()
 
     c165_compareVersion c165;
     c165.test();
+
+    c502_findMaximizedCapital c502;
+    c502.test();
 
     string tmp="bad";
     sort(tmp.begin(), tmp.end());
