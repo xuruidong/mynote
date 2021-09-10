@@ -21,6 +21,8 @@
 1. [C++性能优化（十） —— JeMalloc](https://blog.51cto.com/u_9291927/2575161)  
 2. 大内存页的作用
 
+
+eventfd 的使用， （比条件变量性能高一些）
 ---
 静态链接libstdc++
 yum install glibc-static -y

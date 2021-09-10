@@ -42,6 +42,7 @@
 		<Unit filename="include/c111_minDepth.h" />
 		<Unit filename="include/c1190_reverseParentheses.h" />
 		<Unit filename="include/c121_maxProfit.h" />
+		<Unit filename="include/c1221_balancedStringSplit.h" />
 		<Unit filename="include/c122_maxProfit.h" />
 		<Unit filename="include/c1269_numWays.h" />
 		<Unit filename="include/c12_intToRoman.h" />
@@ -101,6 +102,7 @@
 		<Unit filename="include/c477_totalHammingDistance.h" />
 		<Unit filename="include/c47_permuteUnique.h" />
 		<Unit filename="include/c494_findTargetSumWays.h" />
+		<Unit filename="include/c502_findMaximizedCapital.h" />
 		<Unit filename="include/c523_checkSubarraySum.h" />
 		<Unit filename="include/c554_leastBricks.h" />
 		<Unit filename="include/c56_merge.h" />
@@ -142,6 +144,7 @@
 		<Unit filename="src/c111_minDepth.cpp" />
 		<Unit filename="src/c1190_reverseParentheses.cpp" />
 		<Unit filename="src/c121_maxProfit.cpp" />
+		<Unit filename="src/c1221_balancedStringSplit.cpp" />
 		<Unit filename="src/c122_maxProfit.cpp" />
 		<Unit filename="src/c1269_numWays.cpp" />
 		<Unit filename="src/c12_intToRoman.cpp" />
@@ -203,6 +206,7 @@
 		<Unit filename="src/c477_totalHammingDistance.cpp" />
 		<Unit filename="src/c47_permuteUnique.cpp" />
 		<Unit filename="src/c494_findTargetSumWays.cpp" />
+		<Unit filename="src/c502_findMaximizedCapital.cpp" />
 		<Unit filename="src/c523_checkSubarraySum.cpp" />
 		<Unit filename="src/c554_leastBricks.cpp" />
 		<Unit filename="src/c56_merge.cpp" />

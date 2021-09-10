@@ -393,3 +393,9 @@ if(tail == node) {
     tail = node->prev;
     node->prev->next = NULL;
 }
+
+## 排序算法
+![排序算法](sort.png)  
+比较类排序  
+[冒泡排序](sort.md/##冒泡排序)  
+[选择排序](sort.md/#计数排序)
