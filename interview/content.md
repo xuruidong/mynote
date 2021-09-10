@@ -18,11 +18,17 @@
 6. 进程通信
 
 ## memory
-[C++性能优化（十） —— JeMalloc](https://blog.51cto.com/u_9291927/2575161)  
-
+1. [C++性能优化（十） —— JeMalloc](https://blog.51cto.com/u_9291927/2575161)  
+2. 大内存页的作用
 
 ---
 静态链接libstdc++
 yum install glibc-static -y
 yum install libstdc++-static.x86_64 -y
 [glibc-static安装](https://blog.csdn.net/itas109/article/details/104226783)  
+
+
+
+[linux网卡多队列和绑定cpu](https://www.jianshu.com/p/602de40f4808)  
+
+wrk 工具  
