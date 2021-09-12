@@ -2,19 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="src\c313_nthSuperUglyNumber.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c581_findUnsortedSubarray.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1020" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="src\c1221_balancedStringSplit.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="226" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\c581_findUnsortedSubarray.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="312" topLine="0" />
+			<Cursor1 position="22" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src\c165_compareVersion.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -22,24 +12,14 @@
 			<Cursor1 position="1168" topLine="27" />
 		</Cursor>
 	</File>
-	<File name="include\c295_MedianFinder.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="252" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="src\c502_findMaximizedCapital.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="780" topLine="13" />
 		</Cursor>
 	</File>
-	<File name="src\c295_MedianFinder.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="881" topLine="29" />
-		</Cursor>
-	</File>
-	<File name="src\c581_findUnsortedSubarray.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="22" topLine="0" />
+			<Cursor1 position="702981" topLine="488" />
 		</Cursor>
 	</File>
 	<File name="include\c165_compareVersion.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -47,9 +27,29 @@
 			<Cursor1 position="286" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\c1221_balancedStringSplit.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="702981" topLine="498" />
+			<Cursor1 position="226" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\c313_nthSuperUglyNumber.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1020" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="include\c295_MedianFinder.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="252" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\c295_MedianFinder.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="881" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="include\c581_findUnsortedSubarray.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="312" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
