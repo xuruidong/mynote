@@ -1,6 +1,7 @@
 #ifndef C678_CHECKVALIDSTRING_H
 #define C678_CHECKVALIDSTRING_H
 
+#include "common.h"
 
 class c678_checkValidString
 {

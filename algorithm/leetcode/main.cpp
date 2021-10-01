@@ -30,6 +30,7 @@
 #include "c981_TimeMap.h"
 #include "c1418_displayTable.h"
 #include "c1423_maxScore.h"
+#include "c1436_destCity.h"
 #include "c1711_countPairs.h"
 #include "c1738_kthLargestValue.h"
 
@@ -520,6 +521,9 @@ int main()
 
     c502_findMaximizedCapital c502;
     c502.test();
+
+    c1436_destCity c1436;
+    c1436.test();
 
     string tmp="bad";
     sort(tmp.begin(), tmp.end());

@@ -12,7 +12,7 @@ c678_checkValidString::~c678_checkValidString()
 
 bool checkValidString(string s)
 {
-    xxxxxxx
+    //xxxxxxx
     //stack<char> stk;
     int left = 0;
     int n = 0;

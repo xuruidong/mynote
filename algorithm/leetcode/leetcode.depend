@@ -527,7 +527,7 @@
 	<queue>
 	<iostream>
 
-1631105807 source:e:\note\mynote\algorithm\leetcode\main.cpp
+1633097572 source:e:\note\mynote\algorithm\leetcode\main.cpp
 	<iostream>
 	<string>
 	<cstring>
@@ -558,6 +558,7 @@
 	"c981_TimeMap.h"
 	"c1418_displayTable.h"
 	"c1423_maxScore.h"
+	"c1436_destCity.h"
 	"c1711_countPairs.h"
 	"c1738_kthLargestValue.h"
 
@@ -1452,5 +1453,29 @@
 	"common.h"
 
 1631105568 e:\note\mynote\algorithm\leetcode\include\c502_findmaximizedcapital.h
+	"common.h"
+
+1631360328 source:e:\note\mynote\algorithm\leetcode\src\c1894_chalkreplacer.cpp
+	"c1894_chalkReplacer.h"
+
+1631360328 e:\note\mynote\algorithm\leetcode\include\c1894_chalkreplacer.h
+	"common.h"
+
+1631109134 source:e:\note\mynote\algorithm\leetcode\src\c502_findmaximizedcapital.cpp
+	"c502_findMaximizedCapital.h"
+
+1633097312 e:\note\mynote\algorithm\leetcode\include\c1436_destcity.h
+	"common.h"
+
+1631373568 source:e:\note\mynote\algorithm\leetcode\src\c600_findintegers.cpp
+	"c600_findIntegers.h"
+
+1631368908 e:\note\mynote\algorithm\leetcode\include\c600_findintegers.h
+	"common.h"
+
+1633097580 source:e:\note\mynote\algorithm\leetcode\src\c678_checkvalidstring.cpp
+	"c678_checkValidString.h"
+
+1633097604 e:\note\mynote\algorithm\leetcode\include\c678_checkvalidstring.h
 	"common.h"
 
