@@ -113,6 +113,7 @@
 		<Unit filename="include/c600_findIntegers.h" />
 		<Unit filename="include/c633_judgeSquareSum.h" />
 		<Unit filename="include/c654_findErrorNums.h" />
+		<Unit filename="include/c678_checkValidString.h" />
 		<Unit filename="include/c690_getImportance.h" />
 		<Unit filename="include/c692_topKFrequent.h" />
 		<Unit filename="include/c726_countOfAtoms.h" />
@@ -219,6 +220,7 @@
 		<Unit filename="src/c600_findIntegers.cpp" />
 		<Unit filename="src/c633_judgeSquareSum.cpp" />
 		<Unit filename="src/c654_findErrorNums.cpp" />
+		<Unit filename="src/c678_checkValidString.cpp" />
 		<Unit filename="src/c690_getImportance.cpp" />
 		<Unit filename="src/c692_topKFrequent.cpp" />
 		<Unit filename="src/c726_countOfAtoms.cpp" />
