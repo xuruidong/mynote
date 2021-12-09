@@ -14,3 +14,23 @@ http://nginx.org/en/docs/
 
 
 HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWithMobaXterm\command
+
+win10 关闭microsoft store 自动更新 （wsappx 进程占用资源高）
+
+
+win10 输入法，只使用微软拼音，将shift 切换关闭，使用 Ctrl-Space
+
+ubuntu :
+[disable updates from command line in Ubuntu 16.04](https://askubuntu.com/questions/1059971/disable-updates-from-command-line-in-ubuntu-16-04)  
+```
+systemctl stop apt-daily.timer
+systemctl disable apt-daily.timer
+systemctl disable apt-daily.service
+systemctl stop apt-daily-upgrade.timer
+systemctl disable apt-daily-upgrade.timer
+systemctl disable apt-daily-upgrade.service
+```
+
+visualBox :
+
+[vb网络配置](https://www.jianshu.com/p/e6ba699b5992)

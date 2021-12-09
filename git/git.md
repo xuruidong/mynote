@@ -21,3 +21,43 @@ git log --oneline --all 查看所有分支
 git log --oneline --all --graph 图形方式查看  
 
 图形界面查看工具 gitk
+
+
+## 同时管理多个key
+
+### 环境：
+* Windows
+* MobaXterm
+
+### 生成ssh key
+`ssh  ssh-keygen -t ras -C "youremail@yourcompany.com"`
+默认文件是 ~/.ssh/id_rsa, 需要生成多个key 时，指定不通的路径或文件名
+
+### 添加私钥
+`$ ssh-add ~/.ssh/id_rsa_xxx`
+在MobaXterm 环境下需要执行 `$ sudo ssh-add ~/.ssh/id_rsa_xxx`
+
+### 配置文件 
+```bash
+touch config
+```
+
+```
+# gitlab
+Host gitlab.com
+    HostName gitlab.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa
+# github
+Host github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa_github
+```
+
+### 将公钥添加到 github/gitlab
+
+### 测试
+```
+ssh -T git@github.com
+```

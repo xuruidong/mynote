@@ -7,6 +7,8 @@
 1. Linux TCP_DEFER_ACCEPT的作用  
 2. linux中内核参数somaxconn  
 3. TCP参数调整， 对TCP性能有影响的一些参数
+4. IP_TRANSPARENT
+5. SO_ORIGINAL_DST
 
 
 ## OS
@@ -24,9 +26,9 @@
 
 eventfd 的使用， （比条件变量性能高一些）
 ---
-静态链接libstdc++
-yum install glibc-static -y
-yum install libstdc++-static.x86_64 -y
+静态链接libstdc++  
+yum install glibc-static -y  
+yum install libstdc++-static.x86_64 -y  
 [glibc-static安装](https://blog.csdn.net/itas109/article/details/104226783)  
 
 

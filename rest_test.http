@@ -1,27 +1,80 @@
-POST http://10.0.110.34:10250
+GET http://192.168.56.100:8001/services/
 content-type: application/json
 
-{
-    "cmdId": "1",
-	"cmd": "cmd.run",
-	"args":[ "ls"],
-	"minions": ["10.0.110.34"],
-    "reportUrl": "http://172.16.3.16:8080"
-}
-###
-POST http://10.0.110.34:10250
+
+### 添加 service
+POST http://192.168.56.100:8001/services/
 content-type: application/json
 
-{
-    "cmdId": "1",
-	"cmd":   "send_file",
-	"src" :  "http://172.16.3.16:8000/udp_sender.go",
- 	"dest" : "/home/xurd/udp_sender.go",
-	"minions": ["10.0.110.34"],
-    "reportUrl": "http://172.16.3.16:8080",
-    "autorun":"/usr/bin/who"
-}
+{"name":"example.service","url":"http://httpbin.org"}
 
+### delete service
+DELETE  http://192.168.56.100:8001/services/example.service
+
+### delete route
+DELETE http://192.168.56.100:8001/routes/3d80803e-9962-483d-b982-143f4b68c2dc
+
+### list routes
+GET http://192.168.56.100:8001/routes/
+
+### 在 service 上添加 route
+POST http://192.168.56.100:8001/services/example.service/routes
+content-type: application/json
+
+{"paths":["/base64"],"strip_path":false}
+
+
+### 验证 Kong 配置结果
+GET http://192.168.56.100:8000/base64/aGVsbG8ga29uZw==
+
+### ==============================================================
+### ==============*************************=======================
+### ==============================================================
+### 查 upstream 
+GET http://192.168.56.100:8001/upstreams/
+content-type: application/json
+
+### 添加 upstream
+POST http://192.168.56.100:8001/upstreams/
+content-type: application/json
+
+{"name":"example.upstream"}
+
+### 查 targets
+GET http://192.168.56.100:8001/upstreams/example.upstream/targets
+
+### 删除 targets
+DELETE HTTP://192.168.56.100:8001/upstreams/example.upstream/targets/f3f9d866-d0b4-4171-a02e-858e19110d53
+
+
+### 在 upstream 上添加 target
+POST http://192.168.56.100:8001/upstreams/example.upstream/targets
+content-type: application/json
+
+{"target":"192.168.56.1:18080"}
+
+
+### 在 upstream 上添加 target 2
+POST http://192.168.56.100:8001/upstreams/example.upstream/targets
+content-type: application/json
+
+{"target":"192.168.56.1:18081",
+ "weight":""}
+
+### target 3
+POST http://192.168.56.100:8001/upstreams/example.upstream/targets
+Content-Type: application/x-www-form-urlencoded\r\n
+
+target=backend.lite.prophet.360.cn%3A80&weight=
+
+### 添加 service 
+POST http://192.168.56.100:8001/services/
+Content-Type: application/json' 
+
+{"name":"example.service","host":"example.upstream"}
+
+
+     
 ###
 POST http://10.0.110.34:10250
 content-type: application/json

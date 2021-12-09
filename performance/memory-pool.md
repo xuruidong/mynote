@@ -151,3 +151,10 @@ tamalloc为了要满足各种尺寸申请和释放，所以算法复杂，所以
 
 ## ringbuffer
 类似内核中的 kfifo  
+
+参考 x_ring 实现
+
+## multiple-ringbuffer
+
+参考 x_ring 实现
+
