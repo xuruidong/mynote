@@ -78,3 +78,13 @@ Error: [Cassandra error] failed to insert cluster lock: [Write timeout] Operatio
 
   Run with --v (verbose) or --vv (debug) for more details
 ```
+
+
+## kong 安装
+
+[KONG 开源API网关安装手册](https://yonglun.me/kong-install-manual/)  
+
+
+
+init_by_lua*
+发生在master进程启动阶段。这里会对数据访问层进行初始化，加载插件的代码，构造路由规则表。
