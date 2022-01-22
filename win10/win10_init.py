@@ -8,7 +8,7 @@ services_list = [
     'PimIndexMaintenanceSvc_463de',
     'WalletService',
     'WMPNetworkSvc',
-    
+    'AppXSvc'
 ]
 
 def show_reg():
@@ -33,8 +33,9 @@ Diagnostic System Host
 Connected User Experiences and Telemetry
 Touch Keyboard and Handwriting Panel Service  # IME
 '''
-def disableService():
+def disableService(services_list):
     for service in services_list:
+        print ("disable %s"%(service) )
         key = winreg.OpenKeyEx(winreg.HKEY_LOCAL_MACHINE, 
                                r'SYSTEM\CurrentControlSet\Services\%s'%(service),
                                access=winreg.KEY_SET_VALUE)
@@ -79,4 +80,6 @@ def show_reg_app():
     
 if __name__ == '__main__':
     show_reg_app()
+    svr_list = ['AppXSvc']
+    disableService(svr_list)
     print ("****************")
