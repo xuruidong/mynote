@@ -91,3 +91,6 @@ curl: (58) could not load PEM client certificate, OpenSSL error error:140AB18F:S
 ```
 
 私钥长度太短，需要高于1024
+
+## curl 查看证书信息
+`curl -vvl https://xxx`
