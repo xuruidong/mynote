@@ -88,3 +88,18 @@ Error: [Cassandra error] failed to insert cluster lock: [Write timeout] Operatio
 
 init_by_lua*
 发生在master进程启动阶段。这里会对数据访问层进行初始化，加载插件的代码，构造路由规则表。
+
+1.
+```
+Error: [PostgreSQL error] failed to retrieve PostgreSQL server_version_num: FATAL: Ident authentication failed for user "kong"
+```
+vi /var/lib/pgsql/10/data/pg_hba.conf 
+```
+host    all             all             127.0.0.1/32            trust
+```
+
+2. command not found
+
+```
+i was trying with a wrong user on same machine,when i tried with user who installed kong solved the issue
+```
