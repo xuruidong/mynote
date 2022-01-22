@@ -34,3 +34,58 @@ systemctl disable apt-daily-upgrade.service
 visualBox :
 
 [vb网络配置](https://www.jianshu.com/p/e6ba699b5992)
+
+
+禁用AppXsvc
+1、组合键Win + R 输入 regedit 打开【注册表】
+2、打开注册表路径：
+计算机\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\AppXSvc
+3、双击右侧start 把3改为4重启就可以了。
+
+
+========== UNISON ===========
+[模式匹配参数](https://www.cnblogs.com/xiao-apple36/p/9370835.html)  
+[Unison File Synchronizer 文件同步使用](https://houzw.github.io/2016/11/25/Unison-File-Synchronizer-%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5%E4%BD%BF%E7%94%A8/#3-2-%E8%BF%9C%E7%A8%8B%E4%BD%BF%E7%94%A8)
+
+[WinSCP 实现批处理同步文件](https://www.jianshu.com/p/ff719480e0ef)  
+
+目录下 `*.o` 不会同步， 子目录下的也不会同步。  `“.*”` 会同步
+`ignore = Name { *.o， .* }`
+忽略  " .* ",  但不能忽略 xxx/.*
+`ignore = Path .*`
+
+只能忽略 xxx/yyy/.zzz
+`ignore = Path */*/.*` 
+
+忽略tmp 目录， 但不能忽略 xxx/tmp
+`ignore = Path tmp`
+
+没什么卵用，好像和 PATH 一样
+`ignore = Regex output`
+`ignore = BelowPath output`
+
+
+nice!
+```
+ignore = Name {*/output/*}
+ignore = Name {\.*}
+```
+
+常用：
+```
+ignore = Name {*.swp, *~, *.log} 
+ignore = Name {*.lib, *.a, *.la, *.lo}
+ignore = Name {*.o, *.obj, *.ko, *.elf}
+ignore = Name {*.ilk, *.map, *.exp}
+ignore = Name {*.dll, *.so, *.so.*, *.dylib}
+#ignore = Path .* 
+#ignore = Path */*/.* 
+
+#ignore = Path {*.o,*/*/output/,output} 
+#ignore = Path */*.o 
+#ignore = Path */output
+#ignore = Regex output
+#ignore = BelowPath output
+ignore = Name {*/output/*}
+ignore = Name {\.*}
+```

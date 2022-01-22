@@ -1,4 +1,4 @@
-GET http://192.168.56.100:8001/services/
+GET http://192.168.56.101:8001/services/
 content-type: application/json
 
 
@@ -12,17 +12,25 @@ content-type: application/json
 DELETE  http://192.168.56.100:8001/services/example.service
 
 ### delete route
-DELETE http://192.168.56.100:8001/routes/3d80803e-9962-483d-b982-143f4b68c2dc
+DELETE http://192.168.56.101:8001/routes/my-route
 
 ### list routes
-GET http://192.168.56.100:8001/routes/
+GET http://192.168.56.101:8001/routes/
 
 ### 在 service 上添加 route
-POST http://192.168.56.100:8001/services/example.service/routes
+POST http://192.168.56.101:8001/services/example.service/routes
+content-type: application/json
+
+{"paths":["/anything/[1-9][0-9]"],
+"methods":["POST", "GET"], 
+"name": "my-route",
+"hosts":["*.test.com", "www.haha.com"], "strip_path":false}
+
+###
+POST http://192.168.56.101:8001/services/example.service/routes
 content-type: application/json
 
 {"paths":["/base64"],"strip_path":false}
-
 
 ### 验证 Kong 配置结果
 GET http://192.168.56.100:8000/base64/aGVsbG8ga29uZw==
@@ -44,7 +52,8 @@ content-type: application/json
 GET http://192.168.56.100:8001/upstreams/example.upstream/targets
 
 ### 删除 targets
-DELETE HTTP://192.168.56.100:8001/upstreams/example.upstream/targets/f3f9d866-d0b4-4171-a02e-858e19110d53
+DELETE HTTP://192.168.56.100:8001/upstreams/example.upstream/targets/368c86c6-6567-4bbd-8d4f-4eb2fd1e6ebd
+
 
 
 ### 在 upstream 上添加 target
@@ -59,7 +68,7 @@ POST http://192.168.56.100:8001/upstreams/example.upstream/targets
 content-type: application/json
 
 {"target":"192.168.56.1:18081",
- "weight":""}
+ "weight": null}
 
 ### target 3
 POST http://192.168.56.100:8001/upstreams/example.upstream/targets
