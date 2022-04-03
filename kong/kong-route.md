@@ -1,7 +1,12 @@
 
 print(debug.traceback())
 
+[kong源码导读](https://jinfei21.github.io/2018/04/16/20180416/)  
+[kong源码分析](https://shoujo.ink/2021/09/kong-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90)  
+
 ## 生成规则
+
+路由规则的创建在Nginx的初始化阶段，init_by_lua_block指令块中的kong.init()方法里
 ```
 2022/01/13 16:35:06 [notice] 6824#0: [lua] router.lua:1478: new(): stack traceback:
         /usr/local/share/lua/5.1/kong/router.lua:1478: in function 'new'
@@ -60,44 +65,44 @@ router.new()  的参数为 {router, service} 数组：
 ```
 ```
 {
-        service = {
-            ws_id = 378fc560-d392-4ee3-8e98-a5adde367bb4
-            id = 17599055-4385-4da7-ac1e-80e3e0453f34
-            protocol = http
-            retries = 5
-            port = 80
-            connect_timeout = 60000
-            updated_at = 1641546941
-            created_at = 1641546941
-            host = httpbin.org
-            name = example.service
-            write_timeout = 60000
-            read_timeout = 60000
-        }
-        route = {
-            ws_id = 378fc560-d392-4ee3-8e98-a5adde367bb4
-            protocols = {
-                1 = http
-                2 = https
-            }
-            id = e099c070-4449-4fe7-b4f9-23f28125f78c
-            request_buffering = true
-            response_buffering = true
-            service = {
-                id = 17599055-4385-4da7-ac1e-80e3e0453f34
-            }
-            preserve_host = false
-            strip_path = false
-            regex_priority = 0
-            updated_at = 1641546988
-            paths = {
-                1 = /base64
-            }
-            created_at = 1641546988
-            https_redirect_status_code = 426
-            path_handling = v0
-        }
+    service = {
+        ws_id = 378fc560-d392-4ee3-8e98-a5adde367bb4
+        id = 17599055-4385-4da7-ac1e-80e3e0453f34
+        protocol = http
+        retries = 5
+        port = 80
+        connect_timeout = 60000
+        updated_at = 1641546941
+        created_at = 1641546941
+        host = httpbin.org
+        name = example.service
+        write_timeout = 60000
+        read_timeout = 60000
     }
+    route = {
+        ws_id = 378fc560-d392-4ee3-8e98-a5adde367bb4
+        protocols = {
+            1 = http
+            2 = https
+        }
+        id = e099c070-4449-4fe7-b4f9-23f28125f78c
+        request_buffering = true
+        response_buffering = true
+        service = {
+            id = 17599055-4385-4da7-ac1e-80e3e0453f34
+        }
+        preserve_host = false
+        strip_path = false
+        regex_priority = 0
+        updated_at = 1641546988
+        paths = {
+            1 = /base64
+        }
+        created_at = 1641546988
+        https_redirect_status_code = 426
+        path_handling = v0
+    }
+}
 
 ```
 
@@ -105,66 +110,66 @@ router.new()  的参数为 {router, service} 数组：
 
 ```
 1 = {
-            upstream_url_t = {
-                path = /
-                type = name
-                host = httpbin.org
-                port = 80
-                scheme = http
-            }
-            hosts = {
-            }
-            type = http
-            snis = {
-            }
-            methods = {
-                GET = true
-            }
-            sources = {
-            }
-            destinations = {
-            }
-            preserve_host = false
-            strip_uri = false
-            match_rules = 24
-            match_weight = 2
-            submatch_weight = 0
-            max_uri_length = 3
-            uris = {
-                1 = {
-                    is_prefix = true
-                    value = /ip
-                }
-                /ip = {
-                    is_prefix = true
-                    value = /ip
-                }
-            }
-            route = {
-                protocols = {
-                    1 = http
-                    2 = https
-                }
-                regex_priority = 0
-                paths = {
-                    1 = /test/haha
-                }
-                strip_path = false
-                -- ...
-                methods = {
-                    1 = GET
-                }
-                service = {
-                    id = 17599055-4385-4da7-ac1e-80e3e0453f34
-                }
-                -- ...
-            }
-            service = {
-                -- ....
-            }
-            headers = {
-            }
+    upstream_url_t = {
+        path = /
+        type = name
+        host = httpbin.org
+        port = 80
+        scheme = http
+    }
+    hosts = {
+    }
+    type = http
+    snis = {
+    }
+    methods = {
+        GET = true
+    }
+    sources = {
+    }
+    destinations = {
+    }
+    preserve_host = false
+    strip_uri = false
+    match_rules = 24
+    match_weight = 2
+    submatch_weight = 0
+    max_uri_length = 3
+    uris = {
+        1 = {
+            is_prefix = true
+            value = /ip
         }
+        /ip = {
+            is_prefix = true
+            value = /ip
+        }
+    }
+    route = {
+        protocols = {
+            1 = http
+            2 = https
+        }
+        regex_priority = 0
+        paths = {
+            1 = /test/haha
+        }
+        strip_path = false
+        -- ...
+        methods = {
+            1 = GET
+        }
+        service = {
+            id = 17599055-4385-4da7-ac1e-80e3e0453f34
+        }
+        -- ...
+    }
+    service = {
+        -- ....
+    }
+    headers = {
+    }
+}
 
 ```
 
@@ -202,6 +207,26 @@ local MATCH_RULES = {
 }
 ```
 一共有 127 种组合
+
+```
+{
+    routes_by_hosts = {}
+    routes_by_headers = {}
+    routes_by_uris = {
+    }
+    routes_by_methods = {
+    }
+    routes_by_sources = {
+    }
+    routes_by_destinations = {
+    }
+    match_weight = 3
+    all = {
+    }
+    routes_by_sni = {
+    }
+}
+```
 
 ```
     {
@@ -411,7 +436,7 @@ match_weight = category.match_weight,
 * reduce：
 
 
-* match_route: 根据 route_t.match_rules 规则，执行 matchers 中对应的函数，如果 route_t.match_rules 不是 1，2，4，8，16，32，64等，则依次执行对应的函数，并缓存。
+* match_route: 根据 route_t.match_rules 规则，执行 matchers 中对应的函数，如果 route_t.match_rules 不是 1，2，4，8，16，32，64等，则依次执行对应的函数，由执行的一系列函数，会生成一个新的函数并缓存。
 比如method 匹配， 就是查找在 route_t.methods 中是否有 ctx.req_method。 
 查找 header 时， 时间复杂度 O(M*N)
 匹配 uri， 判断是否是正则，  直接匹配或者前缀匹配，使用 string.find(),   
