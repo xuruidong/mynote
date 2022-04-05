@@ -35,6 +35,32 @@ hello systemtap!
 Pass 5: run completed in 0usr/40sys/517real ms.
 ```
 
+### 错误处理
+环境： CentOS 7
+uname -r
+3.10.0-693.21.1.el7.x86_64
+
+```
+arch/x86/Makefile:166: *** CONFIG_RETPOLINE=y, but not supported by the compiler. Toolchain update recommended..  Stop.
+```
+方法1： 升级编译器
+方法2： 注释内核代码
+/usr/src/kernels/3.10.0-693.21.1.el7.x86_64/arch/x86/Makefile:166
+
+```
+# Avoid indirect branches in kernel to deal with Spectre
+#ifdef CONFIG_RETPOLINE
+#    RETPOLINE_CFLAGS += $(call cc-option,-mindirect-branch=thunk-extern -mindirect-branch-register)
+#    ifneq ($(RETPOLINE_CFLAGS),)
+#        KBUILD_CFLAGS += $(RETPOLINE_CFLAGS) -DRETPOLINE
+#    else
+#        $(error CONFIG_RETPOLINE=y, but not supported by the compiler. Toolchain update recommended.)
+#    endif
+#endif
+```
+
+
+
 ## 探针
 我理解的探针就是观测点。如：
 * begin： systemtap 会话开始
