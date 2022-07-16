@@ -55,3 +55,11 @@ systemctl disable apt-daily-upgrade.service
 hname=`hostname`
 echo '127.0.0.1 $hname' >> /etc/hosts
 ```
+
+## apt源
+
+[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)  
+更新源  
+```
+sudo apt-get update
+```
