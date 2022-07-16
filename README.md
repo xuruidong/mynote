@@ -26,6 +26,9 @@ visualBox :
 
 [vb网络配置](https://www.jianshu.com/p/e6ba699b5992)
 
+```
+sudo mount -t vboxsf E_DRIVE /mnt/e
+```
 
 禁用AppXsvc
 1、组合键Win + R 输入 regedit 打开【注册表】
