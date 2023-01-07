@@ -30,8 +30,9 @@ git log --oneline --all --graph 图形方式查看
 * MobaXterm
 
 ### 生成ssh key
-`ssh  ssh-keygen -t ras -C "youremail@yourcompany.com"`
+`ssh-keygen -t rsa -C "youremail@yourcompany.com"`
 默认文件是 ~/.ssh/id_rsa, 需要生成多个key 时，指定不通的路径或文件名
+`-f` 选项可以指定文件路径及名称
 
 ### 添加私钥
 `$ ssh-add ~/.ssh/id_rsa_xxx`
@@ -74,3 +75,19 @@ ssh -T git@github.com
 * refactor: A code change that neither fixes a bug nor adds a feature
 * style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 * test: Adding missing tests or correcting existing tests
+
+
+## 文件mode
+cygwin git 和 MSYS git 
+
+```
+git config --local --unset core.filemode
+```
+```
+git config --global core.filemode false
+git config corefilemode false
+```
+
+## 换行符
+https://blog.csdn.net/dbzhang800/article/details/6426834
+
