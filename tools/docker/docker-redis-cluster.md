@@ -74,3 +74,7 @@ c604cfa5b578ce3bce9407a8e5f490d1a239c41e 10.0.1.100:6376@16376 slave 2f972fcf6ed
 0ab282cd7a0d622e8763c4f7971aa849081c548d 10.0.1.100:6371@16371 myself,master - 0 1654157807000 1 connected 0-5460
 2f972fcf6edb28124bc999b41aeb9bba9921741f 10.0.1.100:6372@16372 master - 0 1654157810260 2 connected 5461-10922
 ```
+
+
+# 另一个
+[cankao](https://cloud.tencent.com/developer/article/1838120)  
