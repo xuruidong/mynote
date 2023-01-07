@@ -66,7 +66,7 @@ values = {
         }
 ```
 
-生成新的 uri_router：
+生成新的 uri_routes：
 ```
 {
     1 = {
