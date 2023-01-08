@@ -136,6 +136,47 @@ def get_admin_privileges():
     else:#in python2.x
         ctypes.windll.shell32.ShellExecuteW(None, u"runas", unicode(sys.executable), unicode(__file__), None, 1)
 
+def enumKeyValues(key):
+    while True:
+        try:
+            name, value, type1 = winreg.EnumValue(key,i)
+            print (name, value)
+            i += 1
+        except WindowsError as e:
+            print ("error:", e)
+            break    
+    
+def openWith(cmd_class, cmd_name, shell_cmd):
+    '''
+    cmd_class: OpenWithGeany
+    cmd_name: Open with Geany
+    shell_cmd: 
+    '''
+    # 计算机\HKEY_CLASSES_ROOT\Geany.ProjectFile\Shell\open\command
+    # 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Classes\sourceinsight.Project\shell\open\command
+    # 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\OpenWithGeany\command
+    # 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Sublime Text\command
+    # 计算机\HKEY_CLASSES_ROOT\*\shell\Sublime Text\command
+    key = winreg.CreateKeyEx(winreg.HKEY_LOCAL_MACHINE, r'SOFTWARE\Classes\*\shell'+'\\%s'%cmd_class,
+                           access=winreg.KEY_ALL_ACCESS)
+    print(dir(key.handle))  # 'HKEY_CURRENT_USER\Environment'
+    print("~~~", dir(key))
+    
+    winreg.SetValue(key, "", winreg.REG_SZ, cmd_name)
+    winreg.SetValueEx(key, "Icon", 0, winreg.REG_SZ, shell_cmd)
+    winreg.CloseKey(key) 
+    
+    # command
+    key = winreg.CreateKeyEx(winreg.HKEY_LOCAL_MACHINE, r'SOFTWARE\Classes\*\shell'+'\\%s\\command'%cmd_class,
+                           access=winreg.KEY_ALL_ACCESS) 
+    winreg.SetValue(key, "", winreg.REG_SZ, '\"%s\" "%%1"'%(shell_cmd))
+    winreg.CloseKey(key)
+
+def openProgramHere(path):
+    # HKEY_CLASSES_ROOT\Directory\Background\shell
+    pass
+
+    
 import time
 import os
 import getpass
@@ -146,14 +187,15 @@ if __name__ == '__main__':
     
     # show_reg_app()
     # svr_list = ['AppXSvc']
-    disableService(services_list)
-    folder_set()
+    #disableService(services_list)
+    #folder_set()
     
     print (getpass.getuser())
     print (is_admin())
     print ("pid= %s"%(os.getpid()))
     # time.sleep(5)
     # show_env_path()
+    openWith("OpenWithCuda", "Open with Cuda", r"E:\Software\cudatext\cudatext.exe")
 
     print ("****************")
     time.sleep(5)
