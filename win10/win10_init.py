@@ -176,7 +176,19 @@ def openProgramHere(path):
     # HKEY_CLASSES_ROOT\Directory\Background\shell
     pass
 
+def enableHibernate():
+    # HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power
+    try:
+        key = winreg.OpenKeyEx(winreg.HKEY_LOCAL_MACHINE, 
+                               r'SYSTEM\CurrentControlSet\Control\Power',
+                               access=winreg.KEY_SET_VALUE)
     
+        winreg.SetValueEx(key, 'HibernateEnabled', 0, winreg.REG_DWORD, 1)
+        winreg.CloseKey(key)
+    except Exception as e:
+        print("enable Hibernate error %s"%(e)) 
+        
+        
 import time
 import os
 import getpass
@@ -195,7 +207,8 @@ if __name__ == '__main__':
     print ("pid= %s"%(os.getpid()))
     # time.sleep(5)
     # show_env_path()
-    openWith("OpenWithCuda", "Open with Cuda", r"E:\Software\cudatext\cudatext.exe")
+    #openWith("OpenWithCuda", "Open with Cuda", r"E:\Software\cudatext\cudatext.exe")
+    enableHibernate()
 
     print ("****************")
     time.sleep(5)
