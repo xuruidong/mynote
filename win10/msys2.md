@@ -33,3 +33,8 @@ Errors occurred, no packages were upgraded.
 pacman -Syyuu
 ```
 [https://skfwe.cn/p/msys2-signature-is-marginal-trust/](https://skfwe.cn/p/msys2-signature-is-marginal-trust/)  
+
+## 查看MSYS2 版本？
+```
+# pacman -Ss filesystem
+```
