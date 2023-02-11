@@ -14,17 +14,18 @@ docker create --name redis-node1 --net=host -v /data/redis-data/node1:/data redi
 ```
 
 创建redis容器参数解释：
-     --net=host 容器和宿主机共用网络 不需要再做端口映射
-     -v 创建容器数据卷
-     --cluster-enabled：是否启动集群，选值：yes 、no
-     --cluster-config-file 配置文件.conf ：指定节点信息，自动生成
-     --cluster-node-timeout 毫秒值： 配置节点连接超时时间
-     --appendonly 是否开启持久化，选值：yes、no
-     --port 端口
+* --net=host 容器和宿主机共用网络 不需要再做端口映射
+* -v 创建容器数据卷
+* --cluster-enabled：是否启动集群，选值：yes 、no
+* --cluster-config-file 配置文件.conf ：指定节点信息，自动生成
+* --cluster-node-timeout 毫秒值： 配置节点连接超时时间
+* --appendonly 是否开启持久化，选值：yes、no
+* --port 端口
+* --bind 绑定ip
 
 创建 6 个容器， 三主三从。
 脚本：
-```
+```bash
 #!/bin/bash
 
 function create_container()
@@ -35,7 +36,7 @@ function create_container()
         echo $num
         echo $port
         echo create redis-node$num
-        docker create --name redis-node$num --net=host -v /data/redis-data/node$num:/data redis:4.0 --cluster-enabled yes --cluster-config-file nodes-node-$num.conf --cluster-node-timeout 10000 --appendonly yes --port $port
+        docker create --name redis-node$num --net=host -v /data/redis-data/node$num:/data redis:4.0 --cluster-enabled yes --cluster-config-file nodes-node-$num.conf --cluster-node-timeout 10000 --appendonly yes --port $port --bind 192.168.1.100
     done
 }
 
@@ -59,9 +60,9 @@ docker exec -it redis-node1 /bin/bash
 redis-cli --cluster create localhos:6371 localhos:6372 localhos:6373 localhos:6374 localhos:6375 localhos:6376 --cluster-replicas 1
 ```
 
-参数解释
-    --cluster-replicas 1： 参数后面的数字表示的是主从比例，这里的1，表示1个主节点对应1个从节点。上面创建了6个reids容器，所以主从分配就是3个主节点，3个从节点。
-    注意 主节点最少3个，3个才能保证集群的健壮性。
+参数解释：
+* --cluster-replicas 1： 参数后面的数字表示的是主从比例，这里的1，表示1个主节点对应1个从节点。上面创建了6个reids容器，所以主从分配就是3个主节点，3个从节点。  
+注意 主节点最少3个，3个才能保证集群的健壮性。
 
 ## 测试
 ```
