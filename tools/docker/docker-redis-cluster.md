@@ -36,7 +36,7 @@ function create_container()
         echo $num
         echo $port
         echo create redis-node$num
-        docker create --name redis-node$num --net=host -v /data/redis-data/node$num:/data redis:4.0 --cluster-enabled yes --cluster-config-file nodes-node-$num.conf --cluster-node-timeout 10000 --appendonly yes --port $port --bind 192.168.1.100
+        docker create --name redis-node$num --net=host -v /data/redis-data/node$num:/data redis:5.0.9-alpine3.11 --cluster-enabled yes --cluster-config-file nodes-node-$num.conf --cluster-node-timeout 10000 --appendonly yes --port $port --bind 192.168.1.100
     done
 }
 
