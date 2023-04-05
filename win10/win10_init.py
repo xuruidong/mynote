@@ -172,9 +172,21 @@ def openWith(cmd_class, cmd_name, shell_cmd):
     winreg.SetValue(key, "", winreg.REG_SZ, '\"%s\" "%%1"'%(shell_cmd))
     winreg.CloseKey(key)
 
-def openProgramHere(path):
+def openProgramHere(program_name, program_path, cmd):
     # HKEY_CLASSES_ROOT\Directory\Background\shell
-    pass
+    key = winreg.CreateKeyEx(winreg.HKEY_CLASSES_ROOT, r'Directory\Background\shell'+'\\%s'%program_name,
+                           access=winreg.KEY_ALL_ACCESS)  
+    #winreg.SetValue(key, "", winreg.REG_SZ, program_path)
+    winreg.SetValueEx(key, "Icon", 0, winreg.REG_SZ, program_path)
+    winreg.CloseKey(key) 
+    
+    # command
+    key = winreg.CreateKeyEx(winreg.HKEY_CLASSES_ROOT, r'Directory\Background\shell'+'\\%s\\command'%program_name,
+                           access=winreg.KEY_ALL_ACCESS) 
+    winreg.SetValue(key, "", winreg.REG_SZ, '%s'%(cmd))
+    winreg.SetValueEx(key, "Icon", 0, winreg.REG_SZ, program_path)
+    winreg.CloseKey(key)    
+    
 
 def enableHibernate():
     # HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power
@@ -207,8 +219,9 @@ if __name__ == '__main__':
     print ("pid= %s"%(os.getpid()))
     # time.sleep(5)
     # show_env_path()
-    #openWith("OpenWithCuda", "Open with Cuda", r"E:\Software\cudatext\cudatext.exe")
-    enableHibernate()
+    # openWith("OpenWithCuda", "Open with Cuda", r"E:\Software\editor\cudatext\cudatext.exe")
+    openProgramHere("WindowsTerminal", r"E:\Software\Terminal\WindowsTerminal\wt.exe", r"E:\Software\Terminal\WindowsTerminal\wt.exe")
+    #enableHibernate()
 
     print ("****************")
     time.sleep(5)
