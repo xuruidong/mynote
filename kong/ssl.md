@@ -1,8 +1,9 @@
 
 ## 生成证书
 [参考链接](https://www.cnblogs.com/Anker/p/6018032.html)  
+
+### 自签CA证书
 ```
-# create
 #生成根证书私钥(pem文件)
 openssl genrsa -out root.key 2048
 #生成根证书签发申请文件(csr文件)
@@ -10,7 +11,9 @@ openssl req -new -out root.csr -key root.key -subj "/C=CN/ST=myprovince/L=mycity
 #openssl req -new -out root.csr -key root.key
 #自签发根证书(cer文件) 
 openssl x509 -req -in root.csr -out root.crt -signkey root.key -CAcreateserial -days 3650
-
+```
+### 服务端私钥和证书
+```
 # create server.key
 #生成服务端私钥 
 openssl genrsa -out server.key 2048
@@ -21,8 +24,9 @@ openssl req -new -out server.csr -key server.key -subj "/C=CN/ST=myprovince/L=my
 openssl x509 -req -in server.csr -out server.crt -signkey server.key -CA root.crt -CAkey root.key -CAcreateserial -days 3650
 #使用CA证书验证server端证书
 openssl verify -CAfile root.crt server.crt
-
-
+```
+### 客户端私钥和证书
+```
 # create client.key
 #生成客户端私钥 
 openssl genrsa -out client.key 2048
