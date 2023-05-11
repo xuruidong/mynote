@@ -85,3 +85,15 @@ ignore = Name {\.*}
 ```
 
 [win32 GUI](https://blog.csdn.net/boysoft2002/article/details/113872254)  
+
+
+### codeblocks
+[如何在mingw中执行libwinpthread-1.dll的静态链接？](https://www.oomake.com/question/3849953)  
+
+要静态链接winpthread，即使程序中未使用线程，也要将-Bstatic和--whole-archive参数传递给链接器：
+
+g++ -o hello.exe hello.cpp -Wl,-Bstatic,--whole-archive -lwinpthread -Wl,--no-whole-archive
+请注意以下事项：
+* 之后应立即禁用“整个存档”选项。
+* 如果您的程序实际使用了库中的符号(即您使用C++ 11中的<thread>)，则不需要执行此操作，在这种情况下，当您静态链接库时，库不会被删除。 / LI>
+* 此hack适用于MinGW-w64，用于修复libwinpthread-1.dll依赖项。
