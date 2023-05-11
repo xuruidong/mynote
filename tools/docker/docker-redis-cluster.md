@@ -79,3 +79,7 @@ c604cfa5b578ce3bce9407a8e5f490d1a239c41e 10.0.1.100:6376@16376 slave 2f972fcf6ed
 
 # 另一个
 [cankao](https://cloud.tencent.com/developer/article/1838120)  
+
+
+# Redis --- 单实例集群模式
+[Redis --- 单实例集群模式](https://www.jianshu.com/p/421db73bf0e6)  
