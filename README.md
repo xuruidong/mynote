@@ -97,3 +97,8 @@ g++ -o hello.exe hello.cpp -Wl,-Bstatic,--whole-archive -lwinpthread -Wl,--no-wh
 * 之后应立即禁用“整个存档”选项。
 * 如果您的程序实际使用了库中的符号(即您使用C++ 11中的<thread>)，则不需要执行此操作，在这种情况下，当您静态链接库时，库不会被删除。 / LI>
 * 此hack适用于MinGW-w64，用于修复libwinpthread-1.dll依赖项。
+
+  
+  ### 元器件选型
+  [贸泽电子](https://www.mouser.cn/electronic-components/)  
+  
