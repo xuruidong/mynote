@@ -1,5 +1,6 @@
 import winreg
 import ctypes, sys
+import os
 
 # 'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\xboxgip'
 services_list = [
@@ -200,9 +201,47 @@ def enableHibernate():
     except Exception as e:
         print("enable Hibernate error %s"%(e)) 
         
-        
+
+def traversal_files(postfix):
+    files = []  
+    def traversal(path):
+        for item in os.scandir(path):
+            if item.is_dir():
+                traversal(item.path)
+            elif item.is_file():
+                if item.path.endswith(postfix):
+                    files.append(item.path)
+        return files
+    
+    return traversal    
+            
+def firewallDisableProgram(rule_name, path):
+    files = traversal_files(".exe")
+    print (files(path))
+    i = 0
+    for program in files(path):
+        rule_name_tmp = "%s-%d"%(rule_name, i)
+        os.popen('netsh advfirewall firewall add rule name="'+rule_name_tmp+'" dir=out action=block program= "'+ program +'" enable=yes profile=any')
+        i = i + 1
+
+def firewallSetState(state):
+    '''
+    set allprofiles - 在所有配置文件中设置属性。
+    set currentprofile - 在活动配置文件中设置属性。
+    set domainprofile - 在域配置文件中设置属性。
+    set global     - 设置全局属性。
+    set privateprofile - 在专用配置文件中设置属性。
+    set publicprofile - 在公用配置文件中设置属性。
+    '''
+    if state != "on" or state != "off":
+        return
+    
+    os.system("netsh advfirewall set currentprofile state " + state)
+    os.system("netsh advfirewall set domainprofile state " + state)
+    os.system("netsh advfirewall set privateprofile state " + state)
+    
 import time
-import os
+
 import getpass
 
 if __name__ == '__main__':
@@ -220,8 +259,9 @@ if __name__ == '__main__':
     # time.sleep(5)
     # show_env_path()
     # openWith("OpenWithCuda", "Open with Cuda", r"E:\Software\editor\cudatext\cudatext.exe")
-    openProgramHere("WindowsTerminal", r"E:\Software\Terminal\WindowsTerminal\wt.exe", r"E:\Software\Terminal\WindowsTerminal\wt.exe")
+    # openProgramHere("WindowsTerminal", r"E:\Software\Terminal\WindowsTerminal\wt.exe", r"E:\Software\Terminal\WindowsTerminal\wt.exe")
     #enableHibernate()
+    firewallDisableProgram("wps", 'D:\\wps')
 
     print ("****************")
     time.sleep(5)
