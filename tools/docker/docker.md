@@ -7,3 +7,9 @@ docker run -itd --name efan_end -p 7700:6600 --privileged -v /home/xuruidong/wor
 
 #docker run -itd --name efan_end -p 7700:6600 -v /home/xuruidong/work/efan:/data/efan -w /data/efan centos:centos7 /bin/bash -c 'bin/efan_end /data/efan/conf/efan_end.conf'
 ```
+
+## 以非 Root 用户身份执行 Docker
+```
+sudo usermod -aG docker $USER
+```
+登出，并且重新登录，以便用户组会员信息刷新  
