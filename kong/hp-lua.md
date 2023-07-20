@@ -15,3 +15,7 @@ for i = 1, #tab do
 
 end
 ```
+
+## ngx.re.match
+使用 ngx.re.match 替换 string.match， 
+注意 flag， i,j 。 Using the i flag for case insensitive matching should be faster.  
