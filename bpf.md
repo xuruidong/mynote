@@ -92,3 +92,13 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.1 20220127 (Red Hat 11.2.1-9) (GCC) 
 ```
 
+---
+
+bpf-developer-tutorial 概要
+=========================== 
+
+1. eBPF 程序的基本框架，跟踪点， `bpf_printk` 用来输出信息，可以在用户空间查看
+2. 使用 `kprobe` 和 `kretprobe` 捕获系统调用
+3. `fentry` 与 `fexit` 捕获系统调用， 需要 5.5 及以后版本的内核支持
+4. 使用 tracepoint 跟踪系统调用，`bpf_get_current_pid_tgid` 来获取进程id 和 线程组 ID
+
