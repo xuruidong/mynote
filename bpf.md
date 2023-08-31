@@ -100,5 +100,17 @@ bpf-developer-tutorial 概要
 1. eBPF 程序的基本框架，跟踪点， `bpf_printk` 用来输出信息，可以在用户空间查看
 2. 使用 `kprobe` 和 `kretprobe` 捕获系统调用
 3. `fentry` 与 `fexit` 捕获系统调用， 需要 5.5 及以后版本的内核支持
-4. 使用 tracepoint 跟踪系统调用，`bpf_get_current_pid_tgid` 来获取进程id 和 线程组 ID
+4. 使用 tracepoint 跟踪系统调用，`bpf_get_current_pid_tgid` 来获取进程id 和 线程 ID
+5. `bpf_get_current_comm`: 获取当前任务名称，
+	`bpf_probe_read_user_str` 从用户空间读取函数返回值
 
+6. hash map 的使用， 
+7. perf buffer
+8. ring buffer
+
+
+
+生成 vmlinux.h `bpftool btf dump file /sys/kernel/btf/vmlinux format c > vmlinux.h`
+https://www.ebpf.top/post/intro_vmlinux_h/
+
+bpftool 安装 `sudo apt install linux-tools-$(uname -r)`
