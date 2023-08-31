@@ -21,3 +21,7 @@
   * 立即查找
   * SYSTEM
 * 按需选择“使用最高权限执行”
+
+---
+[Windows 的键盘快捷方式](https://support.microsoft.com/zh-cn/windows/windows-%E7%9A%84%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F-dcc61a57-8ff0-cffe-9796-cb9706c75eec)  
+
