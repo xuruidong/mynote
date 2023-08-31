@@ -63,3 +63,6 @@ echo '127.0.0.1 $hname' >> /etc/hosts
 ```
 sudo apt-get update
 ```
+
+## virtual box ubuntu 扩容
+[如何给VirtualBox虚拟机的ubuntu LVM分区扩容](https://zhuanlan.zhihu.com/p/34633244)  
