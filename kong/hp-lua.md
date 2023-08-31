@@ -19,3 +19,7 @@ end
 ## ngx.re.match
 使用 ngx.re.match 替换 string.match， 
 注意 flag， i,j 。 Using the i flag for case insensitive matching should be faster.  
+
+
+## links
+[luajit官方性能优化指南和注解](https://www.cnblogs.com/zwywilliam/p/5992737.html)  
