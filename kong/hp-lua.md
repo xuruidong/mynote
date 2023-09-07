@@ -21,5 +21,9 @@ end
 注意 flag， i,j 。 Using the i flag for case insensitive matching should be faster.  
 
 
+## table length? 
+不要手动计算 table 长度，来试图加速 `table.insert` 
+
+
 ## links
 [luajit官方性能优化指南和注解](https://www.cnblogs.com/zwywilliam/p/5992737.html)  
