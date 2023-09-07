@@ -16,7 +16,7 @@ local function init()
     
 end
 
-local t_count = 10000
+local t_count = 10
 
 local function test_1()
     local t = {}
@@ -38,8 +38,17 @@ local function test_2()
 end
 
 
-
+local function test_3()
+    local t = {}
+    local t_len = 0
+    for i = 1, t_count do
+        t_len = t_len + 1
+        t[t_len] = "a"
+        -- table_insert(t, t_len, "a")
+    end
+    --print("trav2")
+end
 
 init()
 
-tutil.test(test_1, test_2, 5e3)
+tutil.test(test_1, test_3, 5e6)
