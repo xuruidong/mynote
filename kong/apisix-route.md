@@ -278,3 +278,28 @@ end
 
 
 [正则匹配](https://apisix.apache.org/zh/docs/apisix/FAQ/#route-%E7%9A%84-uri-%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E6%AD%A3%E5%88%99%E5%8C%B9%E9%85%8D)  
+
+
+## route
+
+http_init
+|调用语句||所在文件|说明|
+|-------|-------|--|--|
+|apisix.http_init_worker()		| | init.lua|
+|apisix.router.http_init_worker()  	| | router.lua
+|router_http = require("apisix.http.router.radixtree_xxx") | | router.lua     (1) 
+|router_http.init_worker = http_route.init_worker(filter)	|  | router.lua
+|router_http.init_worker()		|
+|http_route.init_worker(filter)		| apisix.http.route.init_worker(filter) | http/route.lua| 读取路由配置
+
+http_access
+|调用语句|所在文件|
+|-------|-------|
+|router.router_http.match(api_ctx)	|apisix.http.router.radixtree_xxx.match   (1) 
+|base_router.create_radixtree_uri_router	|apisix.http.route.create_radixtree_uri_router
+|uri_router = radixtree.new()
+|uri_router.dispatch()
+
+create_radixtree_router
+
+[云原生网关 APISIX 核心流程源码分析与进化方向思考](https://cloudnative.to/blog/apisix-source-code-reading/)  
