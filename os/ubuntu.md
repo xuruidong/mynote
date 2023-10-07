@@ -27,7 +27,7 @@ network:
     wlan0:  //这里是无线网卡名字，可以通过ifconfig查看获得    
       dhcp4: no
       dhcp6: no
-      address: [192.168.2.155/24]     
+      addresses: [192.168.2.155/24]     
       gateway4: 192.168.1.1
       nameservers:
         addresses: [192.168.1.1,8.8.8.8] 
