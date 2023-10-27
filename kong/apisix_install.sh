@@ -26,6 +26,11 @@ bash ./ci/free_disk_space.sh
 make ci-env-up project_compose_ci=ci/pod/docker-compose.common.yml
 sudo ./ci/init-common-test-service.sh || true
 
+./ci/pod/openfunction/build-function-image.sh
+make ci-env-up project_compose_ci=ci/pod/docker-compose.first.yml
+make ci-env-up project_compose_ci=ci/pod/docker-compose.plugin.yml
+make ci-env-up project_compose_ci=ci/pod/docker-compose.last.yml
+
 #
 
 ./ci/linux_openresty_runner.sh before_install 
