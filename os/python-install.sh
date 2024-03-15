@@ -1,14 +1,14 @@
 #!/bin/bash
 
-set -e
+set -ex
 
-function install_dep_in_ubuntu()
+function install_dep_on_ubuntu()
 {
 	sudo apt-get update
 	sudo apt-get install zlib1g-dev libbz2-dev libssl-dev libncurses5-dev libsqlite3-dev libreadline-dev tk-dev libgdbm-dev libdb-dev libpcap-dev xz-utils libexpat1-dev liblzma-dev libffi-dev libc6-dev
 }
 
-function install_dep_in_centos7()
+function install_dep_on_centos7()
 {
 	yum -y install zlib zlib-devel libffi libffi-devel
 
@@ -26,31 +26,68 @@ function install_dep()
 
 	DIST_NAME=${NAME#*=}
 
+	set +e
 	res=`echo $NAME | grep CentOS`
 	if [[ $res != "" ]]
 	then
-	        echo "centos"
-	 	install_dep_in_centos7
+	    echo "centos"
+	 	install_dep_on_centos7
 	fi
 	
 	res=`echo $NAME | grep Ubuntu`
 	if [[ $res != "" ]]
 	then
-	        echo "Ubuntu"
-	 	install_dep_in_ubuntu
+	    echo "Ubuntu"
+	 	install_dep_on_ubuntu
 	fi
+
+	set -e
 }
 
-install_dep
+function patch_configure()
+{
+	NAME=`cat /etc/*-release | grep -w "NAME="`
 
-PY_VERSION=3.10.12
+	DIST_NAME=${NAME#*=}
 
-wget https://www.python.org/ftp/python/${PY_VERSION}/Python-${PY_VERSION}.tar.xz
+	set +e
+	res=`echo $NAME | grep CentOS`
+	if [[ $res != "" ]]
+	then
+	    echo "modify 'configure' for enable ssl module on centos 7"
+	 	sed -i 's/PKG_CONFIG openssl /PKG_CONFIG openssl11 /g' configure
+	fi
+	
+	res=`echo $NAME | grep Ubuntu`
+	if [[ $res != "" ]]
+	then
+		echo ""
+	fi
 
-tar xvf Python-${PY_VERSION}.tar.xz
+	set -e
+}
+#install_dep
+
+PY_VERSION=3.12.0
+
+if [ -f "Python-${PY_VERSION}.tar.xz" ];then
+	PY_SRC_PKG="Python-${PY_VERSION}.tar.xz"
+elif [ -f "Python-${PY_VERSION}.tgz" ];then
+	PY_SRC_PKG="Python-${PY_VERSION}.tgz"
+else
+	wget https://www.python.org/ftp/python/${PY_VERSION}/Python-${PY_VERSION}.tar.xz
+	PY_SRC_PKG="Python-${PY_VERSION}.tar.xz"
+fi
+
+rm -rf Python-${PY_VERSION}
+
+tar xvf ${PY_SRC_PKG}
 
 
 cd Python-${PY_VERSION}
+
+patch_configure
+
 ./configure --prefix=/usr/local/Python${PY_VERSION} --enable-optimizations
 #./configure --prefix=/usr/local/Python${PY_VERSION}
 
