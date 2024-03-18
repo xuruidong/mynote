@@ -1,6 +1,7 @@
 
 ## 使用`#`替换`string.len`
-why ?
+因为`string.len()`需要先查找 string 再找其下的 len，再传参再调用，至少需要4条 lua vm bytecode；而`#`直接被翻译为`LEN`指令，一条指令就可以算出来。 [来源](https://segmentfault.com/q/1010000007132888)  
+
 
 ## 不使用 ipairs
 
