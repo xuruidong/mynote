@@ -4,7 +4,7 @@
 https://github.com/apache/apisix/pull/8751  
 
 
-## 不使用 ipairs
+## ~~不使用 ipairs~~ 
 
 ```
 for i, span in ipairs(tab) do
@@ -28,10 +28,13 @@ end
 
 
 ## string.find
-`str:find("x", 1, true)` is better than normal `str:find("x")`
-The 3rd `true` argument of `string:find` is for plain text
+`str:find("x", 1, true)` is better than normal `str:find("x")`  
+The 3rd `true` argument of `string:find` is for plain text  
 https://github.com/Kong/kong/pull/11918  
 
+
+## string.buffer 替换 table.concat
+https://github.com/Kong/kong/pull/11304
 
 ## links
 [luajit官方性能优化指南和注解](https://www.cnblogs.com/zwywilliam/p/5992737.html)  
