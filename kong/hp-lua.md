@@ -38,3 +38,6 @@ https://github.com/Kong/kong/pull/11304
 
 ## links
 [luajit官方性能优化指南和注解](https://www.cnblogs.com/zwywilliam/p/5992737.html)  
+
+## Local variables
+The access to [local variables](https://www.lua.org/pil/4.2.html#:~:text=Local%20variables%20help%20you%20avoid,local%20variable%20declarations%20as%20statements.) is faster than to global ones.
