@@ -51,3 +51,11 @@ e.g.
 ```
 --auto-compaction-mode=revision --auto-compaction-retention=1000
 ```
+
+## 解除告警
+压缩老数据，升级空间后，需要使用 etcd命令，取消此报警信息，否则集群依旧无法使用
+
+```
+[root@etcd-2 /]# etcdctl alarm disarm
+memberID:15798556898113 alarm:NOSPACE
+```
